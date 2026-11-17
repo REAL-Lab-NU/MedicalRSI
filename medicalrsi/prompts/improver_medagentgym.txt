@@ -1,0 +1,87 @@
+You are writing a SKILL or a TOOL for a small language model ({student}) that acts as a clinical data agent on an EHR:
+it reads a clinical question (JSON prompt below) and answers it by querying a read-only SQLite copy of the MIMIC-III
+database, one action per turn. A SKILL is text that the student reads and follows. A TOOL is
+one or more SQL views over the database, with a short documentation: the student reads the documentation and
+selects from the views.
+
+HOW IT IS USED
+- A skill, or a tool's documentation, is pasted into the student's first prompt under "Behavioral skills", so
+  every word costs attention: long or vague text makes this small model worse.
+- A tool's views are created before every query of the student. The student sees the documentation and each
+  view's name and columns, not its definition, and selects from the views by name inside its one SELECT.
+- The student runs with thinking off, temperature 0, at most 512 output tokens per turn and at most 8 turns. An
+  episode that has not called FINISH after 8 turns is graded as a failure.
+- Each turn must be exactly ONE plain action: `SQL <query>` with one SELECT statement, or `FINISH([...])` with the
+  answer values themselves. Anything else ends the episode as an invalid action.
+- A query returns at most 20 rows and the total row count. The current time is fixed at 2105-12-31 23:59:00.
+
+WHAT YOU ARE SHOWN
+Episodes of the student WITHOUT any skill on ONE question template ({task}), from {n} questions of this template
+(other patients or items than the ones the skill will be used on). {stats}
+Each episode shows the question, every query of the student and the database's reply, how the episode ended, whether
+it PASSED (full credit) or FAILED, its partial score (1 = full credit, otherwise half the fraction of the grader's
+checks that passed), its action counts, and problems detected automatically from the trace.
+You are NOT given the correct answers, the correct queries or the grader's checks: work out from the question, the
+schema and the replies what the student should have done and where it went wrong.{contrast}
+
+THE STUDENT'S PROMPT (one example; the "behavioral_skills" field is where skills go):
+{prompt}
+
+EPISODES:
+{episodes}
+
+WRITE THE SKILL OR TOOL as a markdown file with YAML front matter, in ONE of these two shapes.
+
+A SKILL:
+---
+name: <short_snake_case_name>
+description: "<one sentence: the observable situation in which to use this skill>"
+tags: [<2-4 words>]
+---
+## When to use
+<1-3 bullets naming the question wording that triggers it>
+## Steps
+<numbered, concrete steps: which tables and columns to use, how to join them, the filters and time
+window, the aggregation, how to read the result, and what to put in FINISH. Write each action as plain text,
+never inside a code fence: the student copies it>
+## Pitfalls
+<1-3 bullets: the specific mistakes seen above and how to avoid them>
+
+A TOOL:
+---
+name: <short_snake_case_name>
+description: "<one sentence: the observable situation in which to use this tool>"
+tags: [<2-4 words>]
+---
+## When to use
+<1-3 bullets naming the question wording that triggers it>
+## Columns
+<one bullet per view column the student needs: what it holds, its format (e.g. a time as
+'YYYY-MM-DD HH:MM:SS'), and how to filter it for this question>
+## Usage
+<numbered: which view to query and how to filter, sort or aggregate it in ONE SELECT; how to read the result;
+what to put in FINISH. Write each action as plain text, e.g. SQL SELECT ... FROM <view> WHERE ..., never inside
+a code fence: the student copies it>
+## Pitfalls
+<1-3 bullets: the specific mistakes seen above and how to avoid them>
+## Views
+```sql
+CREATE TEMP VIEW <name> AS
+SELECT <the columns, with the joins, time conditions and computations done here>
+FROM ...;
+```
+
+Rules:
+- Choose the one that helps the student more. A TOOL when the question needs joins, time conditions or
+  computations that the student would otherwise write again in every query; a view keeps the patient,
+  admission, item and time as columns for the student to filter, and fixes none of the values of these
+  questions. A SKILL when one simple query answers the question.
+- Views: only CREATE TEMP VIEW <name> AS SELECT (or WITH ... SELECT) statements, over the database's tables or
+  earlier views; at most 2000 characters in all.
+- A skill, or a tool's documentation (everything after the front matter except the Views section), must be at
+  most {body} characters.
+- General for this question template: never write patient-specific values (subject or admission ids, dates or values
+  of these patients) or answers you infer. Table and column names, codes, units and query patterns are fine.
+- The student's action format is fixed and the parser accepts nothing else: `SQL <query>` or `FINISH([...])`. Teach
+  this format where the student broke it; never ask for any other format (no prose or reasoning around the action).
+- Output only the file, nothing else.

@@ -1,0 +1,2162 @@
+[
+ {
+  "id": "task1_1",
+  "instruction": "Instruction: Search for polyethylene glycol 3350 medication requests for patient S0674240. If more than one active order exists, discontinue all but the most recently authored one.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Polyethylene glycol 3350 orders contain 'POLYETHYLENE GLYCOL 3350' in the medication text.",
+  "eval_MRN": "S0674240"
+ },
+ {
+  "id": "task1_2",
+  "instruction": "Instruction: Search for polyethylene glycol 3350 medication requests for patient S0789363. If more than one active order exists, discontinue all but the most recently authored one.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Polyethylene glycol 3350 orders contain 'POLYETHYLENE GLYCOL 3350' in the medication text.",
+  "eval_MRN": "S0789363"
+ },
+ {
+  "id": "task1_3",
+  "instruction": "Instruction: Search for polyethylene glycol 3350 medication requests for patient S0869531. If more than one active order exists, discontinue all but the most recently authored one.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Polyethylene glycol 3350 orders contain 'POLYETHYLENE GLYCOL 3350' in the medication text.",
+  "eval_MRN": "S0869531"
+ },
+ {
+  "id": "task1_4",
+  "instruction": "Instruction: Search for polyethylene glycol 3350 medication requests for patient S1023381. If more than one active order exists, discontinue all but the most recently authored one.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Polyethylene glycol 3350 orders contain 'POLYETHYLENE GLYCOL 3350' in the medication text.",
+  "eval_MRN": "S1023381"
+ },
+ {
+  "id": "task1_5",
+  "instruction": "Instruction: Search for polyethylene glycol 3350 medication requests for patient S1374652. If more than one active order exists, discontinue all but the most recently authored one.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Polyethylene glycol 3350 orders contain 'POLYETHYLENE GLYCOL 3350' in the medication text.",
+  "eval_MRN": "S1374652"
+ },
+ {
+  "id": "task1_6",
+  "instruction": "Instruction: Search for polyethylene glycol 3350 medication requests for patient S1698248. If more than one active order exists, discontinue all but the most recently authored one.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Polyethylene glycol 3350 orders contain 'POLYETHYLENE GLYCOL 3350' in the medication text.",
+  "eval_MRN": "S1698248"
+ },
+ {
+  "id": "task1_7",
+  "instruction": "Instruction: Search for polyethylene glycol 3350 medication requests for patient S1777769. If more than one active order exists, discontinue all but the most recently authored one.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Polyethylene glycol 3350 orders contain 'POLYETHYLENE GLYCOL 3350' in the medication text.",
+  "eval_MRN": "S1777769"
+ },
+ {
+  "id": "task1_8",
+  "instruction": "Instruction: Search for polyethylene glycol 3350 medication requests for patient S1876702. If more than one active order exists, discontinue all but the most recently authored one.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Polyethylene glycol 3350 orders contain 'POLYETHYLENE GLYCOL 3350' in the medication text.",
+  "eval_MRN": "S1876702"
+ },
+ {
+  "id": "task1_9",
+  "instruction": "Instruction: Search for polyethylene glycol 3350 medication requests for patient S2075210. If more than one active order exists, discontinue all but the most recently authored one.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Polyethylene glycol 3350 orders contain 'POLYETHYLENE GLYCOL 3350' in the medication text.",
+  "eval_MRN": "S2075210"
+ },
+ {
+  "id": "task1_10",
+  "instruction": "Instruction: Search for polyethylene glycol 3350 medication requests for patient S2119664. If more than one active order exists, discontinue all but the most recently authored one.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Polyethylene glycol 3350 orders contain 'POLYETHYLENE GLYCOL 3350' in the medication text.",
+  "eval_MRN": "S2119664"
+ },
+ {
+  "id": "task1_11",
+  "instruction": "Instruction: Search for polyethylene glycol 3350 medication requests for patient S2402518. If more than one active order exists, discontinue all but the most recently authored one.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Polyethylene glycol 3350 orders contain 'POLYETHYLENE GLYCOL 3350' in the medication text.",
+  "eval_MRN": "S2402518"
+ },
+ {
+  "id": "task1_12",
+  "instruction": "Instruction: Search for polyethylene glycol 3350 medication requests for patient S2450227. If more than one active order exists, discontinue all but the most recently authored one.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Polyethylene glycol 3350 orders contain 'POLYETHYLENE GLYCOL 3350' in the medication text.",
+  "eval_MRN": "S2450227"
+ },
+ {
+  "id": "task1_13",
+  "instruction": "Instruction: Search for polyethylene glycol 3350 medication requests for patient S2937751. If more than one active order exists, discontinue all but the most recently authored one.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Polyethylene glycol 3350 orders contain 'POLYETHYLENE GLYCOL 3350' in the medication text.",
+  "eval_MRN": "S2937751"
+ },
+ {
+  "id": "task1_14",
+  "instruction": "Instruction: Search for polyethylene glycol 3350 medication requests for patient S3057899. If more than one active order exists, discontinue all but the most recently authored one.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Polyethylene glycol 3350 orders contain 'POLYETHYLENE GLYCOL 3350' in the medication text.",
+  "eval_MRN": "S3057899"
+ },
+ {
+  "id": "task1_15",
+  "instruction": "Instruction: Search for polyethylene glycol 3350 medication requests for patient S3114648. If more than one active order exists, discontinue all but the most recently authored one.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Polyethylene glycol 3350 orders contain 'POLYETHYLENE GLYCOL 3350' in the medication text.",
+  "eval_MRN": "S3114648"
+ },
+ {
+  "id": "task1_16",
+  "instruction": "Instruction: Search for polyethylene glycol 3350 medication requests for patient S3195056. If more than one active order exists, discontinue all but the most recently authored one.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Polyethylene glycol 3350 orders contain 'POLYETHYLENE GLYCOL 3350' in the medication text.",
+  "eval_MRN": "S3195056"
+ },
+ {
+  "id": "task1_17",
+  "instruction": "Instruction: Search for polyethylene glycol 3350 medication requests for patient S3228213. If more than one active order exists, discontinue all but the most recently authored one.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Polyethylene glycol 3350 orders contain 'POLYETHYLENE GLYCOL 3350' in the medication text.",
+  "eval_MRN": "S3228213"
+ },
+ {
+  "id": "task1_18",
+  "instruction": "Instruction: Search for polyethylene glycol 3350 medication requests for patient S3236936. If more than one active order exists, discontinue all but the most recently authored one.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Polyethylene glycol 3350 orders contain 'POLYETHYLENE GLYCOL 3350' in the medication text.",
+  "eval_MRN": "S3236936"
+ },
+ {
+  "id": "task1_19",
+  "instruction": "Instruction: Search for polyethylene glycol 3350 medication requests for patient S6192632. If more than one active order exists, discontinue all but the most recently authored one.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Polyethylene glycol 3350 orders contain 'POLYETHYLENE GLYCOL 3350' in the medication text.",
+  "eval_MRN": "S6192632"
+ },
+ {
+  "id": "task1_20",
+  "instruction": "Instruction: Search for polyethylene glycol 3350 medication requests for patient S6227720. If more than one active order exists, discontinue all but the most recently authored one.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Polyethylene glycol 3350 orders contain 'POLYETHYLENE GLYCOL 3350' in the medication text.",
+  "eval_MRN": "S6227720"
+ },
+ {
+  "id": "task1_21",
+  "instruction": "Instruction: Search for polyethylene glycol 3350 medication requests for patient S6309742. If more than one active order exists, discontinue all but the most recently authored one.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Polyethylene glycol 3350 orders contain 'POLYETHYLENE GLYCOL 3350' in the medication text.",
+  "eval_MRN": "S6309742"
+ },
+ {
+  "id": "task1_22",
+  "instruction": "Instruction: Search for polyethylene glycol 3350 medication requests for patient S6426560. If more than one active order exists, discontinue all but the most recently authored one.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Polyethylene glycol 3350 orders contain 'POLYETHYLENE GLYCOL 3350' in the medication text.",
+  "eval_MRN": "S6426560"
+ },
+ {
+  "id": "task1_23",
+  "instruction": "Instruction: Search for polyethylene glycol 3350 medication requests for patient S6484983. If more than one active order exists, discontinue all but the most recently authored one.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Polyethylene glycol 3350 orders contain 'POLYETHYLENE GLYCOL 3350' in the medication text.",
+  "eval_MRN": "S6484983"
+ },
+ {
+  "id": "task1_24",
+  "instruction": "Instruction: Search for polyethylene glycol 3350 medication requests for patient S6488980. If more than one active order exists, discontinue all but the most recently authored one.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Polyethylene glycol 3350 orders contain 'POLYETHYLENE GLYCOL 3350' in the medication text.",
+  "eval_MRN": "S6488980"
+ },
+ {
+  "id": "task1_25",
+  "instruction": "Instruction: Search for polyethylene glycol 3350 medication requests for patient S6530532. If more than one active order exists, discontinue all but the most recently authored one.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Polyethylene glycol 3350 orders contain 'POLYETHYLENE GLYCOL 3350' in the medication text.",
+  "eval_MRN": "S6530532"
+ },
+ {
+  "id": "task1_26",
+  "instruction": "Instruction: Search for polyethylene glycol 3350 medication requests for patient S6537563. If more than one active order exists, discontinue all but the most recently authored one.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Polyethylene glycol 3350 orders contain 'POLYETHYLENE GLYCOL 3350' in the medication text.",
+  "eval_MRN": "S6537563"
+ },
+ {
+  "id": "task1_27",
+  "instruction": "Instruction: Search for polyethylene glycol 3350 medication requests for patient S6539215. If more than one active order exists, discontinue all but the most recently authored one.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Polyethylene glycol 3350 orders contain 'POLYETHYLENE GLYCOL 3350' in the medication text.",
+  "eval_MRN": "S6539215"
+ },
+ {
+  "id": "task1_28",
+  "instruction": "Instruction: Search for polyethylene glycol 3350 medication requests for patient S6547257. If more than one active order exists, discontinue all but the most recently authored one.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Polyethylene glycol 3350 orders contain 'POLYETHYLENE GLYCOL 3350' in the medication text.",
+  "eval_MRN": "S6547257"
+ },
+ {
+  "id": "task1_29",
+  "instruction": "Instruction: Search for polyethylene glycol 3350 medication requests for patient S6549951. If more than one active order exists, discontinue all but the most recently authored one.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Polyethylene glycol 3350 orders contain 'POLYETHYLENE GLYCOL 3350' in the medication text.",
+  "eval_MRN": "S6549951"
+ },
+ {
+  "id": "task1_30",
+  "instruction": "Instruction: Search for polyethylene glycol 3350 medication requests for patient S6550627. If more than one active order exists, discontinue all but the most recently authored one.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Polyethylene glycol 3350 orders contain 'POLYETHYLENE GLYCOL 3350' in the medication text.",
+  "eval_MRN": "S6550627"
+ },
+ {
+  "id": "task2_1",
+  "instruction": "Instruction: Search for active magnesium sulfate IV medication requests for patient S0636132. If more than one active order exists, discontinue duplicates leaving only the most recently authored order. If no active order exists and the most recent serum magnesium in the last 24 hours is < 1.8 mg/dL, order magnesium sulfate 2 g IV over 2 hours now.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Magnesium sulfate orders contain 'MAGNESIUM SULFATE' in the medication text. The code for serum magnesium is 'MG'.",
+  "eval_MRN": "S0636132"
+ },
+ {
+  "id": "task2_2",
+  "instruction": "Instruction: Search for active magnesium sulfate IV medication requests for patient S0869531. If more than one active order exists, discontinue duplicates leaving only the most recently authored order. If no active order exists and the most recent serum magnesium in the last 24 hours is < 1.8 mg/dL, order magnesium sulfate 2 g IV over 2 hours now.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Magnesium sulfate orders contain 'MAGNESIUM SULFATE' in the medication text. The code for serum magnesium is 'MG'.",
+  "eval_MRN": "S0869531"
+ },
+ {
+  "id": "task2_3",
+  "instruction": "Instruction: Search for active magnesium sulfate IV medication requests for patient S1023381. If more than one active order exists, discontinue duplicates leaving only the most recently authored order. If no active order exists and the most recent serum magnesium in the last 24 hours is < 1.8 mg/dL, order magnesium sulfate 2 g IV over 2 hours now.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Magnesium sulfate orders contain 'MAGNESIUM SULFATE' in the medication text. The code for serum magnesium is 'MG'.",
+  "eval_MRN": "S1023381"
+ },
+ {
+  "id": "task2_4",
+  "instruction": "Instruction: Search for active magnesium sulfate IV medication requests for patient S1521703. If more than one active order exists, discontinue duplicates leaving only the most recently authored order. If no active order exists and the most recent serum magnesium in the last 24 hours is < 1.8 mg/dL, order magnesium sulfate 2 g IV over 2 hours now.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Magnesium sulfate orders contain 'MAGNESIUM SULFATE' in the medication text. The code for serum magnesium is 'MG'.",
+  "eval_MRN": "S1521703"
+ },
+ {
+  "id": "task2_5",
+  "instruction": "Instruction: Search for active magnesium sulfate IV medication requests for patient S1715871. If more than one active order exists, discontinue duplicates leaving only the most recently authored order. If no active order exists and the most recent serum magnesium in the last 24 hours is < 1.8 mg/dL, order magnesium sulfate 2 g IV over 2 hours now.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Magnesium sulfate orders contain 'MAGNESIUM SULFATE' in the medication text. The code for serum magnesium is 'MG'.",
+  "eval_MRN": "S1715871"
+ },
+ {
+  "id": "task2_6",
+  "instruction": "Instruction: Search for active magnesium sulfate IV medication requests for patient S1891852. If more than one active order exists, discontinue duplicates leaving only the most recently authored order. If no active order exists and the most recent serum magnesium in the last 24 hours is < 1.8 mg/dL, order magnesium sulfate 2 g IV over 2 hours now.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Magnesium sulfate orders contain 'MAGNESIUM SULFATE' in the medication text. The code for serum magnesium is 'MG'.",
+  "eval_MRN": "S1891852"
+ },
+ {
+  "id": "task2_7",
+  "instruction": "Instruction: Search for active magnesium sulfate IV medication requests for patient S2016972. If more than one active order exists, discontinue duplicates leaving only the most recently authored order. If no active order exists and the most recent serum magnesium in the last 24 hours is < 1.8 mg/dL, order magnesium sulfate 2 g IV over 2 hours now.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Magnesium sulfate orders contain 'MAGNESIUM SULFATE' in the medication text. The code for serum magnesium is 'MG'.",
+  "eval_MRN": "S2016972"
+ },
+ {
+  "id": "task2_8",
+  "instruction": "Instruction: Search for active magnesium sulfate IV medication requests for patient S2033286. If more than one active order exists, discontinue duplicates leaving only the most recently authored order. If no active order exists and the most recent serum magnesium in the last 24 hours is < 1.8 mg/dL, order magnesium sulfate 2 g IV over 2 hours now.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Magnesium sulfate orders contain 'MAGNESIUM SULFATE' in the medication text. The code for serum magnesium is 'MG'.",
+  "eval_MRN": "S2033286"
+ },
+ {
+  "id": "task2_9",
+  "instruction": "Instruction: Search for active magnesium sulfate IV medication requests for patient S2075210. If more than one active order exists, discontinue duplicates leaving only the most recently authored order. If no active order exists and the most recent serum magnesium in the last 24 hours is < 1.8 mg/dL, order magnesium sulfate 2 g IV over 2 hours now.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Magnesium sulfate orders contain 'MAGNESIUM SULFATE' in the medication text. The code for serum magnesium is 'MG'.",
+  "eval_MRN": "S2075210"
+ },
+ {
+  "id": "task2_10",
+  "instruction": "Instruction: Search for active magnesium sulfate IV medication requests for patient S2111822. If more than one active order exists, discontinue duplicates leaving only the most recently authored order. If no active order exists and the most recent serum magnesium in the last 24 hours is < 1.8 mg/dL, order magnesium sulfate 2 g IV over 2 hours now.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Magnesium sulfate orders contain 'MAGNESIUM SULFATE' in the medication text. The code for serum magnesium is 'MG'.",
+  "eval_MRN": "S2111822"
+ },
+ {
+  "id": "task2_11",
+  "instruction": "Instruction: Search for active magnesium sulfate IV medication requests for patient S2161163. If more than one active order exists, discontinue duplicates leaving only the most recently authored order. If no active order exists and the most recent serum magnesium in the last 24 hours is < 1.8 mg/dL, order magnesium sulfate 2 g IV over 2 hours now.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Magnesium sulfate orders contain 'MAGNESIUM SULFATE' in the medication text. The code for serum magnesium is 'MG'.",
+  "eval_MRN": "S2161163"
+ },
+ {
+  "id": "task2_12",
+  "instruction": "Instruction: Search for active magnesium sulfate IV medication requests for patient S2197736. If more than one active order exists, discontinue duplicates leaving only the most recently authored order. If no active order exists and the most recent serum magnesium in the last 24 hours is < 1.8 mg/dL, order magnesium sulfate 2 g IV over 2 hours now.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Magnesium sulfate orders contain 'MAGNESIUM SULFATE' in the medication text. The code for serum magnesium is 'MG'.",
+  "eval_MRN": "S2197736"
+ },
+ {
+  "id": "task2_13",
+  "instruction": "Instruction: Search for active magnesium sulfate IV medication requests for patient S2380121. If more than one active order exists, discontinue duplicates leaving only the most recently authored order. If no active order exists and the most recent serum magnesium in the last 24 hours is < 1.8 mg/dL, order magnesium sulfate 2 g IV over 2 hours now.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Magnesium sulfate orders contain 'MAGNESIUM SULFATE' in the medication text. The code for serum magnesium is 'MG'.",
+  "eval_MRN": "S2380121"
+ },
+ {
+  "id": "task2_14",
+  "instruction": "Instruction: Search for active magnesium sulfate IV medication requests for patient S2402518. If more than one active order exists, discontinue duplicates leaving only the most recently authored order. If no active order exists and the most recent serum magnesium in the last 24 hours is < 1.8 mg/dL, order magnesium sulfate 2 g IV over 2 hours now.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Magnesium sulfate orders contain 'MAGNESIUM SULFATE' in the medication text. The code for serum magnesium is 'MG'.",
+  "eval_MRN": "S2402518"
+ },
+ {
+  "id": "task2_15",
+  "instruction": "Instruction: Search for active magnesium sulfate IV medication requests for patient S2704870. If more than one active order exists, discontinue duplicates leaving only the most recently authored order. If no active order exists and the most recent serum magnesium in the last 24 hours is < 1.8 mg/dL, order magnesium sulfate 2 g IV over 2 hours now.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Magnesium sulfate orders contain 'MAGNESIUM SULFATE' in the medication text. The code for serum magnesium is 'MG'.",
+  "eval_MRN": "S2704870"
+ },
+ {
+  "id": "task2_16",
+  "instruction": "Instruction: Search for active magnesium sulfate IV medication requests for patient S2823623. If more than one active order exists, discontinue duplicates leaving only the most recently authored order. If no active order exists and the most recent serum magnesium in the last 24 hours is < 1.8 mg/dL, order magnesium sulfate 2 g IV over 2 hours now.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Magnesium sulfate orders contain 'MAGNESIUM SULFATE' in the medication text. The code for serum magnesium is 'MG'.",
+  "eval_MRN": "S2823623"
+ },
+ {
+  "id": "task2_17",
+  "instruction": "Instruction: Search for active magnesium sulfate IV medication requests for patient S2937751. If more than one active order exists, discontinue duplicates leaving only the most recently authored order. If no active order exists and the most recent serum magnesium in the last 24 hours is < 1.8 mg/dL, order magnesium sulfate 2 g IV over 2 hours now.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Magnesium sulfate orders contain 'MAGNESIUM SULFATE' in the medication text. The code for serum magnesium is 'MG'.",
+  "eval_MRN": "S2937751"
+ },
+ {
+  "id": "task2_18",
+  "instruction": "Instruction: Search for active magnesium sulfate IV medication requests for patient S3114648. If more than one active order exists, discontinue duplicates leaving only the most recently authored order. If no active order exists and the most recent serum magnesium in the last 24 hours is < 1.8 mg/dL, order magnesium sulfate 2 g IV over 2 hours now.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Magnesium sulfate orders contain 'MAGNESIUM SULFATE' in the medication text. The code for serum magnesium is 'MG'.",
+  "eval_MRN": "S3114648"
+ },
+ {
+  "id": "task2_19",
+  "instruction": "Instruction: Search for active magnesium sulfate IV medication requests for patient S3241217. If more than one active order exists, discontinue duplicates leaving only the most recently authored order. If no active order exists and the most recent serum magnesium in the last 24 hours is < 1.8 mg/dL, order magnesium sulfate 2 g IV over 2 hours now.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Magnesium sulfate orders contain 'MAGNESIUM SULFATE' in the medication text. The code for serum magnesium is 'MG'.",
+  "eval_MRN": "S3241217"
+ },
+ {
+  "id": "task2_20",
+  "instruction": "Instruction: Search for active magnesium sulfate IV medication requests for patient S6265496. If more than one active order exists, discontinue duplicates leaving only the most recently authored order. If no active order exists and the most recent serum magnesium in the last 24 hours is < 1.8 mg/dL, order magnesium sulfate 2 g IV over 2 hours now.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Magnesium sulfate orders contain 'MAGNESIUM SULFATE' in the medication text. The code for serum magnesium is 'MG'.",
+  "eval_MRN": "S6265496"
+ },
+ {
+  "id": "task2_21",
+  "instruction": "Instruction: Search for active magnesium sulfate IV medication requests for patient S6307599. If more than one active order exists, discontinue duplicates leaving only the most recently authored order. If no active order exists and the most recent serum magnesium in the last 24 hours is < 1.8 mg/dL, order magnesium sulfate 2 g IV over 2 hours now.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Magnesium sulfate orders contain 'MAGNESIUM SULFATE' in the medication text. The code for serum magnesium is 'MG'.",
+  "eval_MRN": "S6307599"
+ },
+ {
+  "id": "task2_22",
+  "instruction": "Instruction: Search for active magnesium sulfate IV medication requests for patient S6426560. If more than one active order exists, discontinue duplicates leaving only the most recently authored order. If no active order exists and the most recent serum magnesium in the last 24 hours is < 1.8 mg/dL, order magnesium sulfate 2 g IV over 2 hours now.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Magnesium sulfate orders contain 'MAGNESIUM SULFATE' in the medication text. The code for serum magnesium is 'MG'.",
+  "eval_MRN": "S6426560"
+ },
+ {
+  "id": "task2_23",
+  "instruction": "Instruction: Search for active magnesium sulfate IV medication requests for patient S6484983. If more than one active order exists, discontinue duplicates leaving only the most recently authored order. If no active order exists and the most recent serum magnesium in the last 24 hours is < 1.8 mg/dL, order magnesium sulfate 2 g IV over 2 hours now.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Magnesium sulfate orders contain 'MAGNESIUM SULFATE' in the medication text. The code for serum magnesium is 'MG'.",
+  "eval_MRN": "S6484983"
+ },
+ {
+  "id": "task2_24",
+  "instruction": "Instruction: Search for active magnesium sulfate IV medication requests for patient S6488980. If more than one active order exists, discontinue duplicates leaving only the most recently authored order. If no active order exists and the most recent serum magnesium in the last 24 hours is < 1.8 mg/dL, order magnesium sulfate 2 g IV over 2 hours now.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Magnesium sulfate orders contain 'MAGNESIUM SULFATE' in the medication text. The code for serum magnesium is 'MG'.",
+  "eval_MRN": "S6488980"
+ },
+ {
+  "id": "task2_25",
+  "instruction": "Instruction: Search for active magnesium sulfate IV medication requests for patient S6521727. If more than one active order exists, discontinue duplicates leaving only the most recently authored order. If no active order exists and the most recent serum magnesium in the last 24 hours is < 1.8 mg/dL, order magnesium sulfate 2 g IV over 2 hours now.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Magnesium sulfate orders contain 'MAGNESIUM SULFATE' in the medication text. The code for serum magnesium is 'MG'.",
+  "eval_MRN": "S6521727"
+ },
+ {
+  "id": "task2_26",
+  "instruction": "Instruction: Search for active magnesium sulfate IV medication requests for patient S6537563. If more than one active order exists, discontinue duplicates leaving only the most recently authored order. If no active order exists and the most recent serum magnesium in the last 24 hours is < 1.8 mg/dL, order magnesium sulfate 2 g IV over 2 hours now.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Magnesium sulfate orders contain 'MAGNESIUM SULFATE' in the medication text. The code for serum magnesium is 'MG'.",
+  "eval_MRN": "S6537563"
+ },
+ {
+  "id": "task2_27",
+  "instruction": "Instruction: Search for active magnesium sulfate IV medication requests for patient S6541353. If more than one active order exists, discontinue duplicates leaving only the most recently authored order. If no active order exists and the most recent serum magnesium in the last 24 hours is < 1.8 mg/dL, order magnesium sulfate 2 g IV over 2 hours now.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Magnesium sulfate orders contain 'MAGNESIUM SULFATE' in the medication text. The code for serum magnesium is 'MG'.",
+  "eval_MRN": "S6541353"
+ },
+ {
+  "id": "task2_28",
+  "instruction": "Instruction: Search for active magnesium sulfate IV medication requests for patient S6541609. If more than one active order exists, discontinue duplicates leaving only the most recently authored order. If no active order exists and the most recent serum magnesium in the last 24 hours is < 1.8 mg/dL, order magnesium sulfate 2 g IV over 2 hours now.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Magnesium sulfate orders contain 'MAGNESIUM SULFATE' in the medication text. The code for serum magnesium is 'MG'.",
+  "eval_MRN": "S6541609"
+ },
+ {
+  "id": "task2_29",
+  "instruction": "Instruction: Search for active magnesium sulfate IV medication requests for patient S6542579. If more than one active order exists, discontinue duplicates leaving only the most recently authored order. If no active order exists and the most recent serum magnesium in the last 24 hours is < 1.8 mg/dL, order magnesium sulfate 2 g IV over 2 hours now.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Magnesium sulfate orders contain 'MAGNESIUM SULFATE' in the medication text. The code for serum magnesium is 'MG'.",
+  "eval_MRN": "S6542579"
+ },
+ {
+  "id": "task2_30",
+  "instruction": "Instruction: Search for active magnesium sulfate IV medication requests for patient S6550473. If more than one active order exists, discontinue duplicates leaving only the most recently authored order. If no active order exists and the most recent serum magnesium in the last 24 hours is < 1.8 mg/dL, order magnesium sulfate 2 g IV over 2 hours now.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Magnesium sulfate orders contain 'MAGNESIUM SULFATE' in the medication text. The code for serum magnesium is 'MG'.",
+  "eval_MRN": "S6550473"
+ },
+ {
+  "id": "task3_1",
+  "instruction": "Instruction: Check patient S0636132 for duplicate laxative orders (sennosides and polyethylene glycol 3350). If more than one active order exists for either agent, discontinue all but the most recent order of each medication. Ensure at least one daily laxative remains active: if neither agent has an active order, order polyethylene glycol 3350 17 g PO daily.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Sennosides orders contain 'SENNOSIDES' and polyethylene glycol orders contain 'POLYETHYLENE GLYCOL 3350' in the medication text.",
+  "eval_MRN": "S0636132"
+ },
+ {
+  "id": "task3_2",
+  "instruction": "Instruction: Check patient S1023381 for duplicate laxative orders (sennosides and polyethylene glycol 3350). If more than one active order exists for either agent, discontinue all but the most recent order of each medication. Ensure at least one daily laxative remains active: if neither agent has an active order, order polyethylene glycol 3350 17 g PO daily.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Sennosides orders contain 'SENNOSIDES' and polyethylene glycol orders contain 'POLYETHYLENE GLYCOL 3350' in the medication text.",
+  "eval_MRN": "S1023381"
+ },
+ {
+  "id": "task3_3",
+  "instruction": "Instruction: Check patient S1353305 for duplicate laxative orders (sennosides and polyethylene glycol 3350). If more than one active order exists for either agent, discontinue all but the most recent order of each medication. Ensure at least one daily laxative remains active: if neither agent has an active order, order polyethylene glycol 3350 17 g PO daily.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Sennosides orders contain 'SENNOSIDES' and polyethylene glycol orders contain 'POLYETHYLENE GLYCOL 3350' in the medication text.",
+  "eval_MRN": "S1353305"
+ },
+ {
+  "id": "task3_4",
+  "instruction": "Instruction: Check patient S1478444 for duplicate laxative orders (sennosides and polyethylene glycol 3350). If more than one active order exists for either agent, discontinue all but the most recent order of each medication. Ensure at least one daily laxative remains active: if neither agent has an active order, order polyethylene glycol 3350 17 g PO daily.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Sennosides orders contain 'SENNOSIDES' and polyethylene glycol orders contain 'POLYETHYLENE GLYCOL 3350' in the medication text.",
+  "eval_MRN": "S1478444"
+ },
+ {
+  "id": "task3_5",
+  "instruction": "Instruction: Check patient S1635224 for duplicate laxative orders (sennosides and polyethylene glycol 3350). If more than one active order exists for either agent, discontinue all but the most recent order of each medication. Ensure at least one daily laxative remains active: if neither agent has an active order, order polyethylene glycol 3350 17 g PO daily.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Sennosides orders contain 'SENNOSIDES' and polyethylene glycol orders contain 'POLYETHYLENE GLYCOL 3350' in the medication text.",
+  "eval_MRN": "S1635224"
+ },
+ {
+  "id": "task3_6",
+  "instruction": "Instruction: Check patient S1876702 for duplicate laxative orders (sennosides and polyethylene glycol 3350). If more than one active order exists for either agent, discontinue all but the most recent order of each medication. Ensure at least one daily laxative remains active: if neither agent has an active order, order polyethylene glycol 3350 17 g PO daily.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Sennosides orders contain 'SENNOSIDES' and polyethylene glycol orders contain 'POLYETHYLENE GLYCOL 3350' in the medication text.",
+  "eval_MRN": "S1876702"
+ },
+ {
+  "id": "task3_7",
+  "instruction": "Instruction: Check patient S1986380 for duplicate laxative orders (sennosides and polyethylene glycol 3350). If more than one active order exists for either agent, discontinue all but the most recent order of each medication. Ensure at least one daily laxative remains active: if neither agent has an active order, order polyethylene glycol 3350 17 g PO daily.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Sennosides orders contain 'SENNOSIDES' and polyethylene glycol orders contain 'POLYETHYLENE GLYCOL 3350' in the medication text.",
+  "eval_MRN": "S1986380"
+ },
+ {
+  "id": "task3_8",
+  "instruction": "Instruction: Check patient S2016972 for duplicate laxative orders (sennosides and polyethylene glycol 3350). If more than one active order exists for either agent, discontinue all but the most recent order of each medication. Ensure at least one daily laxative remains active: if neither agent has an active order, order polyethylene glycol 3350 17 g PO daily.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Sennosides orders contain 'SENNOSIDES' and polyethylene glycol orders contain 'POLYETHYLENE GLYCOL 3350' in the medication text.",
+  "eval_MRN": "S2016972"
+ },
+ {
+  "id": "task3_9",
+  "instruction": "Instruction: Check patient S2075210 for duplicate laxative orders (sennosides and polyethylene glycol 3350). If more than one active order exists for either agent, discontinue all but the most recent order of each medication. Ensure at least one daily laxative remains active: if neither agent has an active order, order polyethylene glycol 3350 17 g PO daily.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Sennosides orders contain 'SENNOSIDES' and polyethylene glycol orders contain 'POLYETHYLENE GLYCOL 3350' in the medication text.",
+  "eval_MRN": "S2075210"
+ },
+ {
+  "id": "task3_10",
+  "instruction": "Instruction: Check patient S2090974 for duplicate laxative orders (sennosides and polyethylene glycol 3350). If more than one active order exists for either agent, discontinue all but the most recent order of each medication. Ensure at least one daily laxative remains active: if neither agent has an active order, order polyethylene glycol 3350 17 g PO daily.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Sennosides orders contain 'SENNOSIDES' and polyethylene glycol orders contain 'POLYETHYLENE GLYCOL 3350' in the medication text.",
+  "eval_MRN": "S2090974"
+ },
+ {
+  "id": "task3_11",
+  "instruction": "Instruction: Check patient S2119664 for duplicate laxative orders (sennosides and polyethylene glycol 3350). If more than one active order exists for either agent, discontinue all but the most recent order of each medication. Ensure at least one daily laxative remains active: if neither agent has an active order, order polyethylene glycol 3350 17 g PO daily.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Sennosides orders contain 'SENNOSIDES' and polyethylene glycol orders contain 'POLYETHYLENE GLYCOL 3350' in the medication text.",
+  "eval_MRN": "S2119664"
+ },
+ {
+  "id": "task3_12",
+  "instruction": "Instruction: Check patient S2154941 for duplicate laxative orders (sennosides and polyethylene glycol 3350). If more than one active order exists for either agent, discontinue all but the most recent order of each medication. Ensure at least one daily laxative remains active: if neither agent has an active order, order polyethylene glycol 3350 17 g PO daily.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Sennosides orders contain 'SENNOSIDES' and polyethylene glycol orders contain 'POLYETHYLENE GLYCOL 3350' in the medication text.",
+  "eval_MRN": "S2154941"
+ },
+ {
+  "id": "task3_13",
+  "instruction": "Instruction: Check patient S2199765 for duplicate laxative orders (sennosides and polyethylene glycol 3350). If more than one active order exists for either agent, discontinue all but the most recent order of each medication. Ensure at least one daily laxative remains active: if neither agent has an active order, order polyethylene glycol 3350 17 g PO daily.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Sennosides orders contain 'SENNOSIDES' and polyethylene glycol orders contain 'POLYETHYLENE GLYCOL 3350' in the medication text.",
+  "eval_MRN": "S2199765"
+ },
+ {
+  "id": "task3_14",
+  "instruction": "Instruction: Check patient S2402518 for duplicate laxative orders (sennosides and polyethylene glycol 3350). If more than one active order exists for either agent, discontinue all but the most recent order of each medication. Ensure at least one daily laxative remains active: if neither agent has an active order, order polyethylene glycol 3350 17 g PO daily.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Sennosides orders contain 'SENNOSIDES' and polyethylene glycol orders contain 'POLYETHYLENE GLYCOL 3350' in the medication text.",
+  "eval_MRN": "S2402518"
+ },
+ {
+  "id": "task3_15",
+  "instruction": "Instruction: Check patient S2450227 for duplicate laxative orders (sennosides and polyethylene glycol 3350). If more than one active order exists for either agent, discontinue all but the most recent order of each medication. Ensure at least one daily laxative remains active: if neither agent has an active order, order polyethylene glycol 3350 17 g PO daily.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Sennosides orders contain 'SENNOSIDES' and polyethylene glycol orders contain 'POLYETHYLENE GLYCOL 3350' in the medication text.",
+  "eval_MRN": "S2450227"
+ },
+ {
+  "id": "task3_16",
+  "instruction": "Instruction: Check patient S2704870 for duplicate laxative orders (sennosides and polyethylene glycol 3350). If more than one active order exists for either agent, discontinue all but the most recent order of each medication. Ensure at least one daily laxative remains active: if neither agent has an active order, order polyethylene glycol 3350 17 g PO daily.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Sennosides orders contain 'SENNOSIDES' and polyethylene glycol orders contain 'POLYETHYLENE GLYCOL 3350' in the medication text.",
+  "eval_MRN": "S2704870"
+ },
+ {
+  "id": "task3_17",
+  "instruction": "Instruction: Check patient S2863714 for duplicate laxative orders (sennosides and polyethylene glycol 3350). If more than one active order exists for either agent, discontinue all but the most recent order of each medication. Ensure at least one daily laxative remains active: if neither agent has an active order, order polyethylene glycol 3350 17 g PO daily.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Sennosides orders contain 'SENNOSIDES' and polyethylene glycol orders contain 'POLYETHYLENE GLYCOL 3350' in the medication text.",
+  "eval_MRN": "S2863714"
+ },
+ {
+  "id": "task3_18",
+  "instruction": "Instruction: Check patient S3032536 for duplicate laxative orders (sennosides and polyethylene glycol 3350). If more than one active order exists for either agent, discontinue all but the most recent order of each medication. Ensure at least one daily laxative remains active: if neither agent has an active order, order polyethylene glycol 3350 17 g PO daily.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Sennosides orders contain 'SENNOSIDES' and polyethylene glycol orders contain 'POLYETHYLENE GLYCOL 3350' in the medication text.",
+  "eval_MRN": "S3032536"
+ },
+ {
+  "id": "task3_19",
+  "instruction": "Instruction: Check patient S3084624 for duplicate laxative orders (sennosides and polyethylene glycol 3350). If more than one active order exists for either agent, discontinue all but the most recent order of each medication. Ensure at least one daily laxative remains active: if neither agent has an active order, order polyethylene glycol 3350 17 g PO daily.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Sennosides orders contain 'SENNOSIDES' and polyethylene glycol orders contain 'POLYETHYLENE GLYCOL 3350' in the medication text.",
+  "eval_MRN": "S3084624"
+ },
+ {
+  "id": "task3_20",
+  "instruction": "Instruction: Check patient S3213957 for duplicate laxative orders (sennosides and polyethylene glycol 3350). If more than one active order exists for either agent, discontinue all but the most recent order of each medication. Ensure at least one daily laxative remains active: if neither agent has an active order, order polyethylene glycol 3350 17 g PO daily.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Sennosides orders contain 'SENNOSIDES' and polyethylene glycol orders contain 'POLYETHYLENE GLYCOL 3350' in the medication text.",
+  "eval_MRN": "S3213957"
+ },
+ {
+  "id": "task3_21",
+  "instruction": "Instruction: Check patient S3228213 for duplicate laxative orders (sennosides and polyethylene glycol 3350). If more than one active order exists for either agent, discontinue all but the most recent order of each medication. Ensure at least one daily laxative remains active: if neither agent has an active order, order polyethylene glycol 3350 17 g PO daily.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Sennosides orders contain 'SENNOSIDES' and polyethylene glycol orders contain 'POLYETHYLENE GLYCOL 3350' in the medication text.",
+  "eval_MRN": "S3228213"
+ },
+ {
+  "id": "task3_22",
+  "instruction": "Instruction: Check patient S6200102 for duplicate laxative orders (sennosides and polyethylene glycol 3350). If more than one active order exists for either agent, discontinue all but the most recent order of each medication. Ensure at least one daily laxative remains active: if neither agent has an active order, order polyethylene glycol 3350 17 g PO daily.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Sennosides orders contain 'SENNOSIDES' and polyethylene glycol orders contain 'POLYETHYLENE GLYCOL 3350' in the medication text.",
+  "eval_MRN": "S6200102"
+ },
+ {
+  "id": "task3_23",
+  "instruction": "Instruction: Check patient S6329521 for duplicate laxative orders (sennosides and polyethylene glycol 3350). If more than one active order exists for either agent, discontinue all but the most recent order of each medication. Ensure at least one daily laxative remains active: if neither agent has an active order, order polyethylene glycol 3350 17 g PO daily.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Sennosides orders contain 'SENNOSIDES' and polyethylene glycol orders contain 'POLYETHYLENE GLYCOL 3350' in the medication text.",
+  "eval_MRN": "S6329521"
+ },
+ {
+  "id": "task3_24",
+  "instruction": "Instruction: Check patient S6484983 for duplicate laxative orders (sennosides and polyethylene glycol 3350). If more than one active order exists for either agent, discontinue all but the most recent order of each medication. Ensure at least one daily laxative remains active: if neither agent has an active order, order polyethylene glycol 3350 17 g PO daily.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Sennosides orders contain 'SENNOSIDES' and polyethylene glycol orders contain 'POLYETHYLENE GLYCOL 3350' in the medication text.",
+  "eval_MRN": "S6484983"
+ },
+ {
+  "id": "task3_25",
+  "instruction": "Instruction: Check patient S6488980 for duplicate laxative orders (sennosides and polyethylene glycol 3350). If more than one active order exists for either agent, discontinue all but the most recent order of each medication. Ensure at least one daily laxative remains active: if neither agent has an active order, order polyethylene glycol 3350 17 g PO daily.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Sennosides orders contain 'SENNOSIDES' and polyethylene glycol orders contain 'POLYETHYLENE GLYCOL 3350' in the medication text.",
+  "eval_MRN": "S6488980"
+ },
+ {
+  "id": "task3_26",
+  "instruction": "Instruction: Check patient S6530813 for duplicate laxative orders (sennosides and polyethylene glycol 3350). If more than one active order exists for either agent, discontinue all but the most recent order of each medication. Ensure at least one daily laxative remains active: if neither agent has an active order, order polyethylene glycol 3350 17 g PO daily.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Sennosides orders contain 'SENNOSIDES' and polyethylene glycol orders contain 'POLYETHYLENE GLYCOL 3350' in the medication text.",
+  "eval_MRN": "S6530813"
+ },
+ {
+  "id": "task3_27",
+  "instruction": "Instruction: Check patient S6538722 for duplicate laxative orders (sennosides and polyethylene glycol 3350). If more than one active order exists for either agent, discontinue all but the most recent order of each medication. Ensure at least one daily laxative remains active: if neither agent has an active order, order polyethylene glycol 3350 17 g PO daily.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Sennosides orders contain 'SENNOSIDES' and polyethylene glycol orders contain 'POLYETHYLENE GLYCOL 3350' in the medication text.",
+  "eval_MRN": "S6538722"
+ },
+ {
+  "id": "task3_28",
+  "instruction": "Instruction: Check patient S6539215 for duplicate laxative orders (sennosides and polyethylene glycol 3350). If more than one active order exists for either agent, discontinue all but the most recent order of each medication. Ensure at least one daily laxative remains active: if neither agent has an active order, order polyethylene glycol 3350 17 g PO daily.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Sennosides orders contain 'SENNOSIDES' and polyethylene glycol orders contain 'POLYETHYLENE GLYCOL 3350' in the medication text.",
+  "eval_MRN": "S6539215"
+ },
+ {
+  "id": "task3_29",
+  "instruction": "Instruction: Check patient S6540602 for duplicate laxative orders (sennosides and polyethylene glycol 3350). If more than one active order exists for either agent, discontinue all but the most recent order of each medication. Ensure at least one daily laxative remains active: if neither agent has an active order, order polyethylene glycol 3350 17 g PO daily.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Sennosides orders contain 'SENNOSIDES' and polyethylene glycol orders contain 'POLYETHYLENE GLYCOL 3350' in the medication text.",
+  "eval_MRN": "S6540602"
+ },
+ {
+  "id": "task3_30",
+  "instruction": "Instruction: Check patient S6551923 for duplicate laxative orders (sennosides and polyethylene glycol 3350). If more than one active order exists for either agent, discontinue all but the most recent order of each medication. Ensure at least one daily laxative remains active: if neither agent has an active order, order polyethylene glycol 3350 17 g PO daily.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Sennosides orders contain 'SENNOSIDES' and polyethylene glycol orders contain 'POLYETHYLENE GLYCOL 3350' in the medication text.",
+  "eval_MRN": "S6551923"
+ },
+ {
+  "id": "task4_1",
+  "instruction": "Instruction: A VTE risk assessment was completed for patient S0658561 on 2023-11-11. Confirm that the patient is receiving VTE prophylaxis. If no active anticoagulant order is found, order heparin 5,000 units subcutaneously every 8 hours starting now.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Anticoagulants include heparin, enoxaparin, dalteparin, fondaparinux, apixaban, rivaroxaban, dabigatran and warfarin.",
+  "eval_MRN": "S0658561"
+ },
+ {
+  "id": "task4_2",
+  "instruction": "Instruction: A VTE risk assessment was completed for patient S0789363 on 2023-11-11. Confirm that the patient is receiving VTE prophylaxis. If no active anticoagulant order is found, order heparin 5,000 units subcutaneously every 8 hours starting now.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Anticoagulants include heparin, enoxaparin, dalteparin, fondaparinux, apixaban, rivaroxaban, dabigatran and warfarin.",
+  "eval_MRN": "S0789363"
+ },
+ {
+  "id": "task4_3",
+  "instruction": "Instruction: A VTE risk assessment was completed for patient S0869531 on 2023-11-11. Confirm that the patient is receiving VTE prophylaxis. If no active anticoagulant order is found, order heparin 5,000 units subcutaneously every 8 hours starting now.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Anticoagulants include heparin, enoxaparin, dalteparin, fondaparinux, apixaban, rivaroxaban, dabigatran and warfarin.",
+  "eval_MRN": "S0869531"
+ },
+ {
+  "id": "task4_4",
+  "instruction": "Instruction: A VTE risk assessment was completed for patient S1311412 on 2023-11-11. Confirm that the patient is receiving VTE prophylaxis. If no active anticoagulant order is found, order heparin 5,000 units subcutaneously every 8 hours starting now.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Anticoagulants include heparin, enoxaparin, dalteparin, fondaparinux, apixaban, rivaroxaban, dabigatran and warfarin.",
+  "eval_MRN": "S1311412"
+ },
+ {
+  "id": "task4_5",
+  "instruction": "Instruction: A VTE risk assessment was completed for patient S1478444 on 2023-11-11. Confirm that the patient is receiving VTE prophylaxis. If no active anticoagulant order is found, order heparin 5,000 units subcutaneously every 8 hours starting now.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Anticoagulants include heparin, enoxaparin, dalteparin, fondaparinux, apixaban, rivaroxaban, dabigatran and warfarin.",
+  "eval_MRN": "S1478444"
+ },
+ {
+  "id": "task4_6",
+  "instruction": "Instruction: A VTE risk assessment was completed for patient S1891852 on 2023-11-11. Confirm that the patient is receiving VTE prophylaxis. If no active anticoagulant order is found, order heparin 5,000 units subcutaneously every 8 hours starting now.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Anticoagulants include heparin, enoxaparin, dalteparin, fondaparinux, apixaban, rivaroxaban, dabigatran and warfarin.",
+  "eval_MRN": "S1891852"
+ },
+ {
+  "id": "task4_7",
+  "instruction": "Instruction: A VTE risk assessment was completed for patient S2090974 on 2023-11-11. Confirm that the patient is receiving VTE prophylaxis. If no active anticoagulant order is found, order heparin 5,000 units subcutaneously every 8 hours starting now.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Anticoagulants include heparin, enoxaparin, dalteparin, fondaparinux, apixaban, rivaroxaban, dabigatran and warfarin.",
+  "eval_MRN": "S2090974"
+ },
+ {
+  "id": "task4_8",
+  "instruction": "Instruction: A VTE risk assessment was completed for patient S2450227 on 2023-11-11. Confirm that the patient is receiving VTE prophylaxis. If no active anticoagulant order is found, order heparin 5,000 units subcutaneously every 8 hours starting now.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Anticoagulants include heparin, enoxaparin, dalteparin, fondaparinux, apixaban, rivaroxaban, dabigatran and warfarin.",
+  "eval_MRN": "S2450227"
+ },
+ {
+  "id": "task4_9",
+  "instruction": "Instruction: A VTE risk assessment was completed for patient S2703270 on 2023-11-11. Confirm that the patient is receiving VTE prophylaxis. If no active anticoagulant order is found, order heparin 5,000 units subcutaneously every 8 hours starting now.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Anticoagulants include heparin, enoxaparin, dalteparin, fondaparinux, apixaban, rivaroxaban, dabigatran and warfarin.",
+  "eval_MRN": "S2703270"
+ },
+ {
+  "id": "task4_10",
+  "instruction": "Instruction: A VTE risk assessment was completed for patient S2863714 on 2023-11-11. Confirm that the patient is receiving VTE prophylaxis. If no active anticoagulant order is found, order heparin 5,000 units subcutaneously every 8 hours starting now.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Anticoagulants include heparin, enoxaparin, dalteparin, fondaparinux, apixaban, rivaroxaban, dabigatran and warfarin.",
+  "eval_MRN": "S2863714"
+ },
+ {
+  "id": "task4_11",
+  "instruction": "Instruction: A VTE risk assessment was completed for patient S2874099 on 2023-11-11. Confirm that the patient is receiving VTE prophylaxis. If no active anticoagulant order is found, order heparin 5,000 units subcutaneously every 8 hours starting now.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Anticoagulants include heparin, enoxaparin, dalteparin, fondaparinux, apixaban, rivaroxaban, dabigatran and warfarin.",
+  "eval_MRN": "S2874099"
+ },
+ {
+  "id": "task4_12",
+  "instruction": "Instruction: A VTE risk assessment was completed for patient S3084624 on 2023-11-11. Confirm that the patient is receiving VTE prophylaxis. If no active anticoagulant order is found, order heparin 5,000 units subcutaneously every 8 hours starting now.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Anticoagulants include heparin, enoxaparin, dalteparin, fondaparinux, apixaban, rivaroxaban, dabigatran and warfarin.",
+  "eval_MRN": "S3084624"
+ },
+ {
+  "id": "task4_13",
+  "instruction": "Instruction: A VTE risk assessment was completed for patient S3195056 on 2023-11-11. Confirm that the patient is receiving VTE prophylaxis. If no active anticoagulant order is found, order heparin 5,000 units subcutaneously every 8 hours starting now.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Anticoagulants include heparin, enoxaparin, dalteparin, fondaparinux, apixaban, rivaroxaban, dabigatran and warfarin.",
+  "eval_MRN": "S3195056"
+ },
+ {
+  "id": "task4_14",
+  "instruction": "Instruction: A VTE risk assessment was completed for patient S6200102 on 2023-11-11. Confirm that the patient is receiving VTE prophylaxis. If no active anticoagulant order is found, order heparin 5,000 units subcutaneously every 8 hours starting now.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Anticoagulants include heparin, enoxaparin, dalteparin, fondaparinux, apixaban, rivaroxaban, dabigatran and warfarin.",
+  "eval_MRN": "S6200102"
+ },
+ {
+  "id": "task4_15",
+  "instruction": "Instruction: A VTE risk assessment was completed for patient S6227720 on 2023-11-11. Confirm that the patient is receiving VTE prophylaxis. If no active anticoagulant order is found, order heparin 5,000 units subcutaneously every 8 hours starting now.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Anticoagulants include heparin, enoxaparin, dalteparin, fondaparinux, apixaban, rivaroxaban, dabigatran and warfarin.",
+  "eval_MRN": "S6227720"
+ },
+ {
+  "id": "task4_16",
+  "instruction": "Instruction: A VTE risk assessment was completed for patient S6264184 on 2023-11-11. Confirm that the patient is receiving VTE prophylaxis. If no active anticoagulant order is found, order heparin 5,000 units subcutaneously every 8 hours starting now.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Anticoagulants include heparin, enoxaparin, dalteparin, fondaparinux, apixaban, rivaroxaban, dabigatran and warfarin.",
+  "eval_MRN": "S6264184"
+ },
+ {
+  "id": "task4_17",
+  "instruction": "Instruction: A VTE risk assessment was completed for patient S6265496 on 2023-11-11. Confirm that the patient is receiving VTE prophylaxis. If no active anticoagulant order is found, order heparin 5,000 units subcutaneously every 8 hours starting now.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Anticoagulants include heparin, enoxaparin, dalteparin, fondaparinux, apixaban, rivaroxaban, dabigatran and warfarin.",
+  "eval_MRN": "S6265496"
+ },
+ {
+  "id": "task4_18",
+  "instruction": "Instruction: A VTE risk assessment was completed for patient S6309742 on 2023-11-11. Confirm that the patient is receiving VTE prophylaxis. If no active anticoagulant order is found, order heparin 5,000 units subcutaneously every 8 hours starting now.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Anticoagulants include heparin, enoxaparin, dalteparin, fondaparinux, apixaban, rivaroxaban, dabigatran and warfarin.",
+  "eval_MRN": "S6309742"
+ },
+ {
+  "id": "task4_19",
+  "instruction": "Instruction: A VTE risk assessment was completed for patient S6312049 on 2023-11-11. Confirm that the patient is receiving VTE prophylaxis. If no active anticoagulant order is found, order heparin 5,000 units subcutaneously every 8 hours starting now.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Anticoagulants include heparin, enoxaparin, dalteparin, fondaparinux, apixaban, rivaroxaban, dabigatran and warfarin.",
+  "eval_MRN": "S6312049"
+ },
+ {
+  "id": "task4_20",
+  "instruction": "Instruction: A VTE risk assessment was completed for patient S6315806 on 2023-11-11. Confirm that the patient is receiving VTE prophylaxis. If no active anticoagulant order is found, order heparin 5,000 units subcutaneously every 8 hours starting now.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Anticoagulants include heparin, enoxaparin, dalteparin, fondaparinux, apixaban, rivaroxaban, dabigatran and warfarin.",
+  "eval_MRN": "S6315806"
+ },
+ {
+  "id": "task4_21",
+  "instruction": "Instruction: A VTE risk assessment was completed for patient S6329254 on 2023-11-11. Confirm that the patient is receiving VTE prophylaxis. If no active anticoagulant order is found, order heparin 5,000 units subcutaneously every 8 hours starting now.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Anticoagulants include heparin, enoxaparin, dalteparin, fondaparinux, apixaban, rivaroxaban, dabigatran and warfarin.",
+  "eval_MRN": "S6329254"
+ },
+ {
+  "id": "task4_22",
+  "instruction": "Instruction: A VTE risk assessment was completed for patient S6352985 on 2023-11-11. Confirm that the patient is receiving VTE prophylaxis. If no active anticoagulant order is found, order heparin 5,000 units subcutaneously every 8 hours starting now.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Anticoagulants include heparin, enoxaparin, dalteparin, fondaparinux, apixaban, rivaroxaban, dabigatran and warfarin.",
+  "eval_MRN": "S6352985"
+ },
+ {
+  "id": "task4_23",
+  "instruction": "Instruction: A VTE risk assessment was completed for patient S6484983 on 2023-11-11. Confirm that the patient is receiving VTE prophylaxis. If no active anticoagulant order is found, order heparin 5,000 units subcutaneously every 8 hours starting now.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Anticoagulants include heparin, enoxaparin, dalteparin, fondaparinux, apixaban, rivaroxaban, dabigatran and warfarin.",
+  "eval_MRN": "S6484983"
+ },
+ {
+  "id": "task4_24",
+  "instruction": "Instruction: A VTE risk assessment was completed for patient S6488980 on 2023-11-11. Confirm that the patient is receiving VTE prophylaxis. If no active anticoagulant order is found, order heparin 5,000 units subcutaneously every 8 hours starting now.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Anticoagulants include heparin, enoxaparin, dalteparin, fondaparinux, apixaban, rivaroxaban, dabigatran and warfarin.",
+  "eval_MRN": "S6488980"
+ },
+ {
+  "id": "task4_25",
+  "instruction": "Instruction: A VTE risk assessment was completed for patient S6500497 on 2023-11-11. Confirm that the patient is receiving VTE prophylaxis. If no active anticoagulant order is found, order heparin 5,000 units subcutaneously every 8 hours starting now.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Anticoagulants include heparin, enoxaparin, dalteparin, fondaparinux, apixaban, rivaroxaban, dabigatran and warfarin.",
+  "eval_MRN": "S6500497"
+ },
+ {
+  "id": "task4_26",
+  "instruction": "Instruction: A VTE risk assessment was completed for patient S6530813 on 2023-11-11. Confirm that the patient is receiving VTE prophylaxis. If no active anticoagulant order is found, order heparin 5,000 units subcutaneously every 8 hours starting now.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Anticoagulants include heparin, enoxaparin, dalteparin, fondaparinux, apixaban, rivaroxaban, dabigatran and warfarin.",
+  "eval_MRN": "S6530813"
+ },
+ {
+  "id": "task4_27",
+  "instruction": "Instruction: A VTE risk assessment was completed for patient S6537563 on 2023-11-11. Confirm that the patient is receiving VTE prophylaxis. If no active anticoagulant order is found, order heparin 5,000 units subcutaneously every 8 hours starting now.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Anticoagulants include heparin, enoxaparin, dalteparin, fondaparinux, apixaban, rivaroxaban, dabigatran and warfarin.",
+  "eval_MRN": "S6537563"
+ },
+ {
+  "id": "task4_28",
+  "instruction": "Instruction: A VTE risk assessment was completed for patient S6541609 on 2023-11-11. Confirm that the patient is receiving VTE prophylaxis. If no active anticoagulant order is found, order heparin 5,000 units subcutaneously every 8 hours starting now.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Anticoagulants include heparin, enoxaparin, dalteparin, fondaparinux, apixaban, rivaroxaban, dabigatran and warfarin.",
+  "eval_MRN": "S6541609"
+ },
+ {
+  "id": "task4_29",
+  "instruction": "Instruction: A VTE risk assessment was completed for patient S6550627 on 2023-11-11. Confirm that the patient is receiving VTE prophylaxis. If no active anticoagulant order is found, order heparin 5,000 units subcutaneously every 8 hours starting now.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Anticoagulants include heparin, enoxaparin, dalteparin, fondaparinux, apixaban, rivaroxaban, dabigatran and warfarin.",
+  "eval_MRN": "S6550627"
+ },
+ {
+  "id": "task4_30",
+  "instruction": "Instruction: A VTE risk assessment was completed for patient S6551923 on 2023-11-11. Confirm that the patient is receiving VTE prophylaxis. If no active anticoagulant order is found, order heparin 5,000 units subcutaneously every 8 hours starting now.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Anticoagulants include heparin, enoxaparin, dalteparin, fondaparinux, apixaban, rivaroxaban, dabigatran and warfarin.",
+  "eval_MRN": "S6551923"
+ },
+ {
+  "id": "task5_1",
+  "instruction": "Instruction: Determine whether patient S0636132 carries a hyperlipidemia diagnosis and has any active statin order. If hyperlipidemia is present and no active statin exists, order rosuvastatin 40 mg PO daily.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Hyperlipidemia diagnoses have ICD-10 codes starting with E78. Statins include atorvastatin, rosuvastatin, simvastatin, pravastatin, lovastatin, pitavastatin and fluvastatin.",
+  "eval_MRN": "S0636132"
+ },
+ {
+  "id": "task5_2",
+  "instruction": "Instruction: Determine whether patient S0658561 carries a hyperlipidemia diagnosis and has any active statin order. If hyperlipidemia is present and no active statin exists, order rosuvastatin 40 mg PO daily.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Hyperlipidemia diagnoses have ICD-10 codes starting with E78. Statins include atorvastatin, rosuvastatin, simvastatin, pravastatin, lovastatin, pitavastatin and fluvastatin.",
+  "eval_MRN": "S0658561"
+ },
+ {
+  "id": "task5_3",
+  "instruction": "Instruction: Determine whether patient S0674240 carries a hyperlipidemia diagnosis and has any active statin order. If hyperlipidemia is present and no active statin exists, order rosuvastatin 40 mg PO daily.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Hyperlipidemia diagnoses have ICD-10 codes starting with E78. Statins include atorvastatin, rosuvastatin, simvastatin, pravastatin, lovastatin, pitavastatin and fluvastatin.",
+  "eval_MRN": "S0674240"
+ },
+ {
+  "id": "task5_4",
+  "instruction": "Instruction: Determine whether patient S0722219 carries a hyperlipidemia diagnosis and has any active statin order. If hyperlipidemia is present and no active statin exists, order rosuvastatin 40 mg PO daily.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Hyperlipidemia diagnoses have ICD-10 codes starting with E78. Statins include atorvastatin, rosuvastatin, simvastatin, pravastatin, lovastatin, pitavastatin and fluvastatin.",
+  "eval_MRN": "S0722219"
+ },
+ {
+  "id": "task5_5",
+  "instruction": "Instruction: Determine whether patient S1353305 carries a hyperlipidemia diagnosis and has any active statin order. If hyperlipidemia is present and no active statin exists, order rosuvastatin 40 mg PO daily.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Hyperlipidemia diagnoses have ICD-10 codes starting with E78. Statins include atorvastatin, rosuvastatin, simvastatin, pravastatin, lovastatin, pitavastatin and fluvastatin.",
+  "eval_MRN": "S1353305"
+ },
+ {
+  "id": "task5_6",
+  "instruction": "Instruction: Determine whether patient S1715871 carries a hyperlipidemia diagnosis and has any active statin order. If hyperlipidemia is present and no active statin exists, order rosuvastatin 40 mg PO daily.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Hyperlipidemia diagnoses have ICD-10 codes starting with E78. Statins include atorvastatin, rosuvastatin, simvastatin, pravastatin, lovastatin, pitavastatin and fluvastatin.",
+  "eval_MRN": "S1715871"
+ },
+ {
+  "id": "task5_7",
+  "instruction": "Instruction: Determine whether patient S1733937 carries a hyperlipidemia diagnosis and has any active statin order. If hyperlipidemia is present and no active statin exists, order rosuvastatin 40 mg PO daily.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Hyperlipidemia diagnoses have ICD-10 codes starting with E78. Statins include atorvastatin, rosuvastatin, simvastatin, pravastatin, lovastatin, pitavastatin and fluvastatin.",
+  "eval_MRN": "S1733937"
+ },
+ {
+  "id": "task5_8",
+  "instruction": "Instruction: Determine whether patient S1754095 carries a hyperlipidemia diagnosis and has any active statin order. If hyperlipidemia is present and no active statin exists, order rosuvastatin 40 mg PO daily.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Hyperlipidemia diagnoses have ICD-10 codes starting with E78. Statins include atorvastatin, rosuvastatin, simvastatin, pravastatin, lovastatin, pitavastatin and fluvastatin.",
+  "eval_MRN": "S1754095"
+ },
+ {
+  "id": "task5_9",
+  "instruction": "Instruction: Determine whether patient S1796597 carries a hyperlipidemia diagnosis and has any active statin order. If hyperlipidemia is present and no active statin exists, order rosuvastatin 40 mg PO daily.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Hyperlipidemia diagnoses have ICD-10 codes starting with E78. Statins include atorvastatin, rosuvastatin, simvastatin, pravastatin, lovastatin, pitavastatin and fluvastatin.",
+  "eval_MRN": "S1796597"
+ },
+ {
+  "id": "task5_10",
+  "instruction": "Instruction: Determine whether patient S1891852 carries a hyperlipidemia diagnosis and has any active statin order. If hyperlipidemia is present and no active statin exists, order rosuvastatin 40 mg PO daily.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Hyperlipidemia diagnoses have ICD-10 codes starting with E78. Statins include atorvastatin, rosuvastatin, simvastatin, pravastatin, lovastatin, pitavastatin and fluvastatin.",
+  "eval_MRN": "S1891852"
+ },
+ {
+  "id": "task5_11",
+  "instruction": "Instruction: Determine whether patient S2090974 carries a hyperlipidemia diagnosis and has any active statin order. If hyperlipidemia is present and no active statin exists, order rosuvastatin 40 mg PO daily.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Hyperlipidemia diagnoses have ICD-10 codes starting with E78. Statins include atorvastatin, rosuvastatin, simvastatin, pravastatin, lovastatin, pitavastatin and fluvastatin.",
+  "eval_MRN": "S2090974"
+ },
+ {
+  "id": "task5_12",
+  "instruction": "Instruction: Determine whether patient S2197736 carries a hyperlipidemia diagnosis and has any active statin order. If hyperlipidemia is present and no active statin exists, order rosuvastatin 40 mg PO daily.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Hyperlipidemia diagnoses have ICD-10 codes starting with E78. Statins include atorvastatin, rosuvastatin, simvastatin, pravastatin, lovastatin, pitavastatin and fluvastatin.",
+  "eval_MRN": "S2197736"
+ },
+ {
+  "id": "task5_13",
+  "instruction": "Instruction: Determine whether patient S2704870 carries a hyperlipidemia diagnosis and has any active statin order. If hyperlipidemia is present and no active statin exists, order rosuvastatin 40 mg PO daily.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Hyperlipidemia diagnoses have ICD-10 codes starting with E78. Statins include atorvastatin, rosuvastatin, simvastatin, pravastatin, lovastatin, pitavastatin and fluvastatin.",
+  "eval_MRN": "S2704870"
+ },
+ {
+  "id": "task5_14",
+  "instruction": "Instruction: Determine whether patient S2748981 carries a hyperlipidemia diagnosis and has any active statin order. If hyperlipidemia is present and no active statin exists, order rosuvastatin 40 mg PO daily.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Hyperlipidemia diagnoses have ICD-10 codes starting with E78. Statins include atorvastatin, rosuvastatin, simvastatin, pravastatin, lovastatin, pitavastatin and fluvastatin.",
+  "eval_MRN": "S2748981"
+ },
+ {
+  "id": "task5_15",
+  "instruction": "Instruction: Determine whether patient S2863714 carries a hyperlipidemia diagnosis and has any active statin order. If hyperlipidemia is present and no active statin exists, order rosuvastatin 40 mg PO daily.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Hyperlipidemia diagnoses have ICD-10 codes starting with E78. Statins include atorvastatin, rosuvastatin, simvastatin, pravastatin, lovastatin, pitavastatin and fluvastatin.",
+  "eval_MRN": "S2863714"
+ },
+ {
+  "id": "task5_16",
+  "instruction": "Instruction: Determine whether patient S3241217 carries a hyperlipidemia diagnosis and has any active statin order. If hyperlipidemia is present and no active statin exists, order rosuvastatin 40 mg PO daily.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Hyperlipidemia diagnoses have ICD-10 codes starting with E78. Statins include atorvastatin, rosuvastatin, simvastatin, pravastatin, lovastatin, pitavastatin and fluvastatin.",
+  "eval_MRN": "S3241217"
+ },
+ {
+  "id": "task5_17",
+  "instruction": "Instruction: Determine whether patient S6200102 carries a hyperlipidemia diagnosis and has any active statin order. If hyperlipidemia is present and no active statin exists, order rosuvastatin 40 mg PO daily.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Hyperlipidemia diagnoses have ICD-10 codes starting with E78. Statins include atorvastatin, rosuvastatin, simvastatin, pravastatin, lovastatin, pitavastatin and fluvastatin.",
+  "eval_MRN": "S6200102"
+ },
+ {
+  "id": "task5_18",
+  "instruction": "Instruction: Determine whether patient S6212774 carries a hyperlipidemia diagnosis and has any active statin order. If hyperlipidemia is present and no active statin exists, order rosuvastatin 40 mg PO daily.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Hyperlipidemia diagnoses have ICD-10 codes starting with E78. Statins include atorvastatin, rosuvastatin, simvastatin, pravastatin, lovastatin, pitavastatin and fluvastatin.",
+  "eval_MRN": "S6212774"
+ },
+ {
+  "id": "task5_19",
+  "instruction": "Instruction: Determine whether patient S6265496 carries a hyperlipidemia diagnosis and has any active statin order. If hyperlipidemia is present and no active statin exists, order rosuvastatin 40 mg PO daily.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Hyperlipidemia diagnoses have ICD-10 codes starting with E78. Statins include atorvastatin, rosuvastatin, simvastatin, pravastatin, lovastatin, pitavastatin and fluvastatin.",
+  "eval_MRN": "S6265496"
+ },
+ {
+  "id": "task5_20",
+  "instruction": "Instruction: Determine whether patient S6307599 carries a hyperlipidemia diagnosis and has any active statin order. If hyperlipidemia is present and no active statin exists, order rosuvastatin 40 mg PO daily.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Hyperlipidemia diagnoses have ICD-10 codes starting with E78. Statins include atorvastatin, rosuvastatin, simvastatin, pravastatin, lovastatin, pitavastatin and fluvastatin.",
+  "eval_MRN": "S6307599"
+ },
+ {
+  "id": "task5_21",
+  "instruction": "Instruction: Determine whether patient S6312049 carries a hyperlipidemia diagnosis and has any active statin order. If hyperlipidemia is present and no active statin exists, order rosuvastatin 40 mg PO daily.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Hyperlipidemia diagnoses have ICD-10 codes starting with E78. Statins include atorvastatin, rosuvastatin, simvastatin, pravastatin, lovastatin, pitavastatin and fluvastatin.",
+  "eval_MRN": "S6312049"
+ },
+ {
+  "id": "task5_22",
+  "instruction": "Instruction: Determine whether patient S6329254 carries a hyperlipidemia diagnosis and has any active statin order. If hyperlipidemia is present and no active statin exists, order rosuvastatin 40 mg PO daily.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Hyperlipidemia diagnoses have ICD-10 codes starting with E78. Statins include atorvastatin, rosuvastatin, simvastatin, pravastatin, lovastatin, pitavastatin and fluvastatin.",
+  "eval_MRN": "S6329254"
+ },
+ {
+  "id": "task5_23",
+  "instruction": "Instruction: Determine whether patient S6329521 carries a hyperlipidemia diagnosis and has any active statin order. If hyperlipidemia is present and no active statin exists, order rosuvastatin 40 mg PO daily.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Hyperlipidemia diagnoses have ICD-10 codes starting with E78. Statins include atorvastatin, rosuvastatin, simvastatin, pravastatin, lovastatin, pitavastatin and fluvastatin.",
+  "eval_MRN": "S6329521"
+ },
+ {
+  "id": "task5_24",
+  "instruction": "Instruction: Determine whether patient S6330912 carries a hyperlipidemia diagnosis and has any active statin order. If hyperlipidemia is present and no active statin exists, order rosuvastatin 40 mg PO daily.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Hyperlipidemia diagnoses have ICD-10 codes starting with E78. Statins include atorvastatin, rosuvastatin, simvastatin, pravastatin, lovastatin, pitavastatin and fluvastatin.",
+  "eval_MRN": "S6330912"
+ },
+ {
+  "id": "task5_25",
+  "instruction": "Instruction: Determine whether patient S6352985 carries a hyperlipidemia diagnosis and has any active statin order. If hyperlipidemia is present and no active statin exists, order rosuvastatin 40 mg PO daily.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Hyperlipidemia diagnoses have ICD-10 codes starting with E78. Statins include atorvastatin, rosuvastatin, simvastatin, pravastatin, lovastatin, pitavastatin and fluvastatin.",
+  "eval_MRN": "S6352985"
+ },
+ {
+  "id": "task5_26",
+  "instruction": "Instruction: Determine whether patient S6484983 carries a hyperlipidemia diagnosis and has any active statin order. If hyperlipidemia is present and no active statin exists, order rosuvastatin 40 mg PO daily.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Hyperlipidemia diagnoses have ICD-10 codes starting with E78. Statins include atorvastatin, rosuvastatin, simvastatin, pravastatin, lovastatin, pitavastatin and fluvastatin.",
+  "eval_MRN": "S6484983"
+ },
+ {
+  "id": "task5_27",
+  "instruction": "Instruction: Determine whether patient S6500497 carries a hyperlipidemia diagnosis and has any active statin order. If hyperlipidemia is present and no active statin exists, order rosuvastatin 40 mg PO daily.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Hyperlipidemia diagnoses have ICD-10 codes starting with E78. Statins include atorvastatin, rosuvastatin, simvastatin, pravastatin, lovastatin, pitavastatin and fluvastatin.",
+  "eval_MRN": "S6500497"
+ },
+ {
+  "id": "task5_28",
+  "instruction": "Instruction: Determine whether patient S6534835 carries a hyperlipidemia diagnosis and has any active statin order. If hyperlipidemia is present and no active statin exists, order rosuvastatin 40 mg PO daily.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Hyperlipidemia diagnoses have ICD-10 codes starting with E78. Statins include atorvastatin, rosuvastatin, simvastatin, pravastatin, lovastatin, pitavastatin and fluvastatin.",
+  "eval_MRN": "S6534835"
+ },
+ {
+  "id": "task5_29",
+  "instruction": "Instruction: Determine whether patient S6539215 carries a hyperlipidemia diagnosis and has any active statin order. If hyperlipidemia is present and no active statin exists, order rosuvastatin 40 mg PO daily.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Hyperlipidemia diagnoses have ICD-10 codes starting with E78. Statins include atorvastatin, rosuvastatin, simvastatin, pravastatin, lovastatin, pitavastatin and fluvastatin.",
+  "eval_MRN": "S6539215"
+ },
+ {
+  "id": "task5_30",
+  "instruction": "Instruction: Determine whether patient S6549951 carries a hyperlipidemia diagnosis and has any active statin order. If hyperlipidemia is present and no active statin exists, order rosuvastatin 40 mg PO daily.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. Hyperlipidemia diagnoses have ICD-10 codes starting with E78. Statins include atorvastatin, rosuvastatin, simvastatin, pravastatin, lovastatin, pitavastatin and fluvastatin.",
+  "eval_MRN": "S6549951"
+ },
+ {
+  "id": "task6_1",
+  "instruction": "Instruction: Check if patient S0611496 has atrial fibrillation. If yes, verify an active beta-blocker order (metoprolol or carvedilol). If no beta-blocker is active, order metoprolol succinate 25 mg PO daily and schedule a 12-lead ECG for 30 minutes after the first dose.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. The ICD-10 code for atrial fibrillation is I48.91. The SNOMED code for 12-lead ECG is 445118002.",
+  "eval_MRN": "S0611496"
+ },
+ {
+  "id": "task6_2",
+  "instruction": "Instruction: Check if patient S0658561 has atrial fibrillation. If yes, verify an active beta-blocker order (metoprolol or carvedilol). If no beta-blocker is active, order metoprolol succinate 25 mg PO daily and schedule a 12-lead ECG for 30 minutes after the first dose.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. The ICD-10 code for atrial fibrillation is I48.91. The SNOMED code for 12-lead ECG is 445118002.",
+  "eval_MRN": "S0658561"
+ },
+ {
+  "id": "task6_3",
+  "instruction": "Instruction: Check if patient S0869531 has atrial fibrillation. If yes, verify an active beta-blocker order (metoprolol or carvedilol). If no beta-blocker is active, order metoprolol succinate 25 mg PO daily and schedule a 12-lead ECG for 30 minutes after the first dose.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. The ICD-10 code for atrial fibrillation is I48.91. The SNOMED code for 12-lead ECG is 445118002.",
+  "eval_MRN": "S0869531"
+ },
+ {
+  "id": "task6_4",
+  "instruction": "Instruction: Check if patient S1023381 has atrial fibrillation. If yes, verify an active beta-blocker order (metoprolol or carvedilol). If no beta-blocker is active, order metoprolol succinate 25 mg PO daily and schedule a 12-lead ECG for 30 minutes after the first dose.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. The ICD-10 code for atrial fibrillation is I48.91. The SNOMED code for 12-lead ECG is 445118002.",
+  "eval_MRN": "S1023381"
+ },
+ {
+  "id": "task6_5",
+  "instruction": "Instruction: Check if patient S1478444 has atrial fibrillation. If yes, verify an active beta-blocker order (metoprolol or carvedilol). If no beta-blocker is active, order metoprolol succinate 25 mg PO daily and schedule a 12-lead ECG for 30 minutes after the first dose.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. The ICD-10 code for atrial fibrillation is I48.91. The SNOMED code for 12-lead ECG is 445118002.",
+  "eval_MRN": "S1478444"
+ },
+ {
+  "id": "task6_6",
+  "instruction": "Instruction: Check if patient S1521703 has atrial fibrillation. If yes, verify an active beta-blocker order (metoprolol or carvedilol). If no beta-blocker is active, order metoprolol succinate 25 mg PO daily and schedule a 12-lead ECG for 30 minutes after the first dose.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. The ICD-10 code for atrial fibrillation is I48.91. The SNOMED code for 12-lead ECG is 445118002.",
+  "eval_MRN": "S1521703"
+ },
+ {
+  "id": "task6_7",
+  "instruction": "Instruction: Check if patient S1579803 has atrial fibrillation. If yes, verify an active beta-blocker order (metoprolol or carvedilol). If no beta-blocker is active, order metoprolol succinate 25 mg PO daily and schedule a 12-lead ECG for 30 minutes after the first dose.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. The ICD-10 code for atrial fibrillation is I48.91. The SNOMED code for 12-lead ECG is 445118002.",
+  "eval_MRN": "S1579803"
+ },
+ {
+  "id": "task6_8",
+  "instruction": "Instruction: Check if patient S1733937 has atrial fibrillation. If yes, verify an active beta-blocker order (metoprolol or carvedilol). If no beta-blocker is active, order metoprolol succinate 25 mg PO daily and schedule a 12-lead ECG for 30 minutes after the first dose.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. The ICD-10 code for atrial fibrillation is I48.91. The SNOMED code for 12-lead ECG is 445118002.",
+  "eval_MRN": "S1733937"
+ },
+ {
+  "id": "task6_9",
+  "instruction": "Instruction: Check if patient S2016972 has atrial fibrillation. If yes, verify an active beta-blocker order (metoprolol or carvedilol). If no beta-blocker is active, order metoprolol succinate 25 mg PO daily and schedule a 12-lead ECG for 30 minutes after the first dose.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. The ICD-10 code for atrial fibrillation is I48.91. The SNOMED code for 12-lead ECG is 445118002.",
+  "eval_MRN": "S2016972"
+ },
+ {
+  "id": "task6_10",
+  "instruction": "Instruction: Check if patient S2075210 has atrial fibrillation. If yes, verify an active beta-blocker order (metoprolol or carvedilol). If no beta-blocker is active, order metoprolol succinate 25 mg PO daily and schedule a 12-lead ECG for 30 minutes after the first dose.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. The ICD-10 code for atrial fibrillation is I48.91. The SNOMED code for 12-lead ECG is 445118002.",
+  "eval_MRN": "S2075210"
+ },
+ {
+  "id": "task6_11",
+  "instruction": "Instruction: Check if patient S2090974 has atrial fibrillation. If yes, verify an active beta-blocker order (metoprolol or carvedilol). If no beta-blocker is active, order metoprolol succinate 25 mg PO daily and schedule a 12-lead ECG for 30 minutes after the first dose.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. The ICD-10 code for atrial fibrillation is I48.91. The SNOMED code for 12-lead ECG is 445118002.",
+  "eval_MRN": "S2090974"
+ },
+ {
+  "id": "task6_12",
+  "instruction": "Instruction: Check if patient S2111822 has atrial fibrillation. If yes, verify an active beta-blocker order (metoprolol or carvedilol). If no beta-blocker is active, order metoprolol succinate 25 mg PO daily and schedule a 12-lead ECG for 30 minutes after the first dose.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. The ICD-10 code for atrial fibrillation is I48.91. The SNOMED code for 12-lead ECG is 445118002.",
+  "eval_MRN": "S2111822"
+ },
+ {
+  "id": "task6_13",
+  "instruction": "Instruction: Check if patient S2199765 has atrial fibrillation. If yes, verify an active beta-blocker order (metoprolol or carvedilol). If no beta-blocker is active, order metoprolol succinate 25 mg PO daily and schedule a 12-lead ECG for 30 minutes after the first dose.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. The ICD-10 code for atrial fibrillation is I48.91. The SNOMED code for 12-lead ECG is 445118002.",
+  "eval_MRN": "S2199765"
+ },
+ {
+  "id": "task6_14",
+  "instruction": "Instruction: Check if patient S2380121 has atrial fibrillation. If yes, verify an active beta-blocker order (metoprolol or carvedilol). If no beta-blocker is active, order metoprolol succinate 25 mg PO daily and schedule a 12-lead ECG for 30 minutes after the first dose.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. The ICD-10 code for atrial fibrillation is I48.91. The SNOMED code for 12-lead ECG is 445118002.",
+  "eval_MRN": "S2380121"
+ },
+ {
+  "id": "task6_15",
+  "instruction": "Instruction: Check if patient S2402518 has atrial fibrillation. If yes, verify an active beta-blocker order (metoprolol or carvedilol). If no beta-blocker is active, order metoprolol succinate 25 mg PO daily and schedule a 12-lead ECG for 30 minutes after the first dose.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. The ICD-10 code for atrial fibrillation is I48.91. The SNOMED code for 12-lead ECG is 445118002.",
+  "eval_MRN": "S2402518"
+ },
+ {
+  "id": "task6_16",
+  "instruction": "Instruction: Check if patient S2450227 has atrial fibrillation. If yes, verify an active beta-blocker order (metoprolol or carvedilol). If no beta-blocker is active, order metoprolol succinate 25 mg PO daily and schedule a 12-lead ECG for 30 minutes after the first dose.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. The ICD-10 code for atrial fibrillation is I48.91. The SNOMED code for 12-lead ECG is 445118002.",
+  "eval_MRN": "S2450227"
+ },
+ {
+  "id": "task6_17",
+  "instruction": "Instruction: Check if patient S3032536 has atrial fibrillation. If yes, verify an active beta-blocker order (metoprolol or carvedilol). If no beta-blocker is active, order metoprolol succinate 25 mg PO daily and schedule a 12-lead ECG for 30 minutes after the first dose.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. The ICD-10 code for atrial fibrillation is I48.91. The SNOMED code for 12-lead ECG is 445118002.",
+  "eval_MRN": "S3032536"
+ },
+ {
+  "id": "task6_18",
+  "instruction": "Instruction: Check if patient S3057899 has atrial fibrillation. If yes, verify an active beta-blocker order (metoprolol or carvedilol). If no beta-blocker is active, order metoprolol succinate 25 mg PO daily and schedule a 12-lead ECG for 30 minutes after the first dose.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. The ICD-10 code for atrial fibrillation is I48.91. The SNOMED code for 12-lead ECG is 445118002.",
+  "eval_MRN": "S3057899"
+ },
+ {
+  "id": "task6_19",
+  "instruction": "Instruction: Check if patient S6212774 has atrial fibrillation. If yes, verify an active beta-blocker order (metoprolol or carvedilol). If no beta-blocker is active, order metoprolol succinate 25 mg PO daily and schedule a 12-lead ECG for 30 minutes after the first dose.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. The ICD-10 code for atrial fibrillation is I48.91. The SNOMED code for 12-lead ECG is 445118002.",
+  "eval_MRN": "S6212774"
+ },
+ {
+  "id": "task6_20",
+  "instruction": "Instruction: Check if patient S6264184 has atrial fibrillation. If yes, verify an active beta-blocker order (metoprolol or carvedilol). If no beta-blocker is active, order metoprolol succinate 25 mg PO daily and schedule a 12-lead ECG for 30 minutes after the first dose.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. The ICD-10 code for atrial fibrillation is I48.91. The SNOMED code for 12-lead ECG is 445118002.",
+  "eval_MRN": "S6264184"
+ },
+ {
+  "id": "task6_21",
+  "instruction": "Instruction: Check if patient S6309742 has atrial fibrillation. If yes, verify an active beta-blocker order (metoprolol or carvedilol). If no beta-blocker is active, order metoprolol succinate 25 mg PO daily and schedule a 12-lead ECG for 30 minutes after the first dose.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. The ICD-10 code for atrial fibrillation is I48.91. The SNOMED code for 12-lead ECG is 445118002.",
+  "eval_MRN": "S6309742"
+ },
+ {
+  "id": "task6_22",
+  "instruction": "Instruction: Check if patient S6312049 has atrial fibrillation. If yes, verify an active beta-blocker order (metoprolol or carvedilol). If no beta-blocker is active, order metoprolol succinate 25 mg PO daily and schedule a 12-lead ECG for 30 minutes after the first dose.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. The ICD-10 code for atrial fibrillation is I48.91. The SNOMED code for 12-lead ECG is 445118002.",
+  "eval_MRN": "S6312049"
+ },
+ {
+  "id": "task6_23",
+  "instruction": "Instruction: Check if patient S6488980 has atrial fibrillation. If yes, verify an active beta-blocker order (metoprolol or carvedilol). If no beta-blocker is active, order metoprolol succinate 25 mg PO daily and schedule a 12-lead ECG for 30 minutes after the first dose.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. The ICD-10 code for atrial fibrillation is I48.91. The SNOMED code for 12-lead ECG is 445118002.",
+  "eval_MRN": "S6488980"
+ },
+ {
+  "id": "task6_24",
+  "instruction": "Instruction: Check if patient S6530813 has atrial fibrillation. If yes, verify an active beta-blocker order (metoprolol or carvedilol). If no beta-blocker is active, order metoprolol succinate 25 mg PO daily and schedule a 12-lead ECG for 30 minutes after the first dose.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. The ICD-10 code for atrial fibrillation is I48.91. The SNOMED code for 12-lead ECG is 445118002.",
+  "eval_MRN": "S6530813"
+ },
+ {
+  "id": "task6_25",
+  "instruction": "Instruction: Check if patient S6531922 has atrial fibrillation. If yes, verify an active beta-blocker order (metoprolol or carvedilol). If no beta-blocker is active, order metoprolol succinate 25 mg PO daily and schedule a 12-lead ECG for 30 minutes after the first dose.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. The ICD-10 code for atrial fibrillation is I48.91. The SNOMED code for 12-lead ECG is 445118002.",
+  "eval_MRN": "S6531922"
+ },
+ {
+  "id": "task6_26",
+  "instruction": "Instruction: Check if patient S6539215 has atrial fibrillation. If yes, verify an active beta-blocker order (metoprolol or carvedilol). If no beta-blocker is active, order metoprolol succinate 25 mg PO daily and schedule a 12-lead ECG for 30 minutes after the first dose.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. The ICD-10 code for atrial fibrillation is I48.91. The SNOMED code for 12-lead ECG is 445118002.",
+  "eval_MRN": "S6539215"
+ },
+ {
+  "id": "task6_27",
+  "instruction": "Instruction: Check if patient S6541353 has atrial fibrillation. If yes, verify an active beta-blocker order (metoprolol or carvedilol). If no beta-blocker is active, order metoprolol succinate 25 mg PO daily and schedule a 12-lead ECG for 30 minutes after the first dose.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. The ICD-10 code for atrial fibrillation is I48.91. The SNOMED code for 12-lead ECG is 445118002.",
+  "eval_MRN": "S6541353"
+ },
+ {
+  "id": "task6_28",
+  "instruction": "Instruction: Check if patient S6541609 has atrial fibrillation. If yes, verify an active beta-blocker order (metoprolol or carvedilol). If no beta-blocker is active, order metoprolol succinate 25 mg PO daily and schedule a 12-lead ECG for 30 minutes after the first dose.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. The ICD-10 code for atrial fibrillation is I48.91. The SNOMED code for 12-lead ECG is 445118002.",
+  "eval_MRN": "S6541609"
+ },
+ {
+  "id": "task6_29",
+  "instruction": "Instruction: Check if patient S6547257 has atrial fibrillation. If yes, verify an active beta-blocker order (metoprolol or carvedilol). If no beta-blocker is active, order metoprolol succinate 25 mg PO daily and schedule a 12-lead ECG for 30 minutes after the first dose.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. The ICD-10 code for atrial fibrillation is I48.91. The SNOMED code for 12-lead ECG is 445118002.",
+  "eval_MRN": "S6547257"
+ },
+ {
+  "id": "task6_30",
+  "instruction": "Instruction: Check if patient S6549951 has atrial fibrillation. If yes, verify an active beta-blocker order (metoprolol or carvedilol). If no beta-blocker is active, order metoprolol succinate 25 mg PO daily and schedule a 12-lead ECG for 30 minutes after the first dose.",
+  "context": "It's 2023-11-13T10:15:00+00:00 now. The ICD-10 code for atrial fibrillation is I48.91. The SNOMED code for 12-lead ECG is 445118002.",
+  "eval_MRN": "S6549951"
+ },
+ {
+  "id": "task7_1",
+  "instruction": "Instruction: Check the most recent hemoglobin of patient S0581164 within the last 24 hours. If it is below 7 g/dL, order a transfusion of 1 unit of packed red blood cells now (stat) and a repeat hemoglobin 4 hours from now (routine).",
+  "context": "It's 2023-06-15T13:30:00+00:00 now. The code for hemoglobin is 'HGB'. The SNOMED code for transfusion of packed red blood cells is 18027006 (quantity: 1 unit). The LOINC code for hemoglobin is 718-7.",
+  "eval_MRN": "S0581164"
+ },
+ {
+  "id": "task7_2",
+  "instruction": "Instruction: Check the most recent hemoglobin of patient S0658561 within the last 24 hours. If it is below 7 g/dL, order a transfusion of 1 unit of packed red blood cells now (stat) and a repeat hemoglobin 4 hours from now (routine).",
+  "context": "It's 2023-11-11T14:03:00+00:00 now. The code for hemoglobin is 'HGB'. The SNOMED code for transfusion of packed red blood cells is 18027006 (quantity: 1 unit). The LOINC code for hemoglobin is 718-7.",
+  "eval_MRN": "S0658561"
+ },
+ {
+  "id": "task7_3",
+  "instruction": "Instruction: Check the most recent hemoglobin of patient S0674240 within the last 24 hours. If it is below 7 g/dL, order a transfusion of 1 unit of packed red blood cells now (stat) and a repeat hemoglobin 4 hours from now (routine).",
+  "context": "It's 2023-05-05T19:38:00+00:00 now. The code for hemoglobin is 'HGB'. The SNOMED code for transfusion of packed red blood cells is 18027006 (quantity: 1 unit). The LOINC code for hemoglobin is 718-7.",
+  "eval_MRN": "S0674240"
+ },
+ {
+  "id": "task7_4",
+  "instruction": "Instruction: Check the most recent hemoglobin of patient S0722219 within the last 24 hours. If it is below 7 g/dL, order a transfusion of 1 unit of packed red blood cells now (stat) and a repeat hemoglobin 4 hours from now (routine).",
+  "context": "It's 2022-05-02T13:29:00+00:00 now. The code for hemoglobin is 'HGB'. The SNOMED code for transfusion of packed red blood cells is 18027006 (quantity: 1 unit). The LOINC code for hemoglobin is 718-7.",
+  "eval_MRN": "S0722219"
+ },
+ {
+  "id": "task7_5",
+  "instruction": "Instruction: Check the most recent hemoglobin of patient S1478444 within the last 24 hours. If it is below 7 g/dL, order a transfusion of 1 unit of packed red blood cells now (stat) and a repeat hemoglobin 4 hours from now (routine).",
+  "context": "It's 2023-10-28T13:47:00+00:00 now. The code for hemoglobin is 'HGB'. The SNOMED code for transfusion of packed red blood cells is 18027006 (quantity: 1 unit). The LOINC code for hemoglobin is 718-7.",
+  "eval_MRN": "S1478444"
+ },
+ {
+  "id": "task7_6",
+  "instruction": "Instruction: Check the most recent hemoglobin of patient S1733937 within the last 24 hours. If it is below 7 g/dL, order a transfusion of 1 unit of packed red blood cells now (stat) and a repeat hemoglobin 4 hours from now (routine).",
+  "context": "It's 2023-05-09T22:23:00+00:00 now. The code for hemoglobin is 'HGB'. The SNOMED code for transfusion of packed red blood cells is 18027006 (quantity: 1 unit). The LOINC code for hemoglobin is 718-7.",
+  "eval_MRN": "S1733937"
+ },
+ {
+  "id": "task7_7",
+  "instruction": "Instruction: Check the most recent hemoglobin of patient S1876702 within the last 24 hours. If it is below 7 g/dL, order a transfusion of 1 unit of packed red blood cells now (stat) and a repeat hemoglobin 4 hours from now (routine).",
+  "context": "It's 2023-11-11T03:00:00+00:00 now. The code for hemoglobin is 'HGB'. The SNOMED code for transfusion of packed red blood cells is 18027006 (quantity: 1 unit). The LOINC code for hemoglobin is 718-7.",
+  "eval_MRN": "S1876702"
+ },
+ {
+  "id": "task7_8",
+  "instruction": "Instruction: Check the most recent hemoglobin of patient S2111822 within the last 24 hours. If it is below 7 g/dL, order a transfusion of 1 unit of packed red blood cells now (stat) and a repeat hemoglobin 4 hours from now (routine).",
+  "context": "It's 2023-10-22T19:46:00+00:00 now. The code for hemoglobin is 'HGB'. The SNOMED code for transfusion of packed red blood cells is 18027006 (quantity: 1 unit). The LOINC code for hemoglobin is 718-7.",
+  "eval_MRN": "S2111822"
+ },
+ {
+  "id": "task7_9",
+  "instruction": "Instruction: Check the most recent hemoglobin of patient S2402518 within the last 24 hours. If it is below 7 g/dL, order a transfusion of 1 unit of packed red blood cells now (stat) and a repeat hemoglobin 4 hours from now (routine).",
+  "context": "It's 2023-11-07T06:07:00+00:00 now. The code for hemoglobin is 'HGB'. The SNOMED code for transfusion of packed red blood cells is 18027006 (quantity: 1 unit). The LOINC code for hemoglobin is 718-7.",
+  "eval_MRN": "S2402518"
+ },
+ {
+  "id": "task7_10",
+  "instruction": "Instruction: Check the most recent hemoglobin of patient S2748981 within the last 24 hours. If it is below 7 g/dL, order a transfusion of 1 unit of packed red blood cells now (stat) and a repeat hemoglobin 4 hours from now (routine).",
+  "context": "It's 2023-11-12T14:26:00+00:00 now. The code for hemoglobin is 'HGB'. The SNOMED code for transfusion of packed red blood cells is 18027006 (quantity: 1 unit). The LOINC code for hemoglobin is 718-7.",
+  "eval_MRN": "S2748981"
+ },
+ {
+  "id": "task7_11",
+  "instruction": "Instruction: Check the most recent hemoglobin of patient S2937751 within the last 24 hours. If it is below 7 g/dL, order a transfusion of 1 unit of packed red blood cells now (stat) and a repeat hemoglobin 4 hours from now (routine).",
+  "context": "It's 2023-06-18T20:19:00+00:00 now. The code for hemoglobin is 'HGB'. The SNOMED code for transfusion of packed red blood cells is 18027006 (quantity: 1 unit). The LOINC code for hemoglobin is 718-7.",
+  "eval_MRN": "S2937751"
+ },
+ {
+  "id": "task7_12",
+  "instruction": "Instruction: Check the most recent hemoglobin of patient S3032536 within the last 24 hours. If it is below 7 g/dL, order a transfusion of 1 unit of packed red blood cells now (stat) and a repeat hemoglobin 4 hours from now (routine).",
+  "context": "It's 2023-11-09T09:45:00+00:00 now. The code for hemoglobin is 'HGB'. The SNOMED code for transfusion of packed red blood cells is 18027006 (quantity: 1 unit). The LOINC code for hemoglobin is 718-7.",
+  "eval_MRN": "S3032536"
+ },
+ {
+  "id": "task7_13",
+  "instruction": "Instruction: Check the most recent hemoglobin of patient S3057899 within the last 24 hours. If it is below 7 g/dL, order a transfusion of 1 unit of packed red blood cells now (stat) and a repeat hemoglobin 4 hours from now (routine).",
+  "context": "It's 2023-11-12T18:04:00+00:00 now. The code for hemoglobin is 'HGB'. The SNOMED code for transfusion of packed red blood cells is 18027006 (quantity: 1 unit). The LOINC code for hemoglobin is 718-7.",
+  "eval_MRN": "S3057899"
+ },
+ {
+  "id": "task7_14",
+  "instruction": "Instruction: Check the most recent hemoglobin of patient S3114648 within the last 24 hours. If it is below 7 g/dL, order a transfusion of 1 unit of packed red blood cells now (stat) and a repeat hemoglobin 4 hours from now (routine).",
+  "context": "It's 2023-11-09T11:49:00+00:00 now. The code for hemoglobin is 'HGB'. The SNOMED code for transfusion of packed red blood cells is 18027006 (quantity: 1 unit). The LOINC code for hemoglobin is 718-7.",
+  "eval_MRN": "S3114648"
+ },
+ {
+  "id": "task7_15",
+  "instruction": "Instruction: Check the most recent hemoglobin of patient S3241217 within the last 24 hours. If it is below 7 g/dL, order a transfusion of 1 unit of packed red blood cells now (stat) and a repeat hemoglobin 4 hours from now (routine).",
+  "context": "It's 2023-08-02T11:41:00+00:00 now. The code for hemoglobin is 'HGB'. The SNOMED code for transfusion of packed red blood cells is 18027006 (quantity: 1 unit). The LOINC code for hemoglobin is 718-7.",
+  "eval_MRN": "S3241217"
+ },
+ {
+  "id": "task7_16",
+  "instruction": "Instruction: Check the most recent hemoglobin of patient S6212774 within the last 24 hours. If it is below 7 g/dL, order a transfusion of 1 unit of packed red blood cells now (stat) and a repeat hemoglobin 4 hours from now (routine).",
+  "context": "It's 2023-08-28T13:42:00+00:00 now. The code for hemoglobin is 'HGB'. The SNOMED code for transfusion of packed red blood cells is 18027006 (quantity: 1 unit). The LOINC code for hemoglobin is 718-7.",
+  "eval_MRN": "S6212774"
+ },
+ {
+  "id": "task7_17",
+  "instruction": "Instruction: Check the most recent hemoglobin of patient S6227720 within the last 24 hours. If it is below 7 g/dL, order a transfusion of 1 unit of packed red blood cells now (stat) and a repeat hemoglobin 4 hours from now (routine).",
+  "context": "It's 2023-10-16T14:03:00+00:00 now. The code for hemoglobin is 'HGB'. The SNOMED code for transfusion of packed red blood cells is 18027006 (quantity: 1 unit). The LOINC code for hemoglobin is 718-7.",
+  "eval_MRN": "S6227720"
+ },
+ {
+  "id": "task7_18",
+  "instruction": "Instruction: Check the most recent hemoglobin of patient S6264184 within the last 24 hours. If it is below 7 g/dL, order a transfusion of 1 unit of packed red blood cells now (stat) and a repeat hemoglobin 4 hours from now (routine).",
+  "context": "It's 2023-10-16T11:12:00+00:00 now. The code for hemoglobin is 'HGB'. The SNOMED code for transfusion of packed red blood cells is 18027006 (quantity: 1 unit). The LOINC code for hemoglobin is 718-7.",
+  "eval_MRN": "S6264184"
+ },
+ {
+  "id": "task7_19",
+  "instruction": "Instruction: Check the most recent hemoglobin of patient S6265496 within the last 24 hours. If it is below 7 g/dL, order a transfusion of 1 unit of packed red blood cells now (stat) and a repeat hemoglobin 4 hours from now (routine).",
+  "context": "It's 2022-12-31T15:19:00+00:00 now. The code for hemoglobin is 'HGB'. The SNOMED code for transfusion of packed red blood cells is 18027006 (quantity: 1 unit). The LOINC code for hemoglobin is 718-7.",
+  "eval_MRN": "S6265496"
+ },
+ {
+  "id": "task7_20",
+  "instruction": "Instruction: Check the most recent hemoglobin of patient S6268253 within the last 24 hours. If it is below 7 g/dL, order a transfusion of 1 unit of packed red blood cells now (stat) and a repeat hemoglobin 4 hours from now (routine).",
+  "context": "It's 2021-04-27T13:08:00+00:00 now. The code for hemoglobin is 'HGB'. The SNOMED code for transfusion of packed red blood cells is 18027006 (quantity: 1 unit). The LOINC code for hemoglobin is 718-7.",
+  "eval_MRN": "S6268253"
+ },
+ {
+  "id": "task7_21",
+  "instruction": "Instruction: Check the most recent hemoglobin of patient S6307599 within the last 24 hours. If it is below 7 g/dL, order a transfusion of 1 unit of packed red blood cells now (stat) and a repeat hemoglobin 4 hours from now (routine).",
+  "context": "It's 2023-11-04T16:17:00+00:00 now. The code for hemoglobin is 'HGB'. The SNOMED code for transfusion of packed red blood cells is 18027006 (quantity: 1 unit). The LOINC code for hemoglobin is 718-7.",
+  "eval_MRN": "S6307599"
+ },
+ {
+  "id": "task7_22",
+  "instruction": "Instruction: Check the most recent hemoglobin of patient S6309742 within the last 24 hours. If it is below 7 g/dL, order a transfusion of 1 unit of packed red blood cells now (stat) and a repeat hemoglobin 4 hours from now (routine).",
+  "context": "It's 2021-02-08T20:41:00+00:00 now. The code for hemoglobin is 'HGB'. The SNOMED code for transfusion of packed red blood cells is 18027006 (quantity: 1 unit). The LOINC code for hemoglobin is 718-7.",
+  "eval_MRN": "S6309742"
+ },
+ {
+  "id": "task7_23",
+  "instruction": "Instruction: Check the most recent hemoglobin of patient S6312049 within the last 24 hours. If it is below 7 g/dL, order a transfusion of 1 unit of packed red blood cells now (stat) and a repeat hemoglobin 4 hours from now (routine).",
+  "context": "It's 2022-12-07T15:09:00+00:00 now. The code for hemoglobin is 'HGB'. The SNOMED code for transfusion of packed red blood cells is 18027006 (quantity: 1 unit). The LOINC code for hemoglobin is 718-7.",
+  "eval_MRN": "S6312049"
+ },
+ {
+  "id": "task7_24",
+  "instruction": "Instruction: Check the most recent hemoglobin of patient S6329521 within the last 24 hours. If it is below 7 g/dL, order a transfusion of 1 unit of packed red blood cells now (stat) and a repeat hemoglobin 4 hours from now (routine).",
+  "context": "It's 2022-11-26T12:39:00+00:00 now. The code for hemoglobin is 'HGB'. The SNOMED code for transfusion of packed red blood cells is 18027006 (quantity: 1 unit). The LOINC code for hemoglobin is 718-7.",
+  "eval_MRN": "S6329521"
+ },
+ {
+  "id": "task7_25",
+  "instruction": "Instruction: Check the most recent hemoglobin of patient S6488980 within the last 24 hours. If it is below 7 g/dL, order a transfusion of 1 unit of packed red blood cells now (stat) and a repeat hemoglobin 4 hours from now (routine).",
+  "context": "It's 2023-03-22T17:30:00+00:00 now. The code for hemoglobin is 'HGB'. The SNOMED code for transfusion of packed red blood cells is 18027006 (quantity: 1 unit). The LOINC code for hemoglobin is 718-7.",
+  "eval_MRN": "S6488980"
+ },
+ {
+  "id": "task7_26",
+  "instruction": "Instruction: Check the most recent hemoglobin of patient S6531922 within the last 24 hours. If it is below 7 g/dL, order a transfusion of 1 unit of packed red blood cells now (stat) and a repeat hemoglobin 4 hours from now (routine).",
+  "context": "It's 2020-11-13T14:24:00+00:00 now. The code for hemoglobin is 'HGB'. The SNOMED code for transfusion of packed red blood cells is 18027006 (quantity: 1 unit). The LOINC code for hemoglobin is 718-7.",
+  "eval_MRN": "S6531922"
+ },
+ {
+  "id": "task7_27",
+  "instruction": "Instruction: Check the most recent hemoglobin of patient S6541609 within the last 24 hours. If it is below 7 g/dL, order a transfusion of 1 unit of packed red blood cells now (stat) and a repeat hemoglobin 4 hours from now (routine).",
+  "context": "It's 2023-10-30T01:52:00+00:00 now. The code for hemoglobin is 'HGB'. The SNOMED code for transfusion of packed red blood cells is 18027006 (quantity: 1 unit). The LOINC code for hemoglobin is 718-7.",
+  "eval_MRN": "S6541609"
+ },
+ {
+  "id": "task7_28",
+  "instruction": "Instruction: Check the most recent hemoglobin of patient S6545016 within the last 24 hours. If it is below 7 g/dL, order a transfusion of 1 unit of packed red blood cells now (stat) and a repeat hemoglobin 4 hours from now (routine).",
+  "context": "It's 2023-10-02T13:54:00+00:00 now. The code for hemoglobin is 'HGB'. The SNOMED code for transfusion of packed red blood cells is 18027006 (quantity: 1 unit). The LOINC code for hemoglobin is 718-7.",
+  "eval_MRN": "S6545016"
+ },
+ {
+  "id": "task7_29",
+  "instruction": "Instruction: Check the most recent hemoglobin of patient S6550627 within the last 24 hours. If it is below 7 g/dL, order a transfusion of 1 unit of packed red blood cells now (stat) and a repeat hemoglobin 4 hours from now (routine).",
+  "context": "It's 2021-03-22T19:00:00+00:00 now. The code for hemoglobin is 'HGB'. The SNOMED code for transfusion of packed red blood cells is 18027006 (quantity: 1 unit). The LOINC code for hemoglobin is 718-7.",
+  "eval_MRN": "S6550627"
+ },
+ {
+  "id": "task7_30",
+  "instruction": "Instruction: Check the most recent hemoglobin of patient S6551923 within the last 24 hours. If it is below 7 g/dL, order a transfusion of 1 unit of packed red blood cells now (stat) and a repeat hemoglobin 4 hours from now (routine).",
+  "context": "It's 2022-04-12T00:21:00+00:00 now. The code for hemoglobin is 'HGB'. The SNOMED code for transfusion of packed red blood cells is 18027006 (quantity: 1 unit). The LOINC code for hemoglobin is 718-7.",
+  "eval_MRN": "S6551923"
+ },
+ {
+  "id": "task8_1",
+  "instruction": "Instruction: Check the most recent potassium of patient S0722219 within the last 24 hours. If it is above 5.5 mmol/L, order a 12-lead ECG now (stat) and a repeat serum potassium 2 hours from now (routine).",
+  "context": "It's 2023-03-17T04:23:00+00:00 now. The code for potassium is 'K'. The SNOMED code for 12-lead ECG is 445118002. The LOINC code for serum potassium is 2823-3.",
+  "eval_MRN": "S0722219"
+ },
+ {
+  "id": "task8_2",
+  "instruction": "Instruction: Check the most recent potassium of patient S0869531 within the last 24 hours. If it is above 5.5 mmol/L, order a 12-lead ECG now (stat) and a repeat serum potassium 2 hours from now (routine).",
+  "context": "It's 2023-11-12T12:04:00+00:00 now. The code for potassium is 'K'. The SNOMED code for 12-lead ECG is 445118002. The LOINC code for serum potassium is 2823-3.",
+  "eval_MRN": "S0869531"
+ },
+ {
+  "id": "task8_3",
+  "instruction": "Instruction: Check the most recent potassium of patient S1023381 within the last 24 hours. If it is above 5.5 mmol/L, order a 12-lead ECG now (stat) and a repeat serum potassium 2 hours from now (routine).",
+  "context": "It's 2023-11-11T05:17:00+00:00 now. The code for potassium is 'K'. The SNOMED code for 12-lead ECG is 445118002. The LOINC code for serum potassium is 2823-3.",
+  "eval_MRN": "S1023381"
+ },
+ {
+  "id": "task8_4",
+  "instruction": "Instruction: Check the most recent potassium of patient S1521703 within the last 24 hours. If it is above 5.5 mmol/L, order a 12-lead ECG now (stat) and a repeat serum potassium 2 hours from now (routine).",
+  "context": "It's 2022-11-06T12:30:00+00:00 now. The code for potassium is 'K'. The SNOMED code for 12-lead ECG is 445118002. The LOINC code for serum potassium is 2823-3.",
+  "eval_MRN": "S1521703"
+ },
+ {
+  "id": "task8_5",
+  "instruction": "Instruction: Check the most recent potassium of patient S1579803 within the last 24 hours. If it is above 5.5 mmol/L, order a 12-lead ECG now (stat) and a repeat serum potassium 2 hours from now (routine).",
+  "context": "It's 2020-03-20T02:21:00+00:00 now. The code for potassium is 'K'. The SNOMED code for 12-lead ECG is 445118002. The LOINC code for serum potassium is 2823-3.",
+  "eval_MRN": "S1579803"
+ },
+ {
+  "id": "task8_6",
+  "instruction": "Instruction: Check the most recent potassium of patient S1796597 within the last 24 hours. If it is above 5.5 mmol/L, order a 12-lead ECG now (stat) and a repeat serum potassium 2 hours from now (routine).",
+  "context": "It's 2023-05-23T15:06:00+00:00 now. The code for potassium is 'K'. The SNOMED code for 12-lead ECG is 445118002. The LOINC code for serum potassium is 2823-3.",
+  "eval_MRN": "S1796597"
+ },
+ {
+  "id": "task8_7",
+  "instruction": "Instruction: Check the most recent potassium of patient S1876702 within the last 24 hours. If it is above 5.5 mmol/L, order a 12-lead ECG now (stat) and a repeat serum potassium 2 hours from now (routine).",
+  "context": "It's 2023-11-09T17:43:00+00:00 now. The code for potassium is 'K'. The SNOMED code for 12-lead ECG is 445118002. The LOINC code for serum potassium is 2823-3.",
+  "eval_MRN": "S1876702"
+ },
+ {
+  "id": "task8_8",
+  "instruction": "Instruction: Check the most recent potassium of patient S1986380 within the last 24 hours. If it is above 5.5 mmol/L, order a 12-lead ECG now (stat) and a repeat serum potassium 2 hours from now (routine).",
+  "context": "It's 2023-01-06T23:46:00+00:00 now. The code for potassium is 'K'. The SNOMED code for 12-lead ECG is 445118002. The LOINC code for serum potassium is 2823-3.",
+  "eval_MRN": "S1986380"
+ },
+ {
+  "id": "task8_9",
+  "instruction": "Instruction: Check the most recent potassium of patient S2016972 within the last 24 hours. If it is above 5.5 mmol/L, order a 12-lead ECG now (stat) and a repeat serum potassium 2 hours from now (routine).",
+  "context": "It's 2023-11-09T19:40:00+00:00 now. The code for potassium is 'K'. The SNOMED code for 12-lead ECG is 445118002. The LOINC code for serum potassium is 2823-3.",
+  "eval_MRN": "S2016972"
+ },
+ {
+  "id": "task8_10",
+  "instruction": "Instruction: Check the most recent potassium of patient S2033286 within the last 24 hours. If it is above 5.5 mmol/L, order a 12-lead ECG now (stat) and a repeat serum potassium 2 hours from now (routine).",
+  "context": "It's 2023-11-12T22:26:00+00:00 now. The code for potassium is 'K'. The SNOMED code for 12-lead ECG is 445118002. The LOINC code for serum potassium is 2823-3.",
+  "eval_MRN": "S2033286"
+ },
+ {
+  "id": "task8_11",
+  "instruction": "Instruction: Check the most recent potassium of patient S2075210 within the last 24 hours. If it is above 5.5 mmol/L, order a 12-lead ECG now (stat) and a repeat serum potassium 2 hours from now (routine).",
+  "context": "It's 2023-11-07T04:55:00+00:00 now. The code for potassium is 'K'. The SNOMED code for 12-lead ECG is 445118002. The LOINC code for serum potassium is 2823-3.",
+  "eval_MRN": "S2075210"
+ },
+ {
+  "id": "task8_12",
+  "instruction": "Instruction: Check the most recent potassium of patient S2111822 within the last 24 hours. If it is above 5.5 mmol/L, order a 12-lead ECG now (stat) and a repeat serum potassium 2 hours from now (routine).",
+  "context": "It's 2023-10-22T00:09:00+00:00 now. The code for potassium is 'K'. The SNOMED code for 12-lead ECG is 445118002. The LOINC code for serum potassium is 2823-3.",
+  "eval_MRN": "S2111822"
+ },
+ {
+  "id": "task8_13",
+  "instruction": "Instruction: Check the most recent potassium of patient S2161163 within the last 24 hours. If it is above 5.5 mmol/L, order a 12-lead ECG now (stat) and a repeat serum potassium 2 hours from now (routine).",
+  "context": "It's 2021-12-10T21:14:00+00:00 now. The code for potassium is 'K'. The SNOMED code for 12-lead ECG is 445118002. The LOINC code for serum potassium is 2823-3.",
+  "eval_MRN": "S2161163"
+ },
+ {
+  "id": "task8_14",
+  "instruction": "Instruction: Check the most recent potassium of patient S2450227 within the last 24 hours. If it is above 5.5 mmol/L, order a 12-lead ECG now (stat) and a repeat serum potassium 2 hours from now (routine).",
+  "context": "It's 2023-01-24T19:31:00+00:00 now. The code for potassium is 'K'. The SNOMED code for 12-lead ECG is 445118002. The LOINC code for serum potassium is 2823-3.",
+  "eval_MRN": "S2450227"
+ },
+ {
+  "id": "task8_15",
+  "instruction": "Instruction: Check the most recent potassium of patient S2823623 within the last 24 hours. If it is above 5.5 mmol/L, order a 12-lead ECG now (stat) and a repeat serum potassium 2 hours from now (routine).",
+  "context": "It's 2023-11-11T21:53:00+00:00 now. The code for potassium is 'K'. The SNOMED code for 12-lead ECG is 445118002. The LOINC code for serum potassium is 2823-3.",
+  "eval_MRN": "S2823623"
+ },
+ {
+  "id": "task8_16",
+  "instruction": "Instruction: Check the most recent potassium of patient S2937751 within the last 24 hours. If it is above 5.5 mmol/L, order a 12-lead ECG now (stat) and a repeat serum potassium 2 hours from now (routine).",
+  "context": "It's 2023-07-07T12:35:00+00:00 now. The code for potassium is 'K'. The SNOMED code for 12-lead ECG is 445118002. The LOINC code for serum potassium is 2823-3.",
+  "eval_MRN": "S2937751"
+ },
+ {
+  "id": "task8_17",
+  "instruction": "Instruction: Check the most recent potassium of patient S3114648 within the last 24 hours. If it is above 5.5 mmol/L, order a 12-lead ECG now (stat) and a repeat serum potassium 2 hours from now (routine).",
+  "context": "It's 2023-11-08T00:36:00+00:00 now. The code for potassium is 'K'. The SNOMED code for 12-lead ECG is 445118002. The LOINC code for serum potassium is 2823-3.",
+  "eval_MRN": "S3114648"
+ },
+ {
+  "id": "task8_18",
+  "instruction": "Instruction: Check the most recent potassium of patient S3228213 within the last 24 hours. If it is above 5.5 mmol/L, order a 12-lead ECG now (stat) and a repeat serum potassium 2 hours from now (routine).",
+  "context": "It's 2023-11-12T20:13:00+00:00 now. The code for potassium is 'K'. The SNOMED code for 12-lead ECG is 445118002. The LOINC code for serum potassium is 2823-3.",
+  "eval_MRN": "S3228213"
+ },
+ {
+  "id": "task8_19",
+  "instruction": "Instruction: Check the most recent potassium of patient S6227720 within the last 24 hours. If it is above 5.5 mmol/L, order a 12-lead ECG now (stat) and a repeat serum potassium 2 hours from now (routine).",
+  "context": "It's 2023-11-11T01:33:00+00:00 now. The code for potassium is 'K'. The SNOMED code for 12-lead ECG is 445118002. The LOINC code for serum potassium is 2823-3.",
+  "eval_MRN": "S6227720"
+ },
+ {
+  "id": "task8_20",
+  "instruction": "Instruction: Check the most recent potassium of patient S6268253 within the last 24 hours. If it is above 5.5 mmol/L, order a 12-lead ECG now (stat) and a repeat serum potassium 2 hours from now (routine).",
+  "context": "It's 2023-11-11T15:34:00+00:00 now. The code for potassium is 'K'. The SNOMED code for 12-lead ECG is 445118002. The LOINC code for serum potassium is 2823-3.",
+  "eval_MRN": "S6268253"
+ },
+ {
+  "id": "task8_21",
+  "instruction": "Instruction: Check the most recent potassium of patient S6309742 within the last 24 hours. If it is above 5.5 mmol/L, order a 12-lead ECG now (stat) and a repeat serum potassium 2 hours from now (routine).",
+  "context": "It's 2021-02-03T15:48:00+00:00 now. The code for potassium is 'K'. The SNOMED code for 12-lead ECG is 445118002. The LOINC code for serum potassium is 2823-3.",
+  "eval_MRN": "S6309742"
+ },
+ {
+  "id": "task8_22",
+  "instruction": "Instruction: Check the most recent potassium of patient S6312049 within the last 24 hours. If it is above 5.5 mmol/L, order a 12-lead ECG now (stat) and a repeat serum potassium 2 hours from now (routine).",
+  "context": "It's 2023-02-18T14:15:00+00:00 now. The code for potassium is 'K'. The SNOMED code for 12-lead ECG is 445118002. The LOINC code for serum potassium is 2823-3.",
+  "eval_MRN": "S6312049"
+ },
+ {
+  "id": "task8_23",
+  "instruction": "Instruction: Check the most recent potassium of patient S6329521 within the last 24 hours. If it is above 5.5 mmol/L, order a 12-lead ECG now (stat) and a repeat serum potassium 2 hours from now (routine).",
+  "context": "It's 2023-02-20T23:09:00+00:00 now. The code for potassium is 'K'. The SNOMED code for 12-lead ECG is 445118002. The LOINC code for serum potassium is 2823-3.",
+  "eval_MRN": "S6329521"
+ },
+ {
+  "id": "task8_24",
+  "instruction": "Instruction: Check the most recent potassium of patient S6330912 within the last 24 hours. If it is above 5.5 mmol/L, order a 12-lead ECG now (stat) and a repeat serum potassium 2 hours from now (routine).",
+  "context": "It's 2022-08-25T16:26:00+00:00 now. The code for potassium is 'K'. The SNOMED code for 12-lead ECG is 445118002. The LOINC code for serum potassium is 2823-3.",
+  "eval_MRN": "S6330912"
+ },
+ {
+  "id": "task8_25",
+  "instruction": "Instruction: Check the most recent potassium of patient S6500497 within the last 24 hours. If it is above 5.5 mmol/L, order a 12-lead ECG now (stat) and a repeat serum potassium 2 hours from now (routine).",
+  "context": "It's 2021-09-02T16:28:00+00:00 now. The code for potassium is 'K'. The SNOMED code for 12-lead ECG is 445118002. The LOINC code for serum potassium is 2823-3.",
+  "eval_MRN": "S6500497"
+ },
+ {
+  "id": "task8_26",
+  "instruction": "Instruction: Check the most recent potassium of patient S6531922 within the last 24 hours. If it is above 5.5 mmol/L, order a 12-lead ECG now (stat) and a repeat serum potassium 2 hours from now (routine).",
+  "context": "It's 2020-10-22T12:45:00+00:00 now. The code for potassium is 'K'. The SNOMED code for 12-lead ECG is 445118002. The LOINC code for serum potassium is 2823-3.",
+  "eval_MRN": "S6531922"
+ },
+ {
+  "id": "task8_27",
+  "instruction": "Instruction: Check the most recent potassium of patient S6539215 within the last 24 hours. If it is above 5.5 mmol/L, order a 12-lead ECG now (stat) and a repeat serum potassium 2 hours from now (routine).",
+  "context": "It's 2023-11-04T12:19:00+00:00 now. The code for potassium is 'K'. The SNOMED code for 12-lead ECG is 445118002. The LOINC code for serum potassium is 2823-3.",
+  "eval_MRN": "S6539215"
+ },
+ {
+  "id": "task8_28",
+  "instruction": "Instruction: Check the most recent potassium of patient S6541353 within the last 24 hours. If it is above 5.5 mmol/L, order a 12-lead ECG now (stat) and a repeat serum potassium 2 hours from now (routine).",
+  "context": "It's 2023-10-27T14:36:00+00:00 now. The code for potassium is 'K'. The SNOMED code for 12-lead ECG is 445118002. The LOINC code for serum potassium is 2823-3.",
+  "eval_MRN": "S6541353"
+ },
+ {
+  "id": "task8_29",
+  "instruction": "Instruction: Check the most recent potassium of patient S6547257 within the last 24 hours. If it is above 5.5 mmol/L, order a 12-lead ECG now (stat) and a repeat serum potassium 2 hours from now (routine).",
+  "context": "It's 2023-09-02T22:46:00+00:00 now. The code for potassium is 'K'. The SNOMED code for 12-lead ECG is 445118002. The LOINC code for serum potassium is 2823-3.",
+  "eval_MRN": "S6547257"
+ },
+ {
+  "id": "task8_30",
+  "instruction": "Instruction: Check the most recent potassium of patient S6549951 within the last 24 hours. If it is above 5.5 mmol/L, order a 12-lead ECG now (stat) and a repeat serum potassium 2 hours from now (routine).",
+  "context": "It's 2020-02-27T18:17:00+00:00 now. The code for potassium is 'K'. The SNOMED code for 12-lead ECG is 445118002. The LOINC code for serum potassium is 2823-3.",
+  "eval_MRN": "S6549951"
+ },
+ {
+  "id": "task9_1",
+  "instruction": "Instruction: Check the most recent sodium of patient S0674240 within the last 24 hours. If it is below 130 mmol/L, order serum osmolality and urine osmolality, both now (stat).",
+  "context": "It's 2023-09-15T10:53:00+00:00 now. The code for sodium is 'NA'. The LOINC code for serum osmolality is 2692-2 and for urine osmolality is 2695-5.",
+  "eval_MRN": "S0674240"
+ },
+ {
+  "id": "task9_2",
+  "instruction": "Instruction: Check the most recent sodium of patient S0722219 within the last 24 hours. If it is below 130 mmol/L, order serum osmolality and urine osmolality, both now (stat).",
+  "context": "It's 2022-03-13T13:51:00+00:00 now. The code for sodium is 'NA'. The LOINC code for serum osmolality is 2692-2 and for urine osmolality is 2695-5.",
+  "eval_MRN": "S0722219"
+ },
+ {
+  "id": "task9_3",
+  "instruction": "Instruction: Check the most recent sodium of patient S0869531 within the last 24 hours. If it is below 130 mmol/L, order serum osmolality and urine osmolality, both now (stat).",
+  "context": "It's 2023-06-24T13:03:00+00:00 now. The code for sodium is 'NA'. The LOINC code for serum osmolality is 2692-2 and for urine osmolality is 2695-5.",
+  "eval_MRN": "S0869531"
+ },
+ {
+  "id": "task9_4",
+  "instruction": "Instruction: Check the most recent sodium of patient S1521703 within the last 24 hours. If it is below 130 mmol/L, order serum osmolality and urine osmolality, both now (stat).",
+  "context": "It's 2022-12-07T04:39:00+00:00 now. The code for sodium is 'NA'. The LOINC code for serum osmolality is 2692-2 and for urine osmolality is 2695-5.",
+  "eval_MRN": "S1521703"
+ },
+ {
+  "id": "task9_5",
+  "instruction": "Instruction: Check the most recent sodium of patient S1579803 within the last 24 hours. If it is below 130 mmol/L, order serum osmolality and urine osmolality, both now (stat).",
+  "context": "It's 2020-03-20T15:28:00+00:00 now. The code for sodium is 'NA'. The LOINC code for serum osmolality is 2692-2 and for urine osmolality is 2695-5.",
+  "eval_MRN": "S1579803"
+ },
+ {
+  "id": "task9_6",
+  "instruction": "Instruction: Check the most recent sodium of patient S1635224 within the last 24 hours. If it is below 130 mmol/L, order serum osmolality and urine osmolality, both now (stat).",
+  "context": "It's 2023-11-10T14:07:00+00:00 now. The code for sodium is 'NA'. The LOINC code for serum osmolality is 2692-2 and for urine osmolality is 2695-5.",
+  "eval_MRN": "S1635224"
+ },
+ {
+  "id": "task9_7",
+  "instruction": "Instruction: Check the most recent sodium of patient S1698248 within the last 24 hours. If it is below 130 mmol/L, order serum osmolality and urine osmolality, both now (stat).",
+  "context": "It's 2022-10-06T23:30:00+00:00 now. The code for sodium is 'NA'. The LOINC code for serum osmolality is 2692-2 and for urine osmolality is 2695-5.",
+  "eval_MRN": "S1698248"
+ },
+ {
+  "id": "task9_8",
+  "instruction": "Instruction: Check the most recent sodium of patient S1733937 within the last 24 hours. If it is below 130 mmol/L, order serum osmolality and urine osmolality, both now (stat).",
+  "context": "It's 2021-01-12T15:20:00+00:00 now. The code for sodium is 'NA'. The LOINC code for serum osmolality is 2692-2 and for urine osmolality is 2695-5.",
+  "eval_MRN": "S1733937"
+ },
+ {
+  "id": "task9_9",
+  "instruction": "Instruction: Check the most recent sodium of patient S1986380 within the last 24 hours. If it is below 130 mmol/L, order serum osmolality and urine osmolality, both now (stat).",
+  "context": "It's 2023-10-06T23:09:00+00:00 now. The code for sodium is 'NA'. The LOINC code for serum osmolality is 2692-2 and for urine osmolality is 2695-5.",
+  "eval_MRN": "S1986380"
+ },
+ {
+  "id": "task9_10",
+  "instruction": "Instruction: Check the most recent sodium of patient S2033286 within the last 24 hours. If it is below 130 mmol/L, order serum osmolality and urine osmolality, both now (stat).",
+  "context": "It's 2023-10-25T12:58:00+00:00 now. The code for sodium is 'NA'. The LOINC code for serum osmolality is 2692-2 and for urine osmolality is 2695-5.",
+  "eval_MRN": "S2033286"
+ },
+ {
+  "id": "task9_11",
+  "instruction": "Instruction: Check the most recent sodium of patient S2111822 within the last 24 hours. If it is below 130 mmol/L, order serum osmolality and urine osmolality, both now (stat).",
+  "context": "It's 2021-04-05T14:25:00+00:00 now. The code for sodium is 'NA'. The LOINC code for serum osmolality is 2692-2 and for urine osmolality is 2695-5.",
+  "eval_MRN": "S2111822"
+ },
+ {
+  "id": "task9_12",
+  "instruction": "Instruction: Check the most recent sodium of patient S2154941 within the last 24 hours. If it is below 130 mmol/L, order serum osmolality and urine osmolality, both now (stat).",
+  "context": "It's 2023-09-20T13:44:00+00:00 now. The code for sodium is 'NA'. The LOINC code for serum osmolality is 2692-2 and for urine osmolality is 2695-5.",
+  "eval_MRN": "S2154941"
+ },
+ {
+  "id": "task9_13",
+  "instruction": "Instruction: Check the most recent sodium of patient S2161163 within the last 24 hours. If it is below 130 mmol/L, order serum osmolality and urine osmolality, both now (stat).",
+  "context": "It's 2021-11-07T15:22:00+00:00 now. The code for sodium is 'NA'. The LOINC code for serum osmolality is 2692-2 and for urine osmolality is 2695-5.",
+  "eval_MRN": "S2161163"
+ },
+ {
+  "id": "task9_14",
+  "instruction": "Instruction: Check the most recent sodium of patient S2402518 within the last 24 hours. If it is below 130 mmol/L, order serum osmolality and urine osmolality, both now (stat).",
+  "context": "It's 2023-11-08T17:05:00+00:00 now. The code for sodium is 'NA'. The LOINC code for serum osmolality is 2692-2 and for urine osmolality is 2695-5.",
+  "eval_MRN": "S2402518"
+ },
+ {
+  "id": "task9_15",
+  "instruction": "Instruction: Check the most recent sodium of patient S2450227 within the last 24 hours. If it is below 130 mmol/L, order serum osmolality and urine osmolality, both now (stat).",
+  "context": "It's 2022-01-31T23:06:00+00:00 now. The code for sodium is 'NA'. The LOINC code for serum osmolality is 2692-2 and for urine osmolality is 2695-5.",
+  "eval_MRN": "S2450227"
+ },
+ {
+  "id": "task9_16",
+  "instruction": "Instruction: Check the most recent sodium of patient S2823623 within the last 24 hours. If it is below 130 mmol/L, order serum osmolality and urine osmolality, both now (stat).",
+  "context": "It's 2023-11-12T01:06:00+00:00 now. The code for sodium is 'NA'. The LOINC code for serum osmolality is 2692-2 and for urine osmolality is 2695-5.",
+  "eval_MRN": "S2823623"
+ },
+ {
+  "id": "task9_17",
+  "instruction": "Instruction: Check the most recent sodium of patient S3084624 within the last 24 hours. If it is below 130 mmol/L, order serum osmolality and urine osmolality, both now (stat).",
+  "context": "It's 2023-11-13T07:40:00+00:00 now. The code for sodium is 'NA'. The LOINC code for serum osmolality is 2692-2 and for urine osmolality is 2695-5.",
+  "eval_MRN": "S3084624"
+ },
+ {
+  "id": "task9_18",
+  "instruction": "Instruction: Check the most recent sodium of patient S3241217 within the last 24 hours. If it is below 130 mmol/L, order serum osmolality and urine osmolality, both now (stat).",
+  "context": "It's 2023-07-05T14:47:00+00:00 now. The code for sodium is 'NA'. The LOINC code for serum osmolality is 2692-2 and for urine osmolality is 2695-5.",
+  "eval_MRN": "S3241217"
+ },
+ {
+  "id": "task9_19",
+  "instruction": "Instruction: Check the most recent sodium of patient S6200102 within the last 24 hours. If it is below 130 mmol/L, order serum osmolality and urine osmolality, both now (stat).",
+  "context": "It's 2022-03-24T18:08:00+00:00 now. The code for sodium is 'NA'. The LOINC code for serum osmolality is 2692-2 and for urine osmolality is 2695-5.",
+  "eval_MRN": "S6200102"
+ },
+ {
+  "id": "task9_20",
+  "instruction": "Instruction: Check the most recent sodium of patient S6227720 within the last 24 hours. If it is below 130 mmol/L, order serum osmolality and urine osmolality, both now (stat).",
+  "context": "It's 2023-10-17T11:46:00+00:00 now. The code for sodium is 'NA'. The LOINC code for serum osmolality is 2692-2 and for urine osmolality is 2695-5.",
+  "eval_MRN": "S6227720"
+ },
+ {
+  "id": "task9_21",
+  "instruction": "Instruction: Check the most recent sodium of patient S6307599 within the last 24 hours. If it is below 130 mmol/L, order serum osmolality and urine osmolality, both now (stat).",
+  "context": "It's 2023-11-06T15:38:00+00:00 now. The code for sodium is 'NA'. The LOINC code for serum osmolality is 2692-2 and for urine osmolality is 2695-5.",
+  "eval_MRN": "S6307599"
+ },
+ {
+  "id": "task9_22",
+  "instruction": "Instruction: Check the most recent sodium of patient S6312049 within the last 24 hours. If it is below 130 mmol/L, order serum osmolality and urine osmolality, both now (stat).",
+  "context": "It's 2022-12-26T07:35:00+00:00 now. The code for sodium is 'NA'. The LOINC code for serum osmolality is 2692-2 and for urine osmolality is 2695-5.",
+  "eval_MRN": "S6312049"
+ },
+ {
+  "id": "task9_23",
+  "instruction": "Instruction: Check the most recent sodium of patient S6315806 within the last 24 hours. If it is below 130 mmol/L, order serum osmolality and urine osmolality, both now (stat).",
+  "context": "It's 2023-11-12T15:49:00+00:00 now. The code for sodium is 'NA'. The LOINC code for serum osmolality is 2692-2 and for urine osmolality is 2695-5.",
+  "eval_MRN": "S6315806"
+ },
+ {
+  "id": "task9_24",
+  "instruction": "Instruction: Check the most recent sodium of patient S6330912 within the last 24 hours. If it is below 130 mmol/L, order serum osmolality and urine osmolality, both now (stat).",
+  "context": "It's 2021-10-07T17:53:00+00:00 now. The code for sodium is 'NA'. The LOINC code for serum osmolality is 2692-2 and for urine osmolality is 2695-5.",
+  "eval_MRN": "S6330912"
+ },
+ {
+  "id": "task9_25",
+  "instruction": "Instruction: Check the most recent sodium of patient S6468480 within the last 24 hours. If it is below 130 mmol/L, order serum osmolality and urine osmolality, both now (stat).",
+  "context": "It's 2023-01-04T01:28:00+00:00 now. The code for sodium is 'NA'. The LOINC code for serum osmolality is 2692-2 and for urine osmolality is 2695-5.",
+  "eval_MRN": "S6468480"
+ },
+ {
+  "id": "task9_26",
+  "instruction": "Instruction: Check the most recent sodium of patient S6531922 within the last 24 hours. If it is below 130 mmol/L, order serum osmolality and urine osmolality, both now (stat).",
+  "context": "It's 2020-10-14T14:10:00+00:00 now. The code for sodium is 'NA'. The LOINC code for serum osmolality is 2692-2 and for urine osmolality is 2695-5.",
+  "eval_MRN": "S6531922"
+ },
+ {
+  "id": "task9_27",
+  "instruction": "Instruction: Check the most recent sodium of patient S6534835 within the last 24 hours. If it is below 130 mmol/L, order serum osmolality and urine osmolality, both now (stat).",
+  "context": "It's 2023-11-13T03:15:00+00:00 now. The code for sodium is 'NA'. The LOINC code for serum osmolality is 2692-2 and for urine osmolality is 2695-5.",
+  "eval_MRN": "S6534835"
+ },
+ {
+  "id": "task9_28",
+  "instruction": "Instruction: Check the most recent sodium of patient S6545016 within the last 24 hours. If it is below 130 mmol/L, order serum osmolality and urine osmolality, both now (stat).",
+  "context": "It's 2022-08-08T18:31:00+00:00 now. The code for sodium is 'NA'. The LOINC code for serum osmolality is 2692-2 and for urine osmolality is 2695-5.",
+  "eval_MRN": "S6545016"
+ },
+ {
+  "id": "task9_29",
+  "instruction": "Instruction: Check the most recent sodium of patient S6547257 within the last 24 hours. If it is below 130 mmol/L, order serum osmolality and urine osmolality, both now (stat).",
+  "context": "It's 2023-09-16T13:55:00+00:00 now. The code for sodium is 'NA'. The LOINC code for serum osmolality is 2692-2 and for urine osmolality is 2695-5.",
+  "eval_MRN": "S6547257"
+ },
+ {
+  "id": "task9_30",
+  "instruction": "Instruction: Check the most recent sodium of patient S6550627 within the last 24 hours. If it is below 130 mmol/L, order serum osmolality and urine osmolality, both now (stat).",
+  "context": "It's 2023-07-29T16:24:00+00:00 now. The code for sodium is 'NA'. The LOINC code for serum osmolality is 2692-2 and for urine osmolality is 2695-5.",
+  "eval_MRN": "S6550627"
+ },
+ {
+  "id": "task10_1",
+  "instruction": "Instruction: Check the most recent ALT of patient S0547588 within the last 7 days. If it is above 120 U/L, order an acute hepatitis panel now (routine priority).",
+  "context": "It's 2023-11-07T13:01:00+00:00 now. The code for ALT is 'ALT'. The LOINC code for the acute hepatitis panel is 24363-4.",
+  "eval_MRN": "S0547588"
+ },
+ {
+  "id": "task10_2",
+  "instruction": "Instruction: Check the most recent ALT of patient S0581164 within the last 7 days. If it is above 120 U/L, order an acute hepatitis panel now (routine priority).",
+  "context": "It's 2022-10-23T02:41:00+00:00 now. The code for ALT is 'ALT'. The LOINC code for the acute hepatitis panel is 24363-4.",
+  "eval_MRN": "S0581164"
+ },
+ {
+  "id": "task10_3",
+  "instruction": "Instruction: Check the most recent ALT of patient S0674240 within the last 7 days. If it is above 120 U/L, order an acute hepatitis panel now (routine priority).",
+  "context": "It's 2023-07-01T14:05:00+00:00 now. The code for ALT is 'ALT'. The LOINC code for the acute hepatitis panel is 24363-4.",
+  "eval_MRN": "S0674240"
+ },
+ {
+  "id": "task10_4",
+  "instruction": "Instruction: Check the most recent ALT of patient S0722219 within the last 7 days. If it is above 120 U/L, order an acute hepatitis panel now (routine priority).",
+  "context": "It's 2023-03-16T19:49:00+00:00 now. The code for ALT is 'ALT'. The LOINC code for the acute hepatitis panel is 24363-4.",
+  "eval_MRN": "S0722219"
+ },
+ {
+  "id": "task10_5",
+  "instruction": "Instruction: Check the most recent ALT of patient S0869531 within the last 7 days. If it is above 120 U/L, order an acute hepatitis panel now (routine priority).",
+  "context": "It's 2019-08-31T01:16:00+00:00 now. The code for ALT is 'ALT'. The LOINC code for the acute hepatitis panel is 24363-4.",
+  "eval_MRN": "S0869531"
+ },
+ {
+  "id": "task10_6",
+  "instruction": "Instruction: Check the most recent ALT of patient S1374652 within the last 7 days. If it is above 120 U/L, order an acute hepatitis panel now (routine priority).",
+  "context": "It's 2023-11-02T12:24:00+00:00 now. The code for ALT is 'ALT'. The LOINC code for the acute hepatitis panel is 24363-4.",
+  "eval_MRN": "S1374652"
+ },
+ {
+  "id": "task10_7",
+  "instruction": "Instruction: Check the most recent ALT of patient S1521703 within the last 7 days. If it is above 120 U/L, order an acute hepatitis panel now (routine priority).",
+  "context": "It's 2023-05-19T19:24:00+00:00 now. The code for ALT is 'ALT'. The LOINC code for the acute hepatitis panel is 24363-4.",
+  "eval_MRN": "S1521703"
+ },
+ {
+  "id": "task10_8",
+  "instruction": "Instruction: Check the most recent ALT of patient S1635224 within the last 7 days. If it is above 120 U/L, order an acute hepatitis panel now (routine priority).",
+  "context": "It's 2023-11-10T02:13:00+00:00 now. The code for ALT is 'ALT'. The LOINC code for the acute hepatitis panel is 24363-4.",
+  "eval_MRN": "S1635224"
+ },
+ {
+  "id": "task10_9",
+  "instruction": "Instruction: Check the most recent ALT of patient S1733937 within the last 7 days. If it is above 120 U/L, order an acute hepatitis panel now (routine priority).",
+  "context": "It's 2021-01-15T20:25:00+00:00 now. The code for ALT is 'ALT'. The LOINC code for the acute hepatitis panel is 24363-4.",
+  "eval_MRN": "S1733937"
+ },
+ {
+  "id": "task10_10",
+  "instruction": "Instruction: Check the most recent ALT of patient S1736710 within the last 7 days. If it is above 120 U/L, order an acute hepatitis panel now (routine priority).",
+  "context": "It's 2019-11-21T09:05:00+00:00 now. The code for ALT is 'ALT'. The LOINC code for the acute hepatitis panel is 24363-4.",
+  "eval_MRN": "S1736710"
+ },
+ {
+  "id": "task10_11",
+  "instruction": "Instruction: Check the most recent ALT of patient S1876702 within the last 7 days. If it is above 120 U/L, order an acute hepatitis panel now (routine priority).",
+  "context": "It's 2023-11-04T02:38:00+00:00 now. The code for ALT is 'ALT'. The LOINC code for the acute hepatitis panel is 24363-4.",
+  "eval_MRN": "S1876702"
+ },
+ {
+  "id": "task10_12",
+  "instruction": "Instruction: Check the most recent ALT of patient S2154941 within the last 7 days. If it is above 120 U/L, order an acute hepatitis panel now (routine priority).",
+  "context": "It's 2022-09-02T01:28:00+00:00 now. The code for ALT is 'ALT'. The LOINC code for the acute hepatitis panel is 24363-4.",
+  "eval_MRN": "S2154941"
+ },
+ {
+  "id": "task10_13",
+  "instruction": "Instruction: Check the most recent ALT of patient S2161163 within the last 7 days. If it is above 120 U/L, order an acute hepatitis panel now (routine priority).",
+  "context": "It's 2021-10-26T14:40:00+00:00 now. The code for ALT is 'ALT'. The LOINC code for the acute hepatitis panel is 24363-4.",
+  "eval_MRN": "S2161163"
+ },
+ {
+  "id": "task10_14",
+  "instruction": "Instruction: Check the most recent ALT of patient S2380121 within the last 7 days. If it is above 120 U/L, order an acute hepatitis panel now (routine priority).",
+  "context": "It's 2023-11-11T13:44:00+00:00 now. The code for ALT is 'ALT'. The LOINC code for the acute hepatitis panel is 24363-4.",
+  "eval_MRN": "S2380121"
+ },
+ {
+  "id": "task10_15",
+  "instruction": "Instruction: Check the most recent ALT of patient S2450227 within the last 7 days. If it is above 120 U/L, order an acute hepatitis panel now (routine priority).",
+  "context": "It's 2023-11-10T15:25:00+00:00 now. The code for ALT is 'ALT'. The LOINC code for the acute hepatitis panel is 24363-4.",
+  "eval_MRN": "S2450227"
+ },
+ {
+  "id": "task10_16",
+  "instruction": "Instruction: Check the most recent ALT of patient S2937751 within the last 7 days. If it is above 120 U/L, order an acute hepatitis panel now (routine priority).",
+  "context": "It's 2023-06-04T12:02:00+00:00 now. The code for ALT is 'ALT'. The LOINC code for the acute hepatitis panel is 24363-4.",
+  "eval_MRN": "S2937751"
+ },
+ {
+  "id": "task10_17",
+  "instruction": "Instruction: Check the most recent ALT of patient S3057899 within the last 7 days. If it is above 120 U/L, order an acute hepatitis panel now (routine priority).",
+  "context": "It's 2023-11-13T00:31:00+00:00 now. The code for ALT is 'ALT'. The LOINC code for the acute hepatitis panel is 24363-4.",
+  "eval_MRN": "S3057899"
+ },
+ {
+  "id": "task10_18",
+  "instruction": "Instruction: Check the most recent ALT of patient S3236936 within the last 7 days. If it is above 120 U/L, order an acute hepatitis panel now (routine priority).",
+  "context": "It's 2023-11-13T02:19:00+00:00 now. The code for ALT is 'ALT'. The LOINC code for the acute hepatitis panel is 24363-4.",
+  "eval_MRN": "S3236936"
+ },
+ {
+  "id": "task10_19",
+  "instruction": "Instruction: Check the most recent ALT of patient S6212774 within the last 7 days. If it is above 120 U/L, order an acute hepatitis panel now (routine priority).",
+  "context": "It's 2023-06-18T14:11:00+00:00 now. The code for ALT is 'ALT'. The LOINC code for the acute hepatitis panel is 24363-4.",
+  "eval_MRN": "S6212774"
+ },
+ {
+  "id": "task10_20",
+  "instruction": "Instruction: Check the most recent ALT of patient S6222362 within the last 7 days. If it is above 120 U/L, order an acute hepatitis panel now (routine priority).",
+  "context": "It's 2023-09-08T22:28:00+00:00 now. The code for ALT is 'ALT'. The LOINC code for the acute hepatitis panel is 24363-4.",
+  "eval_MRN": "S6222362"
+ },
+ {
+  "id": "task10_21",
+  "instruction": "Instruction: Check the most recent ALT of patient S6227720 within the last 7 days. If it is above 120 U/L, order an acute hepatitis panel now (routine priority).",
+  "context": "It's 2023-11-04T02:53:00+00:00 now. The code for ALT is 'ALT'. The LOINC code for the acute hepatitis panel is 24363-4.",
+  "eval_MRN": "S6227720"
+ },
+ {
+  "id": "task10_22",
+  "instruction": "Instruction: Check the most recent ALT of patient S6264184 within the last 7 days. If it is above 120 U/L, order an acute hepatitis panel now (routine priority).",
+  "context": "It's 2023-11-11T15:31:00+00:00 now. The code for ALT is 'ALT'. The LOINC code for the acute hepatitis panel is 24363-4.",
+  "eval_MRN": "S6264184"
+ },
+ {
+  "id": "task10_23",
+  "instruction": "Instruction: Check the most recent ALT of patient S6307599 within the last 7 days. If it is above 120 U/L, order an acute hepatitis panel now (routine priority).",
+  "context": "It's 2023-11-09T15:18:00+00:00 now. The code for ALT is 'ALT'. The LOINC code for the acute hepatitis panel is 24363-4.",
+  "eval_MRN": "S6307599"
+ },
+ {
+  "id": "task10_24",
+  "instruction": "Instruction: Check the most recent ALT of patient S6309742 within the last 7 days. If it is above 120 U/L, order an acute hepatitis panel now (routine priority).",
+  "context": "It's 2021-12-18T16:44:00+00:00 now. The code for ALT is 'ALT'. The LOINC code for the acute hepatitis panel is 24363-4.",
+  "eval_MRN": "S6309742"
+ },
+ {
+  "id": "task10_25",
+  "instruction": "Instruction: Check the most recent ALT of patient S6312049 within the last 7 days. If it is above 120 U/L, order an acute hepatitis panel now (routine priority).",
+  "context": "It's 2023-02-13T15:19:00+00:00 now. The code for ALT is 'ALT'. The LOINC code for the acute hepatitis panel is 24363-4.",
+  "eval_MRN": "S6312049"
+ },
+ {
+  "id": "task10_26",
+  "instruction": "Instruction: Check the most recent ALT of patient S6329521 within the last 7 days. If it is above 120 U/L, order an acute hepatitis panel now (routine priority).",
+  "context": "It's 2022-11-28T14:43:00+00:00 now. The code for ALT is 'ALT'. The LOINC code for the acute hepatitis panel is 24363-4.",
+  "eval_MRN": "S6329521"
+ },
+ {
+  "id": "task10_27",
+  "instruction": "Instruction: Check the most recent ALT of patient S6330912 within the last 7 days. If it is above 120 U/L, order an acute hepatitis panel now (routine priority).",
+  "context": "It's 2022-05-08T16:30:00+00:00 now. The code for ALT is 'ALT'. The LOINC code for the acute hepatitis panel is 24363-4.",
+  "eval_MRN": "S6330912"
+ },
+ {
+  "id": "task10_28",
+  "instruction": "Instruction: Check the most recent ALT of patient S6426560 within the last 7 days. If it is above 120 U/L, order an acute hepatitis panel now (routine priority).",
+  "context": "It's 2023-10-20T12:49:00+00:00 now. The code for ALT is 'ALT'. The LOINC code for the acute hepatitis panel is 24363-4.",
+  "eval_MRN": "S6426560"
+ },
+ {
+  "id": "task10_29",
+  "instruction": "Instruction: Check the most recent ALT of patient S6488980 within the last 7 days. If it is above 120 U/L, order an acute hepatitis panel now (routine priority).",
+  "context": "It's 2023-07-05T18:33:00+00:00 now. The code for ALT is 'ALT'. The LOINC code for the acute hepatitis panel is 24363-4.",
+  "eval_MRN": "S6488980"
+ },
+ {
+  "id": "task10_30",
+  "instruction": "Instruction: Check the most recent ALT of patient S6545016 within the last 7 days. If it is above 120 U/L, order an acute hepatitis panel now (routine priority).",
+  "context": "It's 2022-10-17T18:03:00+00:00 now. The code for ALT is 'ALT'. The LOINC code for the acute hepatitis panel is 24363-4.",
+  "eval_MRN": "S6545016"
+ },
+ {
+  "id": "task11_1",
+  "instruction": "Instruction: Check the most recent glucose of patient S0581164 within the last 24 hours. If it is above 300 mg/dL, order a serum beta-hydroxybutyrate now (stat) and a repeat glucose 1 hour from now (routine).",
+  "context": "It's 2022-10-30T10:53:00+00:00 now. The code for glucose is 'GLU'. The LOINC code for serum beta-hydroxybutyrate is 6873-4 and for serum glucose is 2345-7.",
+  "eval_MRN": "S0581164"
+ },
+ {
+  "id": "task11_2",
+  "instruction": "Instruction: Check the most recent glucose of patient S0722219 within the last 24 hours. If it is above 300 mg/dL, order a serum beta-hydroxybutyrate now (stat) and a repeat glucose 1 hour from now (routine).",
+  "context": "It's 2023-02-23T01:55:00+00:00 now. The code for glucose is 'GLU'. The LOINC code for serum beta-hydroxybutyrate is 6873-4 and for serum glucose is 2345-7.",
+  "eval_MRN": "S0722219"
+ },
+ {
+  "id": "task11_3",
+  "instruction": "Instruction: Check the most recent glucose of patient S0869531 within the last 24 hours. If it is above 300 mg/dL, order a serum beta-hydroxybutyrate now (stat) and a repeat glucose 1 hour from now (routine).",
+  "context": "It's 2023-06-16T22:21:00+00:00 now. The code for glucose is 'GLU'. The LOINC code for serum beta-hydroxybutyrate is 6873-4 and for serum glucose is 2345-7.",
+  "eval_MRN": "S0869531"
+ },
+ {
+  "id": "task11_4",
+  "instruction": "Instruction: Check the most recent glucose of patient S1023381 within the last 24 hours. If it is above 300 mg/dL, order a serum beta-hydroxybutyrate now (stat) and a repeat glucose 1 hour from now (routine).",
+  "context": "It's 2023-11-13T02:45:00+00:00 now. The code for glucose is 'GLU'. The LOINC code for serum beta-hydroxybutyrate is 6873-4 and for serum glucose is 2345-7.",
+  "eval_MRN": "S1023381"
+ },
+ {
+  "id": "task11_5",
+  "instruction": "Instruction: Check the most recent glucose of patient S1311412 within the last 24 hours. If it is above 300 mg/dL, order a serum beta-hydroxybutyrate now (stat) and a repeat glucose 1 hour from now (routine).",
+  "context": "It's 2019-09-10T19:16:00+00:00 now. The code for glucose is 'GLU'. The LOINC code for serum beta-hydroxybutyrate is 6873-4 and for serum glucose is 2345-7.",
+  "eval_MRN": "S1311412"
+ },
+ {
+  "id": "task11_6",
+  "instruction": "Instruction: Check the most recent glucose of patient S1521703 within the last 24 hours. If it is above 300 mg/dL, order a serum beta-hydroxybutyrate now (stat) and a repeat glucose 1 hour from now (routine).",
+  "context": "It's 2022-11-05T08:00:00+00:00 now. The code for glucose is 'GLU'. The LOINC code for serum beta-hydroxybutyrate is 6873-4 and for serum glucose is 2345-7.",
+  "eval_MRN": "S1521703"
+ },
+ {
+  "id": "task11_7",
+  "instruction": "Instruction: Check the most recent glucose of patient S1579803 within the last 24 hours. If it is above 300 mg/dL, order a serum beta-hydroxybutyrate now (stat) and a repeat glucose 1 hour from now (routine).",
+  "context": "It's 2023-09-22T04:23:00+00:00 now. The code for glucose is 'GLU'. The LOINC code for serum beta-hydroxybutyrate is 6873-4 and for serum glucose is 2345-7.",
+  "eval_MRN": "S1579803"
+ },
+ {
+  "id": "task11_8",
+  "instruction": "Instruction: Check the most recent glucose of patient S1635224 within the last 24 hours. If it is above 300 mg/dL, order a serum beta-hydroxybutyrate now (stat) and a repeat glucose 1 hour from now (routine).",
+  "context": "It's 2023-11-09T00:25:00+00:00 now. The code for glucose is 'GLU'. The LOINC code for serum beta-hydroxybutyrate is 6873-4 and for serum glucose is 2345-7.",
+  "eval_MRN": "S1635224"
+ },
+ {
+  "id": "task11_9",
+  "instruction": "Instruction: Check the most recent glucose of patient S1733937 within the last 24 hours. If it is above 300 mg/dL, order a serum beta-hydroxybutyrate now (stat) and a repeat glucose 1 hour from now (routine).",
+  "context": "It's 2021-01-02T21:49:00+00:00 now. The code for glucose is 'GLU'. The LOINC code for serum beta-hydroxybutyrate is 6873-4 and for serum glucose is 2345-7.",
+  "eval_MRN": "S1733937"
+ },
+ {
+  "id": "task11_10",
+  "instruction": "Instruction: Check the most recent glucose of patient S1736710 within the last 24 hours. If it is above 300 mg/dL, order a serum beta-hydroxybutyrate now (stat) and a repeat glucose 1 hour from now (routine).",
+  "context": "It's 2019-12-21T16:41:00+00:00 now. The code for glucose is 'GLU'. The LOINC code for serum beta-hydroxybutyrate is 6873-4 and for serum glucose is 2345-7.",
+  "eval_MRN": "S1736710"
+ },
+ {
+  "id": "task11_11",
+  "instruction": "Instruction: Check the most recent glucose of patient S1876702 within the last 24 hours. If it is above 300 mg/dL, order a serum beta-hydroxybutyrate now (stat) and a repeat glucose 1 hour from now (routine).",
+  "context": "It's 2023-10-30T20:38:00+00:00 now. The code for glucose is 'GLU'. The LOINC code for serum beta-hydroxybutyrate is 6873-4 and for serum glucose is 2345-7.",
+  "eval_MRN": "S1876702"
+ },
+ {
+  "id": "task11_12",
+  "instruction": "Instruction: Check the most recent glucose of patient S2154941 within the last 24 hours. If it is above 300 mg/dL, order a serum beta-hydroxybutyrate now (stat) and a repeat glucose 1 hour from now (routine).",
+  "context": "It's 2022-10-21T14:14:00+00:00 now. The code for glucose is 'GLU'. The LOINC code for serum beta-hydroxybutyrate is 6873-4 and for serum glucose is 2345-7.",
+  "eval_MRN": "S2154941"
+ },
+ {
+  "id": "task11_13",
+  "instruction": "Instruction: Check the most recent glucose of patient S2161163 within the last 24 hours. If it is above 300 mg/dL, order a serum beta-hydroxybutyrate now (stat) and a repeat glucose 1 hour from now (routine).",
+  "context": "It's 2023-10-27T01:19:00+00:00 now. The code for glucose is 'GLU'. The LOINC code for serum beta-hydroxybutyrate is 6873-4 and for serum glucose is 2345-7.",
+  "eval_MRN": "S2161163"
+ },
+ {
+  "id": "task11_14",
+  "instruction": "Instruction: Check the most recent glucose of patient S2199765 within the last 24 hours. If it is above 300 mg/dL, order a serum beta-hydroxybutyrate now (stat) and a repeat glucose 1 hour from now (routine).",
+  "context": "It's 2023-09-17T16:57:00+00:00 now. The code for glucose is 'GLU'. The LOINC code for serum beta-hydroxybutyrate is 6873-4 and for serum glucose is 2345-7.",
+  "eval_MRN": "S2199765"
+ },
+ {
+  "id": "task11_15",
+  "instruction": "Instruction: Check the most recent glucose of patient S2402518 within the last 24 hours. If it is above 300 mg/dL, order a serum beta-hydroxybutyrate now (stat) and a repeat glucose 1 hour from now (routine).",
+  "context": "It's 2023-11-11T03:16:00+00:00 now. The code for glucose is 'GLU'. The LOINC code for serum beta-hydroxybutyrate is 6873-4 and for serum glucose is 2345-7.",
+  "eval_MRN": "S2402518"
+ },
+ {
+  "id": "task11_16",
+  "instruction": "Instruction: Check the most recent glucose of patient S2937751 within the last 24 hours. If it is above 300 mg/dL, order a serum beta-hydroxybutyrate now (stat) and a repeat glucose 1 hour from now (routine).",
+  "context": "It's 2023-07-14T02:27:00+00:00 now. The code for glucose is 'GLU'. The LOINC code for serum beta-hydroxybutyrate is 6873-4 and for serum glucose is 2345-7.",
+  "eval_MRN": "S2937751"
+ },
+ {
+  "id": "task11_17",
+  "instruction": "Instruction: Check the most recent glucose of patient S3070524 within the last 24 hours. If it is above 300 mg/dL, order a serum beta-hydroxybutyrate now (stat) and a repeat glucose 1 hour from now (routine).",
+  "context": "It's 2023-11-05T01:44:00+00:00 now. The code for glucose is 'GLU'. The LOINC code for serum beta-hydroxybutyrate is 6873-4 and for serum glucose is 2345-7.",
+  "eval_MRN": "S3070524"
+ },
+ {
+  "id": "task11_18",
+  "instruction": "Instruction: Check the most recent glucose of patient S3114648 within the last 24 hours. If it is above 300 mg/dL, order a serum beta-hydroxybutyrate now (stat) and a repeat glucose 1 hour from now (routine).",
+  "context": "It's 2023-11-13T05:34:00+00:00 now. The code for glucose is 'GLU'. The LOINC code for serum beta-hydroxybutyrate is 6873-4 and for serum glucose is 2345-7.",
+  "eval_MRN": "S3114648"
+ },
+ {
+  "id": "task11_19",
+  "instruction": "Instruction: Check the most recent glucose of patient S3213957 within the last 24 hours. If it is above 300 mg/dL, order a serum beta-hydroxybutyrate now (stat) and a repeat glucose 1 hour from now (routine).",
+  "context": "It's 2023-09-16T23:36:00+00:00 now. The code for glucose is 'GLU'. The LOINC code for serum beta-hydroxybutyrate is 6873-4 and for serum glucose is 2345-7.",
+  "eval_MRN": "S3213957"
+ },
+ {
+  "id": "task11_20",
+  "instruction": "Instruction: Check the most recent glucose of patient S6192632 within the last 24 hours. If it is above 300 mg/dL, order a serum beta-hydroxybutyrate now (stat) and a repeat glucose 1 hour from now (routine).",
+  "context": "It's 2022-06-02T13:17:00+00:00 now. The code for glucose is 'GLU'. The LOINC code for serum beta-hydroxybutyrate is 6873-4 and for serum glucose is 2345-7.",
+  "eval_MRN": "S6192632"
+ },
+ {
+  "id": "task11_21",
+  "instruction": "Instruction: Check the most recent glucose of patient S6212774 within the last 24 hours. If it is above 300 mg/dL, order a serum beta-hydroxybutyrate now (stat) and a repeat glucose 1 hour from now (routine).",
+  "context": "It's 2023-10-03T06:08:00+00:00 now. The code for glucose is 'GLU'. The LOINC code for serum beta-hydroxybutyrate is 6873-4 and for serum glucose is 2345-7.",
+  "eval_MRN": "S6212774"
+ },
+ {
+  "id": "task11_22",
+  "instruction": "Instruction: Check the most recent glucose of patient S6222362 within the last 24 hours. If it is above 300 mg/dL, order a serum beta-hydroxybutyrate now (stat) and a repeat glucose 1 hour from now (routine).",
+  "context": "It's 2023-09-03T05:49:00+00:00 now. The code for glucose is 'GLU'. The LOINC code for serum beta-hydroxybutyrate is 6873-4 and for serum glucose is 2345-7.",
+  "eval_MRN": "S6222362"
+ },
+ {
+  "id": "task11_23",
+  "instruction": "Instruction: Check the most recent glucose of patient S6227720 within the last 24 hours. If it is above 300 mg/dL, order a serum beta-hydroxybutyrate now (stat) and a repeat glucose 1 hour from now (routine).",
+  "context": "It's 2023-11-12T01:46:00+00:00 now. The code for glucose is 'GLU'. The LOINC code for serum beta-hydroxybutyrate is 6873-4 and for serum glucose is 2345-7.",
+  "eval_MRN": "S6227720"
+ },
+ {
+  "id": "task11_24",
+  "instruction": "Instruction: Check the most recent glucose of patient S6268253 within the last 24 hours. If it is above 300 mg/dL, order a serum beta-hydroxybutyrate now (stat) and a repeat glucose 1 hour from now (routine).",
+  "context": "It's 2021-04-23T16:50:00+00:00 now. The code for glucose is 'GLU'. The LOINC code for serum beta-hydroxybutyrate is 6873-4 and for serum glucose is 2345-7.",
+  "eval_MRN": "S6268253"
+ },
+ {
+  "id": "task11_25",
+  "instruction": "Instruction: Check the most recent glucose of patient S6309742 within the last 24 hours. If it is above 300 mg/dL, order a serum beta-hydroxybutyrate now (stat) and a repeat glucose 1 hour from now (routine).",
+  "context": "It's 2021-03-14T19:47:00+00:00 now. The code for glucose is 'GLU'. The LOINC code for serum beta-hydroxybutyrate is 6873-4 and for serum glucose is 2345-7.",
+  "eval_MRN": "S6309742"
+ },
+ {
+  "id": "task11_26",
+  "instruction": "Instruction: Check the most recent glucose of patient S6312049 within the last 24 hours. If it is above 300 mg/dL, order a serum beta-hydroxybutyrate now (stat) and a repeat glucose 1 hour from now (routine).",
+  "context": "It's 2022-12-26T11:28:00+00:00 now. The code for glucose is 'GLU'. The LOINC code for serum beta-hydroxybutyrate is 6873-4 and for serum glucose is 2345-7.",
+  "eval_MRN": "S6312049"
+ },
+ {
+  "id": "task11_27",
+  "instruction": "Instruction: Check the most recent glucose of patient S6330912 within the last 24 hours. If it is above 300 mg/dL, order a serum beta-hydroxybutyrate now (stat) and a repeat glucose 1 hour from now (routine).",
+  "context": "It's 2023-06-05T14:57:00+00:00 now. The code for glucose is 'GLU'. The LOINC code for serum beta-hydroxybutyrate is 6873-4 and for serum glucose is 2345-7.",
+  "eval_MRN": "S6330912"
+ },
+ {
+  "id": "task11_28",
+  "instruction": "Instruction: Check the most recent glucose of patient S6426560 within the last 24 hours. If it is above 300 mg/dL, order a serum beta-hydroxybutyrate now (stat) and a repeat glucose 1 hour from now (routine).",
+  "context": "It's 2023-11-03T22:44:00+00:00 now. The code for glucose is 'GLU'. The LOINC code for serum beta-hydroxybutyrate is 6873-4 and for serum glucose is 2345-7.",
+  "eval_MRN": "S6426560"
+ },
+ {
+  "id": "task11_29",
+  "instruction": "Instruction: Check the most recent glucose of patient S6530532 within the last 24 hours. If it is above 300 mg/dL, order a serum beta-hydroxybutyrate now (stat) and a repeat glucose 1 hour from now (routine).",
+  "context": "It's 2023-08-20T02:26:00+00:00 now. The code for glucose is 'GLU'. The LOINC code for serum beta-hydroxybutyrate is 6873-4 and for serum glucose is 2345-7.",
+  "eval_MRN": "S6530532"
+ },
+ {
+  "id": "task11_30",
+  "instruction": "Instruction: Check the most recent glucose of patient S6541609 within the last 24 hours. If it is above 300 mg/dL, order a serum beta-hydroxybutyrate now (stat) and a repeat glucose 1 hour from now (routine).",
+  "context": "It's 2023-11-01T22:26:00+00:00 now. The code for glucose is 'GLU'. The LOINC code for serum beta-hydroxybutyrate is 6873-4 and for serum glucose is 2345-7.",
+  "eval_MRN": "S6541609"
+ },
+ {
+  "id": "task12_1",
+  "instruction": "Instruction: Check the most recent platelet count of patient S0581164 within the last 24 hours. If it is below 50 x10^3/uL, place a referral to hematology now (urgent priority).",
+  "context": "It's 2023-06-26T12:55:00+00:00 now. The code for platelet count is 'PLT'. The SNOMED code for referral to hematology service is 306181000.",
+  "eval_MRN": "S0581164"
+ },
+ {
+  "id": "task12_2",
+  "instruction": "Instruction: Check the most recent platelet count of patient S0658561 within the last 24 hours. If it is below 50 x10^3/uL, place a referral to hematology now (urgent priority).",
+  "context": "It's 2023-11-05T01:50:00+00:00 now. The code for platelet count is 'PLT'. The SNOMED code for referral to hematology service is 306181000.",
+  "eval_MRN": "S0658561"
+ },
+ {
+  "id": "task12_3",
+  "instruction": "Instruction: Check the most recent platelet count of patient S0674240 within the last 24 hours. If it is below 50 x10^3/uL, place a referral to hematology now (urgent priority).",
+  "context": "It's 2023-11-07T18:34:00+00:00 now. The code for platelet count is 'PLT'. The SNOMED code for referral to hematology service is 306181000.",
+  "eval_MRN": "S0674240"
+ },
+ {
+  "id": "task12_4",
+  "instruction": "Instruction: Check the most recent platelet count of patient S0869531 within the last 24 hours. If it is below 50 x10^3/uL, place a referral to hematology now (urgent priority).",
+  "context": "It's 2023-01-29T02:06:00+00:00 now. The code for platelet count is 'PLT'. The SNOMED code for referral to hematology service is 306181000.",
+  "eval_MRN": "S0869531"
+ },
+ {
+  "id": "task12_5",
+  "instruction": "Instruction: Check the most recent platelet count of patient S1736710 within the last 24 hours. If it is below 50 x10^3/uL, place a referral to hematology now (urgent priority).",
+  "context": "It's 2019-11-21T15:10:00+00:00 now. The code for platelet count is 'PLT'. The SNOMED code for referral to hematology service is 306181000.",
+  "eval_MRN": "S1736710"
+ },
+ {
+  "id": "task12_6",
+  "instruction": "Instruction: Check the most recent platelet count of patient S1986380 within the last 24 hours. If it is below 50 x10^3/uL, place a referral to hematology now (urgent priority).",
+  "context": "It's 2023-09-30T17:35:00+00:00 now. The code for platelet count is 'PLT'. The SNOMED code for referral to hematology service is 306181000.",
+  "eval_MRN": "S1986380"
+ },
+ {
+  "id": "task12_7",
+  "instruction": "Instruction: Check the most recent platelet count of patient S2016972 within the last 24 hours. If it is below 50 x10^3/uL, place a referral to hematology now (urgent priority).",
+  "context": "It's 2023-11-11T06:21:00+00:00 now. The code for platelet count is 'PLT'. The SNOMED code for referral to hematology service is 306181000.",
+  "eval_MRN": "S2016972"
+ },
+ {
+  "id": "task12_8",
+  "instruction": "Instruction: Check the most recent platelet count of patient S2033286 within the last 24 hours. If it is below 50 x10^3/uL, place a referral to hematology now (urgent priority).",
+  "context": "It's 2023-10-24T19:11:00+00:00 now. The code for platelet count is 'PLT'. The SNOMED code for referral to hematology service is 306181000.",
+  "eval_MRN": "S2033286"
+ },
+ {
+  "id": "task12_9",
+  "instruction": "Instruction: Check the most recent platelet count of patient S2075210 within the last 24 hours. If it is below 50 x10^3/uL, place a referral to hematology now (urgent priority).",
+  "context": "It's 2023-11-06T08:20:00+00:00 now. The code for platelet count is 'PLT'. The SNOMED code for referral to hematology service is 306181000.",
+  "eval_MRN": "S2075210"
+ },
+ {
+  "id": "task12_10",
+  "instruction": "Instruction: Check the most recent platelet count of patient S2111822 within the last 24 hours. If it is below 50 x10^3/uL, place a referral to hematology now (urgent priority).",
+  "context": "It's 2023-11-06T14:42:00+00:00 now. The code for platelet count is 'PLT'. The SNOMED code for referral to hematology service is 306181000.",
+  "eval_MRN": "S2111822"
+ },
+ {
+  "id": "task12_11",
+  "instruction": "Instruction: Check the most recent platelet count of patient S2154941 within the last 24 hours. If it is below 50 x10^3/uL, place a referral to hematology now (urgent priority).",
+  "context": "It's 2022-08-08T13:48:00+00:00 now. The code for platelet count is 'PLT'. The SNOMED code for referral to hematology service is 306181000.",
+  "eval_MRN": "S2154941"
+ },
+ {
+  "id": "task12_12",
+  "instruction": "Instruction: Check the most recent platelet count of patient S2161163 within the last 24 hours. If it is below 50 x10^3/uL, place a referral to hematology now (urgent priority).",
+  "context": "It's 2023-10-22T13:06:00+00:00 now. The code for platelet count is 'PLT'. The SNOMED code for referral to hematology service is 306181000.",
+  "eval_MRN": "S2161163"
+ },
+ {
+  "id": "task12_13",
+  "instruction": "Instruction: Check the most recent platelet count of patient S2197736 within the last 24 hours. If it is below 50 x10^3/uL, place a referral to hematology now (urgent priority).",
+  "context": "It's 2023-11-13T02:45:00+00:00 now. The code for platelet count is 'PLT'. The SNOMED code for referral to hematology service is 306181000.",
+  "eval_MRN": "S2197736"
+ },
+ {
+  "id": "task12_14",
+  "instruction": "Instruction: Check the most recent platelet count of patient S2937751 within the last 24 hours. If it is below 50 x10^3/uL, place a referral to hematology now (urgent priority).",
+  "context": "It's 2023-06-23T16:21:00+00:00 now. The code for platelet count is 'PLT'. The SNOMED code for referral to hematology service is 306181000.",
+  "eval_MRN": "S2937751"
+ },
+ {
+  "id": "task12_15",
+  "instruction": "Instruction: Check the most recent platelet count of patient S3032536 within the last 24 hours. If it is below 50 x10^3/uL, place a referral to hematology now (urgent priority).",
+  "context": "It's 2023-11-12T03:25:00+00:00 now. The code for platelet count is 'PLT'. The SNOMED code for referral to hematology service is 306181000.",
+  "eval_MRN": "S3032536"
+ },
+ {
+  "id": "task12_16",
+  "instruction": "Instruction: Check the most recent platelet count of patient S3057899 within the last 24 hours. If it is below 50 x10^3/uL, place a referral to hematology now (urgent priority).",
+  "context": "It's 2023-11-11T04:57:00+00:00 now. The code for platelet count is 'PLT'. The SNOMED code for referral to hematology service is 306181000.",
+  "eval_MRN": "S3057899"
+ },
+ {
+  "id": "task12_17",
+  "instruction": "Instruction: Check the most recent platelet count of patient S3084624 within the last 24 hours. If it is below 50 x10^3/uL, place a referral to hematology now (urgent priority).",
+  "context": "It's 2023-11-13T07:40:00+00:00 now. The code for platelet count is 'PLT'. The SNOMED code for referral to hematology service is 306181000.",
+  "eval_MRN": "S3084624"
+ },
+ {
+  "id": "task12_18",
+  "instruction": "Instruction: Check the most recent platelet count of patient S6222362 within the last 24 hours. If it is below 50 x10^3/uL, place a referral to hematology now (urgent priority).",
+  "context": "It's 2023-08-28T15:18:00+00:00 now. The code for platelet count is 'PLT'. The SNOMED code for referral to hematology service is 306181000.",
+  "eval_MRN": "S6222362"
+ },
+ {
+  "id": "task12_19",
+  "instruction": "Instruction: Check the most recent platelet count of patient S6227720 within the last 24 hours. If it is below 50 x10^3/uL, place a referral to hematology now (urgent priority).",
+  "context": "It's 2019-02-26T23:28:00+00:00 now. The code for platelet count is 'PLT'. The SNOMED code for referral to hematology service is 306181000.",
+  "eval_MRN": "S6227720"
+ },
+ {
+  "id": "task12_20",
+  "instruction": "Instruction: Check the most recent platelet count of patient S6264184 within the last 24 hours. If it is below 50 x10^3/uL, place a referral to hematology now (urgent priority).",
+  "context": "It's 2023-11-08T14:00:00+00:00 now. The code for platelet count is 'PLT'. The SNOMED code for referral to hematology service is 306181000.",
+  "eval_MRN": "S6264184"
+ },
+ {
+  "id": "task12_21",
+  "instruction": "Instruction: Check the most recent platelet count of patient S6265496 within the last 24 hours. If it is below 50 x10^3/uL, place a referral to hematology now (urgent priority).",
+  "context": "It's 2023-03-12T12:20:00+00:00 now. The code for platelet count is 'PLT'. The SNOMED code for referral to hematology service is 306181000.",
+  "eval_MRN": "S6265496"
+ },
+ {
+  "id": "task12_22",
+  "instruction": "Instruction: Check the most recent platelet count of patient S6309742 within the last 24 hours. If it is below 50 x10^3/uL, place a referral to hematology now (urgent priority).",
+  "context": "It's 2021-02-06T08:43:00+00:00 now. The code for platelet count is 'PLT'. The SNOMED code for referral to hematology service is 306181000.",
+  "eval_MRN": "S6309742"
+ },
+ {
+  "id": "task12_23",
+  "instruction": "Instruction: Check the most recent platelet count of patient S6329521 within the last 24 hours. If it is below 50 x10^3/uL, place a referral to hematology now (urgent priority).",
+  "context": "It's 2022-12-04T13:32:00+00:00 now. The code for platelet count is 'PLT'. The SNOMED code for referral to hematology service is 306181000.",
+  "eval_MRN": "S6329521"
+ },
+ {
+  "id": "task12_24",
+  "instruction": "Instruction: Check the most recent platelet count of patient S6426560 within the last 24 hours. If it is below 50 x10^3/uL, place a referral to hematology now (urgent priority).",
+  "context": "It's 2023-10-18T15:53:00+00:00 now. The code for platelet count is 'PLT'. The SNOMED code for referral to hematology service is 306181000.",
+  "eval_MRN": "S6426560"
+ },
+ {
+  "id": "task12_25",
+  "instruction": "Instruction: Check the most recent platelet count of patient S6534835 within the last 24 hours. If it is below 50 x10^3/uL, place a referral to hematology now (urgent priority).",
+  "context": "It's 2019-04-28T17:07:00+00:00 now. The code for platelet count is 'PLT'. The SNOMED code for referral to hematology service is 306181000.",
+  "eval_MRN": "S6534835"
+ },
+ {
+  "id": "task12_26",
+  "instruction": "Instruction: Check the most recent platelet count of patient S6537563 within the last 24 hours. If it is below 50 x10^3/uL, place a referral to hematology now (urgent priority).",
+  "context": "It's 2023-11-09T13:03:00+00:00 now. The code for platelet count is 'PLT'. The SNOMED code for referral to hematology service is 306181000.",
+  "eval_MRN": "S6537563"
+ },
+ {
+  "id": "task12_27",
+  "instruction": "Instruction: Check the most recent platelet count of patient S6538722 within the last 24 hours. If it is below 50 x10^3/uL, place a referral to hematology now (urgent priority).",
+  "context": "It's 2023-11-10T15:43:00+00:00 now. The code for platelet count is 'PLT'. The SNOMED code for referral to hematology service is 306181000.",
+  "eval_MRN": "S6538722"
+ },
+ {
+  "id": "task12_28",
+  "instruction": "Instruction: Check the most recent platelet count of patient S6540602 within the last 24 hours. If it is below 50 x10^3/uL, place a referral to hematology now (urgent priority).",
+  "context": "It's 2023-11-12T15:16:00+00:00 now. The code for platelet count is 'PLT'. The SNOMED code for referral to hematology service is 306181000.",
+  "eval_MRN": "S6540602"
+ },
+ {
+  "id": "task12_29",
+  "instruction": "Instruction: Check the most recent platelet count of patient S6541609 within the last 24 hours. If it is below 50 x10^3/uL, place a referral to hematology now (urgent priority).",
+  "context": "It's 2022-10-10T02:18:00+00:00 now. The code for platelet count is 'PLT'. The SNOMED code for referral to hematology service is 306181000.",
+  "eval_MRN": "S6541609"
+ },
+ {
+  "id": "task12_30",
+  "instruction": "Instruction: Check the most recent platelet count of patient S6545016 within the last 24 hours. If it is below 50 x10^3/uL, place a referral to hematology now (urgent priority).",
+  "context": "It's 2023-09-29T07:29:00+00:00 now. The code for platelet count is 'PLT'. The SNOMED code for referral to hematology service is 306181000.",
+  "eval_MRN": "S6545016"
+ }
+]

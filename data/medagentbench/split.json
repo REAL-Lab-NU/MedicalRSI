@@ -1,0 +1,4808 @@
+{
+ "train": [
+  [
+   "MedAgentBench",
+   "task1_10"
+  ],
+  [
+   "MedAgentBench",
+   "task1_11"
+  ],
+  [
+   "MedAgentBench",
+   "task1_13"
+  ],
+  [
+   "MedAgentBench",
+   "task1_15"
+  ],
+  [
+   "MedAgentBench",
+   "task1_17"
+  ],
+  [
+   "MedAgentBench",
+   "task1_18"
+  ],
+  [
+   "MedAgentBench",
+   "task1_2"
+  ],
+  [
+   "MedAgentBench",
+   "task1_20"
+  ],
+  [
+   "MedAgentBench",
+   "task1_21"
+  ],
+  [
+   "MedAgentBench",
+   "task1_22"
+  ],
+  [
+   "MedAgentBench",
+   "task1_23"
+  ],
+  [
+   "MedAgentBench",
+   "task1_24"
+  ],
+  [
+   "MedAgentBench",
+   "task1_27"
+  ],
+  [
+   "MedAgentBench",
+   "task1_28"
+  ],
+  [
+   "MedAgentBench",
+   "task1_3"
+  ],
+  [
+   "MedAgentBench",
+   "task1_30"
+  ],
+  [
+   "MedAgentBench",
+   "task1_4"
+  ],
+  [
+   "MedAgentBench",
+   "task1_5"
+  ],
+  [
+   "MedAgentBench",
+   "task1_6"
+  ],
+  [
+   "MedAgentBench",
+   "task1_7"
+  ],
+  [
+   "MedAgentBench",
+   "task2_11"
+  ],
+  [
+   "MedAgentBench",
+   "task2_12"
+  ],
+  [
+   "MedAgentBench",
+   "task2_13"
+  ],
+  [
+   "MedAgentBench",
+   "task2_14"
+  ],
+  [
+   "MedAgentBench",
+   "task2_16"
+  ],
+  [
+   "MedAgentBench",
+   "task2_17"
+  ],
+  [
+   "MedAgentBench",
+   "task2_18"
+  ],
+  [
+   "MedAgentBench",
+   "task2_19"
+  ],
+  [
+   "MedAgentBench",
+   "task2_22"
+  ],
+  [
+   "MedAgentBench",
+   "task2_23"
+  ],
+  [
+   "MedAgentBench",
+   "task2_24"
+  ],
+  [
+   "MedAgentBench",
+   "task2_25"
+  ],
+  [
+   "MedAgentBench",
+   "task2_26"
+  ],
+  [
+   "MedAgentBench",
+   "task2_27"
+  ],
+  [
+   "MedAgentBench",
+   "task2_28"
+  ],
+  [
+   "MedAgentBench",
+   "task2_30"
+  ],
+  [
+   "MedAgentBench",
+   "task2_4"
+  ],
+  [
+   "MedAgentBench",
+   "task2_5"
+  ],
+  [
+   "MedAgentBench",
+   "task2_6"
+  ],
+  [
+   "MedAgentBench",
+   "task2_8"
+  ],
+  [
+   "MedAgentBench",
+   "task3_1"
+  ],
+  [
+   "MedAgentBench",
+   "task3_10"
+  ],
+  [
+   "MedAgentBench",
+   "task3_11"
+  ],
+  [
+   "MedAgentBench",
+   "task3_12"
+  ],
+  [
+   "MedAgentBench",
+   "task3_13"
+  ],
+  [
+   "MedAgentBench",
+   "task3_15"
+  ],
+  [
+   "MedAgentBench",
+   "task3_16"
+  ],
+  [
+   "MedAgentBench",
+   "task3_19"
+  ],
+  [
+   "MedAgentBench",
+   "task3_2"
+  ],
+  [
+   "MedAgentBench",
+   "task3_22"
+  ],
+  [
+   "MedAgentBench",
+   "task3_23"
+  ],
+  [
+   "MedAgentBench",
+   "task3_26"
+  ],
+  [
+   "MedAgentBench",
+   "task3_27"
+  ],
+  [
+   "MedAgentBench",
+   "task3_28"
+  ],
+  [
+   "MedAgentBench",
+   "task3_29"
+  ],
+  [
+   "MedAgentBench",
+   "task3_3"
+  ],
+  [
+   "MedAgentBench",
+   "task3_4"
+  ],
+  [
+   "MedAgentBench",
+   "task3_5"
+  ],
+  [
+   "MedAgentBench",
+   "task3_6"
+  ],
+  [
+   "MedAgentBench",
+   "task3_8"
+  ],
+  [
+   "MedAgentBench",
+   "task4_1"
+  ],
+  [
+   "MedAgentBench",
+   "task4_10"
+  ],
+  [
+   "MedAgentBench",
+   "task4_11"
+  ],
+  [
+   "MedAgentBench",
+   "task4_12"
+  ],
+  [
+   "MedAgentBench",
+   "task4_13"
+  ],
+  [
+   "MedAgentBench",
+   "task4_16"
+  ],
+  [
+   "MedAgentBench",
+   "task4_17"
+  ],
+  [
+   "MedAgentBench",
+   "task4_18"
+  ],
+  [
+   "MedAgentBench",
+   "task4_19"
+  ],
+  [
+   "MedAgentBench",
+   "task4_2"
+  ],
+  [
+   "MedAgentBench",
+   "task4_21"
+  ],
+  [
+   "MedAgentBench",
+   "task4_23"
+  ],
+  [
+   "MedAgentBench",
+   "task4_24"
+  ],
+  [
+   "MedAgentBench",
+   "task4_26"
+  ],
+  [
+   "MedAgentBench",
+   "task4_28"
+  ],
+  [
+   "MedAgentBench",
+   "task4_3"
+  ],
+  [
+   "MedAgentBench",
+   "task4_30"
+  ],
+  [
+   "MedAgentBench",
+   "task4_4"
+  ],
+  [
+   "MedAgentBench",
+   "task4_5"
+  ],
+  [
+   "MedAgentBench",
+   "task4_9"
+  ],
+  [
+   "MedAgentBench",
+   "task5_1"
+  ],
+  [
+   "MedAgentBench",
+   "task5_10"
+  ],
+  [
+   "MedAgentBench",
+   "task5_11"
+  ],
+  [
+   "MedAgentBench",
+   "task5_12"
+  ],
+  [
+   "MedAgentBench",
+   "task5_13"
+  ],
+  [
+   "MedAgentBench",
+   "task5_14"
+  ],
+  [
+   "MedAgentBench",
+   "task5_16"
+  ],
+  [
+   "MedAgentBench",
+   "task5_17"
+  ],
+  [
+   "MedAgentBench",
+   "task5_18"
+  ],
+  [
+   "MedAgentBench",
+   "task5_19"
+  ],
+  [
+   "MedAgentBench",
+   "task5_20"
+  ],
+  [
+   "MedAgentBench",
+   "task5_23"
+  ],
+  [
+   "MedAgentBench",
+   "task5_24"
+  ],
+  [
+   "MedAgentBench",
+   "task5_25"
+  ],
+  [
+   "MedAgentBench",
+   "task5_27"
+  ],
+  [
+   "MedAgentBench",
+   "task5_30"
+  ],
+  [
+   "MedAgentBench",
+   "task5_4"
+  ],
+  [
+   "MedAgentBench",
+   "task5_6"
+  ],
+  [
+   "MedAgentBench",
+   "task5_7"
+  ],
+  [
+   "MedAgentBench",
+   "task5_8"
+  ],
+  [
+   "MedAgentBench",
+   "task6_1"
+  ],
+  [
+   "MedAgentBench",
+   "task6_10"
+  ],
+  [
+   "MedAgentBench",
+   "task6_11"
+  ],
+  [
+   "MedAgentBench",
+   "task6_12"
+  ],
+  [
+   "MedAgentBench",
+   "task6_13"
+  ],
+  [
+   "MedAgentBench",
+   "task6_14"
+  ],
+  [
+   "MedAgentBench",
+   "task6_16"
+  ],
+  [
+   "MedAgentBench",
+   "task6_17"
+  ],
+  [
+   "MedAgentBench",
+   "task6_2"
+  ],
+  [
+   "MedAgentBench",
+   "task6_20"
+  ],
+  [
+   "MedAgentBench",
+   "task6_21"
+  ],
+  [
+   "MedAgentBench",
+   "task6_22"
+  ],
+  [
+   "MedAgentBench",
+   "task6_23"
+  ],
+  [
+   "MedAgentBench",
+   "task6_24"
+  ],
+  [
+   "MedAgentBench",
+   "task6_25"
+  ],
+  [
+   "MedAgentBench",
+   "task6_26"
+  ],
+  [
+   "MedAgentBench",
+   "task6_27"
+  ],
+  [
+   "MedAgentBench",
+   "task6_3"
+  ],
+  [
+   "MedAgentBench",
+   "task6_7"
+  ],
+  [
+   "MedAgentBench",
+   "task6_9"
+  ],
+  [
+   "MedAgentBench",
+   "task7_1"
+  ],
+  [
+   "MedAgentBench",
+   "task7_10"
+  ],
+  [
+   "MedAgentBench",
+   "task7_11"
+  ],
+  [
+   "MedAgentBench",
+   "task7_13"
+  ],
+  [
+   "MedAgentBench",
+   "task7_14"
+  ],
+  [
+   "MedAgentBench",
+   "task7_15"
+  ],
+  [
+   "MedAgentBench",
+   "task7_18"
+  ],
+  [
+   "MedAgentBench",
+   "task7_19"
+  ],
+  [
+   "MedAgentBench",
+   "task7_2"
+  ],
+  [
+   "MedAgentBench",
+   "task7_21"
+  ],
+  [
+   "MedAgentBench",
+   "task7_22"
+  ],
+  [
+   "MedAgentBench",
+   "task7_23"
+  ],
+  [
+   "MedAgentBench",
+   "task7_25"
+  ],
+  [
+   "MedAgentBench",
+   "task7_26"
+  ],
+  [
+   "MedAgentBench",
+   "task7_27"
+  ],
+  [
+   "MedAgentBench",
+   "task7_28"
+  ],
+  [
+   "MedAgentBench",
+   "task7_29"
+  ],
+  [
+   "MedAgentBench",
+   "task7_3"
+  ],
+  [
+   "MedAgentBench",
+   "task7_30"
+  ],
+  [
+   "MedAgentBench",
+   "task7_7"
+  ],
+  [
+   "MedAgentBench",
+   "task8_10"
+  ],
+  [
+   "MedAgentBench",
+   "task8_11"
+  ],
+  [
+   "MedAgentBench",
+   "task8_12"
+  ],
+  [
+   "MedAgentBench",
+   "task8_13"
+  ],
+  [
+   "MedAgentBench",
+   "task8_15"
+  ],
+  [
+   "MedAgentBench",
+   "task8_18"
+  ],
+  [
+   "MedAgentBench",
+   "task8_19"
+  ],
+  [
+   "MedAgentBench",
+   "task8_21"
+  ],
+  [
+   "MedAgentBench",
+   "task8_22"
+  ],
+  [
+   "MedAgentBench",
+   "task8_23"
+  ],
+  [
+   "MedAgentBench",
+   "task8_24"
+  ],
+  [
+   "MedAgentBench",
+   "task8_25"
+  ],
+  [
+   "MedAgentBench",
+   "task8_3"
+  ],
+  [
+   "MedAgentBench",
+   "task8_30"
+  ],
+  [
+   "MedAgentBench",
+   "task8_4"
+  ],
+  [
+   "MedAgentBench",
+   "task8_5"
+  ],
+  [
+   "MedAgentBench",
+   "task8_6"
+  ],
+  [
+   "MedAgentBench",
+   "task8_7"
+  ],
+  [
+   "MedAgentBench",
+   "task8_8"
+  ],
+  [
+   "MedAgentBench",
+   "task8_9"
+  ],
+  [
+   "MedAgentBench",
+   "task9_10"
+  ],
+  [
+   "MedAgentBench",
+   "task9_11"
+  ],
+  [
+   "MedAgentBench",
+   "task9_12"
+  ],
+  [
+   "MedAgentBench",
+   "task9_13"
+  ],
+  [
+   "MedAgentBench",
+   "task9_14"
+  ],
+  [
+   "MedAgentBench",
+   "task9_15"
+  ],
+  [
+   "MedAgentBench",
+   "task9_17"
+  ],
+  [
+   "MedAgentBench",
+   "task9_18"
+  ],
+  [
+   "MedAgentBench",
+   "task9_20"
+  ],
+  [
+   "MedAgentBench",
+   "task9_22"
+  ],
+  [
+   "MedAgentBench",
+   "task9_23"
+  ],
+  [
+   "MedAgentBench",
+   "task9_27"
+  ],
+  [
+   "MedAgentBench",
+   "task9_28"
+  ],
+  [
+   "MedAgentBench",
+   "task9_29"
+  ],
+  [
+   "MedAgentBench",
+   "task9_3"
+  ],
+  [
+   "MedAgentBench",
+   "task9_30"
+  ],
+  [
+   "MedAgentBench",
+   "task9_5"
+  ],
+  [
+   "MedAgentBench",
+   "task9_6"
+  ],
+  [
+   "MedAgentBench",
+   "task9_7"
+  ],
+  [
+   "MedAgentBench",
+   "task9_9"
+  ],
+  [
+   "MedAgentBench",
+   "task10_10"
+  ],
+  [
+   "MedAgentBench",
+   "task10_11"
+  ],
+  [
+   "MedAgentBench",
+   "task10_12"
+  ],
+  [
+   "MedAgentBench",
+   "task10_15"
+  ],
+  [
+   "MedAgentBench",
+   "task10_16"
+  ],
+  [
+   "MedAgentBench",
+   "task10_17"
+  ],
+  [
+   "MedAgentBench",
+   "task10_18"
+  ],
+  [
+   "MedAgentBench",
+   "task10_2"
+  ],
+  [
+   "MedAgentBench",
+   "task10_21"
+  ],
+  [
+   "MedAgentBench",
+   "task10_22"
+  ],
+  [
+   "MedAgentBench",
+   "task10_23"
+  ],
+  [
+   "MedAgentBench",
+   "task10_26"
+  ],
+  [
+   "MedAgentBench",
+   "task10_27"
+  ],
+  [
+   "MedAgentBench",
+   "task10_28"
+  ],
+  [
+   "MedAgentBench",
+   "task10_29"
+  ],
+  [
+   "MedAgentBench",
+   "task10_3"
+  ],
+  [
+   "MedAgentBench",
+   "task10_30"
+  ],
+  [
+   "MedAgentBench",
+   "task10_6"
+  ],
+  [
+   "MedAgentBench",
+   "task10_7"
+  ],
+  [
+   "MedAgentBench",
+   "task10_8"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task1_10"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task1_13"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task1_14"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task1_16"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task1_18"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task1_19"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task1_2"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task1_20"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task1_21"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task1_22"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task1_23"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task1_25"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task1_26"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task1_27"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task1_28"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task1_3"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task1_4"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task1_5"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task1_7"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task1_9"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task2_1"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task2_10"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task2_12"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task2_15"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task2_16"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task2_2"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task2_20"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task2_21"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task2_23"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task2_24"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task2_25"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task2_26"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task2_28"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task2_29"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task2_3"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task2_30"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task2_4"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task2_5"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task2_7"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task2_8"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task3_1"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task3_10"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task3_11"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task3_12"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task3_14"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task3_17"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task3_19"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task3_2"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task3_21"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task3_23"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task3_25"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task3_26"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task3_27"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task3_28"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task3_3"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task3_30"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task3_5"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task3_7"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task3_8"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task3_9"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task4_10"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task4_11"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task4_12"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task4_13"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task4_15"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task4_17"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task4_19"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task4_22"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task4_23"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task4_25"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task4_27"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task4_28"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task4_29"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task4_3"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task4_4"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task4_5"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task4_6"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task4_7"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task4_8"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task4_9"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task5_1"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task5_12"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task5_13"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task5_15"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task5_16"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task5_18"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task5_19"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task5_22"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task5_23"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task5_24"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task5_25"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task5_26"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task5_27"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task5_29"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task5_3"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task5_4"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task5_5"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task5_7"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task5_8"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task5_9"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task6_1"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task6_11"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task6_12"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task6_13"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task6_15"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task6_16"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task6_18"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task6_19"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task6_20"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task6_23"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task6_25"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task6_26"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task6_27"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task6_29"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task6_3"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task6_30"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task6_4"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task6_6"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task6_8"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task6_9"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task7_1"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task7_10"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task7_12"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task7_13"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task7_14"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task7_15"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task7_16"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task7_19"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task7_2"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task7_23"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task7_24"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task7_25"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task7_26"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task7_27"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task7_28"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task7_3"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task7_4"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task7_6"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task7_7"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task7_8"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task8_10"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task8_11"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task8_12"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task8_14"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task8_15"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task8_18"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task8_19"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task8_20"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task8_21"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task8_24"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task8_25"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task8_26"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task8_27"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task8_29"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task8_3"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task8_30"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task8_4"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task8_5"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task8_7"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task8_8"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task9_1"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task9_10"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task9_11"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task9_12"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task9_13"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task9_14"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task9_15"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task9_16"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task9_18"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task9_19"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task9_20"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task9_21"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task9_23"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task9_25"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task9_29"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task9_3"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task9_6"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task9_7"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task9_8"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task9_9"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task10_1"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task10_10"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task10_11"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task10_12"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task10_13"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task10_16"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task10_22"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task10_23"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task10_24"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task10_25"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task10_26"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task10_27"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task10_28"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task10_3"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task10_30"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task10_4"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task10_5"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task10_6"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task10_8"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task10_9"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task1_1"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task1_11"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task1_15"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task1_16"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task1_17"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task1_18"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task1_19"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task1_21"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task1_22"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task1_24"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task1_25"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task1_26"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task1_27"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task1_28"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task1_29"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task1_4"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task1_5"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task1_6"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task1_8"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task1_9"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task2_10"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task2_11"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task2_12"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task2_15"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task2_16"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task2_18"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task2_2"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task2_21"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task2_22"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task2_23"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task2_24"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task2_25"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task2_26"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task2_27"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task2_28"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task2_3"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task2_30"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task2_4"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task2_7"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task2_8"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task3_1"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task3_11"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task3_12"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task3_14"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task3_15"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task3_16"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task3_17"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task3_19"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task3_2"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task3_20"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task3_21"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task3_25"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task3_27"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task3_28"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task3_29"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task3_30"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task3_4"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task3_5"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task3_8"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task3_9"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task4_1"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task4_11"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task4_12"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task4_13"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task4_14"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task4_15"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task4_16"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task4_17"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task4_18"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task4_2"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task4_20"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task4_24"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task4_27"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task4_29"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task4_3"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task4_30"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task4_4"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task4_5"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task4_6"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task4_8"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task5_10"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task5_12"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task5_13"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task5_14"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task5_15"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task5_16"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task5_17"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task5_18"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task5_19"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task5_2"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task5_21"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task5_22"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task5_25"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task5_29"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task5_30"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task5_4"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task5_6"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task5_7"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task5_8"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task5_9"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task6_1"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task6_12"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task6_14"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task6_15"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task6_16"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task6_17"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task6_19"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task6_2"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task6_20"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task6_21"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task6_23"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task6_25"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task6_28"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task6_3"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task6_30"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task6_4"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task6_5"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task6_6"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task6_8"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task6_9"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task7_1"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task7_11"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task7_12"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task7_13"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task7_14"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task7_18"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task7_19"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task7_2"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task7_21"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task7_22"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task7_23"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task7_24"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task7_25"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task7_26"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task7_27"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task7_28"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task7_3"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task7_30"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task7_7"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task7_9"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task8_1"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task8_11"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task8_13"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task8_15"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task8_16"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task8_17"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task8_18"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task8_19"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task8_2"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task8_22"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task8_23"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task8_24"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task8_25"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task8_26"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task8_27"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task8_28"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task8_29"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task8_3"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task8_4"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task8_6"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task9_1"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task9_10"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task9_12"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task9_13"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task9_15"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task9_17"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task9_18"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task9_19"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task9_20"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task9_21"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task9_23"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task9_26"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task9_28"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task9_3"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task9_30"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task9_5"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task9_6"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task9_7"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task9_8"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task9_9"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task10_1"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task10_10"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task10_11"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task10_13"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task10_14"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task10_17"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task10_18"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task10_2"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task10_20"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task10_22"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task10_23"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task10_26"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task10_27"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task10_28"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task10_30"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task10_5"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task10_6"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task10_7"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task10_8"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task10_9"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task11_1"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task11_13"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task11_15"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task11_16"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task11_19"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task11_2"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task11_20"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task11_22"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task11_23"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task11_25"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task11_28"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task11_29"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task11_3"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task11_30"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task11_4"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task11_5"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task11_6"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task11_7"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task11_8"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task11_9"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task12_1"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task12_10"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task12_11"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task12_13"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task12_14"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task12_15"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task12_16"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task12_19"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task12_20"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task12_21"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task12_23"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task12_24"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task12_27"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task12_3"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task12_30"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task12_4"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task12_5"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task12_6"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task12_8"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task12_9"
+  ]
+ ],
+ "test": [
+  [
+   "MedAgentBench",
+   "task1_1"
+  ],
+  [
+   "MedAgentBench",
+   "task1_12"
+  ],
+  [
+   "MedAgentBench",
+   "task1_14"
+  ],
+  [
+   "MedAgentBench",
+   "task1_16"
+  ],
+  [
+   "MedAgentBench",
+   "task1_19"
+  ],
+  [
+   "MedAgentBench",
+   "task1_25"
+  ],
+  [
+   "MedAgentBench",
+   "task1_26"
+  ],
+  [
+   "MedAgentBench",
+   "task1_29"
+  ],
+  [
+   "MedAgentBench",
+   "task1_8"
+  ],
+  [
+   "MedAgentBench",
+   "task1_9"
+  ],
+  [
+   "MedAgentBench",
+   "task2_1"
+  ],
+  [
+   "MedAgentBench",
+   "task2_10"
+  ],
+  [
+   "MedAgentBench",
+   "task2_15"
+  ],
+  [
+   "MedAgentBench",
+   "task2_2"
+  ],
+  [
+   "MedAgentBench",
+   "task2_20"
+  ],
+  [
+   "MedAgentBench",
+   "task2_21"
+  ],
+  [
+   "MedAgentBench",
+   "task2_29"
+  ],
+  [
+   "MedAgentBench",
+   "task2_3"
+  ],
+  [
+   "MedAgentBench",
+   "task2_7"
+  ],
+  [
+   "MedAgentBench",
+   "task2_9"
+  ],
+  [
+   "MedAgentBench",
+   "task3_14"
+  ],
+  [
+   "MedAgentBench",
+   "task3_17"
+  ],
+  [
+   "MedAgentBench",
+   "task3_18"
+  ],
+  [
+   "MedAgentBench",
+   "task3_20"
+  ],
+  [
+   "MedAgentBench",
+   "task3_21"
+  ],
+  [
+   "MedAgentBench",
+   "task3_24"
+  ],
+  [
+   "MedAgentBench",
+   "task3_25"
+  ],
+  [
+   "MedAgentBench",
+   "task3_30"
+  ],
+  [
+   "MedAgentBench",
+   "task3_7"
+  ],
+  [
+   "MedAgentBench",
+   "task3_9"
+  ],
+  [
+   "MedAgentBench",
+   "task4_14"
+  ],
+  [
+   "MedAgentBench",
+   "task4_15"
+  ],
+  [
+   "MedAgentBench",
+   "task4_20"
+  ],
+  [
+   "MedAgentBench",
+   "task4_22"
+  ],
+  [
+   "MedAgentBench",
+   "task4_25"
+  ],
+  [
+   "MedAgentBench",
+   "task4_27"
+  ],
+  [
+   "MedAgentBench",
+   "task4_29"
+  ],
+  [
+   "MedAgentBench",
+   "task4_6"
+  ],
+  [
+   "MedAgentBench",
+   "task4_7"
+  ],
+  [
+   "MedAgentBench",
+   "task4_8"
+  ],
+  [
+   "MedAgentBench",
+   "task5_15"
+  ],
+  [
+   "MedAgentBench",
+   "task5_2"
+  ],
+  [
+   "MedAgentBench",
+   "task5_21"
+  ],
+  [
+   "MedAgentBench",
+   "task5_22"
+  ],
+  [
+   "MedAgentBench",
+   "task5_26"
+  ],
+  [
+   "MedAgentBench",
+   "task5_28"
+  ],
+  [
+   "MedAgentBench",
+   "task5_29"
+  ],
+  [
+   "MedAgentBench",
+   "task5_3"
+  ],
+  [
+   "MedAgentBench",
+   "task5_5"
+  ],
+  [
+   "MedAgentBench",
+   "task5_9"
+  ],
+  [
+   "MedAgentBench",
+   "task6_15"
+  ],
+  [
+   "MedAgentBench",
+   "task6_18"
+  ],
+  [
+   "MedAgentBench",
+   "task6_19"
+  ],
+  [
+   "MedAgentBench",
+   "task6_28"
+  ],
+  [
+   "MedAgentBench",
+   "task6_29"
+  ],
+  [
+   "MedAgentBench",
+   "task6_30"
+  ],
+  [
+   "MedAgentBench",
+   "task6_4"
+  ],
+  [
+   "MedAgentBench",
+   "task6_5"
+  ],
+  [
+   "MedAgentBench",
+   "task6_6"
+  ],
+  [
+   "MedAgentBench",
+   "task6_8"
+  ],
+  [
+   "MedAgentBench",
+   "task7_12"
+  ],
+  [
+   "MedAgentBench",
+   "task7_16"
+  ],
+  [
+   "MedAgentBench",
+   "task7_17"
+  ],
+  [
+   "MedAgentBench",
+   "task7_20"
+  ],
+  [
+   "MedAgentBench",
+   "task7_24"
+  ],
+  [
+   "MedAgentBench",
+   "task7_4"
+  ],
+  [
+   "MedAgentBench",
+   "task7_5"
+  ],
+  [
+   "MedAgentBench",
+   "task7_6"
+  ],
+  [
+   "MedAgentBench",
+   "task7_8"
+  ],
+  [
+   "MedAgentBench",
+   "task7_9"
+  ],
+  [
+   "MedAgentBench",
+   "task8_1"
+  ],
+  [
+   "MedAgentBench",
+   "task8_14"
+  ],
+  [
+   "MedAgentBench",
+   "task8_16"
+  ],
+  [
+   "MedAgentBench",
+   "task8_17"
+  ],
+  [
+   "MedAgentBench",
+   "task8_2"
+  ],
+  [
+   "MedAgentBench",
+   "task8_20"
+  ],
+  [
+   "MedAgentBench",
+   "task8_26"
+  ],
+  [
+   "MedAgentBench",
+   "task8_27"
+  ],
+  [
+   "MedAgentBench",
+   "task8_28"
+  ],
+  [
+   "MedAgentBench",
+   "task8_29"
+  ],
+  [
+   "MedAgentBench",
+   "task9_1"
+  ],
+  [
+   "MedAgentBench",
+   "task9_16"
+  ],
+  [
+   "MedAgentBench",
+   "task9_19"
+  ],
+  [
+   "MedAgentBench",
+   "task9_2"
+  ],
+  [
+   "MedAgentBench",
+   "task9_21"
+  ],
+  [
+   "MedAgentBench",
+   "task9_24"
+  ],
+  [
+   "MedAgentBench",
+   "task9_25"
+  ],
+  [
+   "MedAgentBench",
+   "task9_26"
+  ],
+  [
+   "MedAgentBench",
+   "task9_4"
+  ],
+  [
+   "MedAgentBench",
+   "task9_8"
+  ],
+  [
+   "MedAgentBench",
+   "task10_1"
+  ],
+  [
+   "MedAgentBench",
+   "task10_13"
+  ],
+  [
+   "MedAgentBench",
+   "task10_14"
+  ],
+  [
+   "MedAgentBench",
+   "task10_19"
+  ],
+  [
+   "MedAgentBench",
+   "task10_20"
+  ],
+  [
+   "MedAgentBench",
+   "task10_24"
+  ],
+  [
+   "MedAgentBench",
+   "task10_25"
+  ],
+  [
+   "MedAgentBench",
+   "task10_4"
+  ],
+  [
+   "MedAgentBench",
+   "task10_5"
+  ],
+  [
+   "MedAgentBench",
+   "task10_9"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task1_1"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task1_11"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task1_12"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task1_15"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task1_17"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task1_24"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task1_29"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task1_30"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task1_6"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task1_8"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task2_11"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task2_13"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task2_14"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task2_17"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task2_18"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task2_19"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task2_22"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task2_27"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task2_6"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task2_9"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task3_13"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task3_15"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task3_16"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task3_18"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task3_20"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task3_22"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task3_24"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task3_29"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task3_4"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task3_6"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task4_1"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task4_14"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task4_16"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task4_18"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task4_2"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task4_20"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task4_21"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task4_24"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task4_26"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task4_30"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task5_10"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task5_11"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task5_14"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task5_17"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task5_2"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task5_20"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task5_21"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task5_28"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task5_30"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task5_6"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task6_10"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task6_14"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task6_17"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task6_2"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task6_21"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task6_22"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task6_24"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task6_28"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task6_5"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task6_7"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task7_11"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task7_17"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task7_18"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task7_20"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task7_21"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task7_22"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task7_29"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task7_30"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task7_5"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task7_9"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task8_1"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task8_13"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task8_16"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task8_17"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task8_2"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task8_22"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task8_23"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task8_28"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task8_6"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task8_9"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task9_17"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task9_2"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task9_22"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task9_24"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task9_26"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task9_27"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task9_28"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task9_30"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task9_4"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task9_5"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task10_14"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task10_15"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task10_17"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task10_18"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task10_19"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task10_2"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task10_20"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task10_21"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task10_29"
+  ],
+  [
+   "MedAgentBench-v2",
+   "task10_7"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task1_10"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task1_12"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task1_13"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task1_14"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task1_2"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task1_20"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task1_23"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task1_3"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task1_30"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task1_7"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task2_1"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task2_13"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task2_14"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task2_17"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task2_19"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task2_20"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task2_29"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task2_5"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task2_6"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task2_9"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task3_10"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task3_13"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task3_18"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task3_22"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task3_23"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task3_24"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task3_26"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task3_3"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task3_6"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task3_7"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task4_10"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task4_19"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task4_21"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task4_22"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task4_23"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task4_25"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task4_26"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task4_28"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task4_7"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task4_9"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task5_1"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task5_11"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task5_20"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task5_23"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task5_24"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task5_26"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task5_27"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task5_28"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task5_3"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task5_5"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task6_10"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task6_11"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task6_13"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task6_18"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task6_22"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task6_24"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task6_26"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task6_27"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task6_29"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task6_7"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task7_10"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task7_15"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task7_16"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task7_17"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task7_20"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task7_29"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task7_4"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task7_5"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task7_6"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task7_8"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task8_10"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task8_12"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task8_14"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task8_20"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task8_21"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task8_30"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task8_5"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task8_7"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task8_8"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task8_9"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task9_11"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task9_14"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task9_16"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task9_2"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task9_22"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task9_24"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task9_25"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task9_27"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task9_29"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task9_4"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task10_12"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task10_15"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task10_16"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task10_19"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task10_21"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task10_24"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task10_25"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task10_29"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task10_3"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task10_4"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task11_10"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task11_11"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task11_12"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task11_14"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task11_17"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task11_18"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task11_21"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task11_24"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task11_26"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task11_27"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task12_12"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task12_17"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task12_18"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task12_2"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task12_22"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task12_25"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task12_26"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task12_28"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task12_29"
+  ],
+  [
+   "MedAgentBench-v3",
+   "task12_7"
+  ]
+ ],
+ "branch": {
+  "MedAgentBench|task1_1": "found",
+  "MedAgentBench|task1_2": "found",
+  "MedAgentBench|task1_3": "found",
+  "MedAgentBench|task1_4": "found",
+  "MedAgentBench|task1_5": "found",
+  "MedAgentBench|task1_6": "found",
+  "MedAgentBench|task1_7": "found",
+  "MedAgentBench|task1_8": "found",
+  "MedAgentBench|task1_9": "found",
+  "MedAgentBench|task1_10": "found",
+  "MedAgentBench|task1_11": "found",
+  "MedAgentBench|task1_12": "found",
+  "MedAgentBench|task1_13": "found",
+  "MedAgentBench|task1_14": "found",
+  "MedAgentBench|task1_15": "found",
+  "MedAgentBench|task1_16": "found",
+  "MedAgentBench|task1_17": "found",
+  "MedAgentBench|task1_18": "found",
+  "MedAgentBench|task1_19": "found",
+  "MedAgentBench|task1_20": "found",
+  "MedAgentBench|task1_21": "found",
+  "MedAgentBench|task1_22": "found",
+  "MedAgentBench|task1_23": "found",
+  "MedAgentBench|task1_24": "found",
+  "MedAgentBench|task1_25": "found",
+  "MedAgentBench|task1_26": "found",
+  "MedAgentBench|task1_27": "found",
+  "MedAgentBench|task1_28": "found",
+  "MedAgentBench|task1_29": "not found",
+  "MedAgentBench|task1_30": "not found",
+  "MedAgentBench|task2_1": "value",
+  "MedAgentBench|task2_2": "value",
+  "MedAgentBench|task2_3": "value",
+  "MedAgentBench|task2_4": "value",
+  "MedAgentBench|task2_5": "value",
+  "MedAgentBench|task2_6": "value",
+  "MedAgentBench|task2_7": "value",
+  "MedAgentBench|task2_8": "value",
+  "MedAgentBench|task2_9": "value",
+  "MedAgentBench|task2_10": "value",
+  "MedAgentBench|task2_11": "value",
+  "MedAgentBench|task2_12": "value",
+  "MedAgentBench|task2_13": "value",
+  "MedAgentBench|task2_14": "value",
+  "MedAgentBench|task2_15": "value",
+  "MedAgentBench|task2_16": "value",
+  "MedAgentBench|task2_17": "value",
+  "MedAgentBench|task2_18": "value",
+  "MedAgentBench|task2_19": "value",
+  "MedAgentBench|task2_20": "value",
+  "MedAgentBench|task2_21": "value",
+  "MedAgentBench|task2_22": "value",
+  "MedAgentBench|task2_23": "value",
+  "MedAgentBench|task2_24": "value",
+  "MedAgentBench|task2_25": "value",
+  "MedAgentBench|task2_26": "value",
+  "MedAgentBench|task2_27": "value",
+  "MedAgentBench|task2_28": "value",
+  "MedAgentBench|task2_29": "value",
+  "MedAgentBench|task2_30": "value",
+  "MedAgentBench|task3_1": "order expected",
+  "MedAgentBench|task3_2": "order expected",
+  "MedAgentBench|task3_3": "order expected",
+  "MedAgentBench|task3_4": "order expected",
+  "MedAgentBench|task3_5": "order expected",
+  "MedAgentBench|task3_6": "order expected",
+  "MedAgentBench|task3_7": "order expected",
+  "MedAgentBench|task3_8": "order expected",
+  "MedAgentBench|task3_9": "order expected",
+  "MedAgentBench|task3_10": "order expected",
+  "MedAgentBench|task3_11": "order expected",
+  "MedAgentBench|task3_12": "order expected",
+  "MedAgentBench|task3_13": "order expected",
+  "MedAgentBench|task3_14": "order expected",
+  "MedAgentBench|task3_15": "order expected",
+  "MedAgentBench|task3_16": "order expected",
+  "MedAgentBench|task3_17": "order expected",
+  "MedAgentBench|task3_18": "order expected",
+  "MedAgentBench|task3_19": "order expected",
+  "MedAgentBench|task3_20": "order expected",
+  "MedAgentBench|task3_21": "order expected",
+  "MedAgentBench|task3_22": "order expected",
+  "MedAgentBench|task3_23": "order expected",
+  "MedAgentBench|task3_24": "order expected",
+  "MedAgentBench|task3_25": "order expected",
+  "MedAgentBench|task3_26": "order expected",
+  "MedAgentBench|task3_27": "order expected",
+  "MedAgentBench|task3_28": "order expected",
+  "MedAgentBench|task3_29": "order expected",
+  "MedAgentBench|task3_30": "order expected",
+  "MedAgentBench|task4_1": "no data (-1)",
+  "MedAgentBench|task4_2": "no data (-1)",
+  "MedAgentBench|task4_3": "value",
+  "MedAgentBench|task4_4": "no data (-1)",
+  "MedAgentBench|task4_5": "value",
+  "MedAgentBench|task4_6": "no data (-1)",
+  "MedAgentBench|task4_7": "no data (-1)",
+  "MedAgentBench|task4_8": "no data (-1)",
+  "MedAgentBench|task4_9": "no data (-1)",
+  "MedAgentBench|task4_10": "no data (-1)",
+  "MedAgentBench|task4_11": "no data (-1)",
+  "MedAgentBench|task4_12": "no data (-1)",
+  "MedAgentBench|task4_13": "value",
+  "MedAgentBench|task4_14": "no data (-1)",
+  "MedAgentBench|task4_15": "value",
+  "MedAgentBench|task4_16": "no data (-1)",
+  "MedAgentBench|task4_17": "value",
+  "MedAgentBench|task4_18": "no data (-1)",
+  "MedAgentBench|task4_19": "no data (-1)",
+  "MedAgentBench|task4_20": "value",
+  "MedAgentBench|task4_21": "no data (-1)",
+  "MedAgentBench|task4_22": "no data (-1)",
+  "MedAgentBench|task4_23": "value",
+  "MedAgentBench|task4_24": "no data (-1)",
+  "MedAgentBench|task4_25": "value",
+  "MedAgentBench|task4_26": "value",
+  "MedAgentBench|task4_27": "value",
+  "MedAgentBench|task4_28": "value",
+  "MedAgentBench|task4_29": "no data (-1)",
+  "MedAgentBench|task4_30": "no data (-1)",
+  "MedAgentBench|task5_1": "no order expected",
+  "MedAgentBench|task5_2": "no order expected",
+  "MedAgentBench|task5_3": "no order expected",
+  "MedAgentBench|task5_4": "no order expected",
+  "MedAgentBench|task5_5": "no order expected",
+  "MedAgentBench|task5_6": "no order expected",
+  "MedAgentBench|task5_7": "no order expected",
+  "MedAgentBench|task5_8": "no order expected",
+  "MedAgentBench|task5_9": "no order expected",
+  "MedAgentBench|task5_10": "no order expected",
+  "MedAgentBench|task5_11": "no order expected",
+  "MedAgentBench|task5_12": "no order expected",
+  "MedAgentBench|task5_13": "no order expected",
+  "MedAgentBench|task5_14": "no order expected",
+  "MedAgentBench|task5_15": "no order expected",
+  "MedAgentBench|task5_16": "no order expected",
+  "MedAgentBench|task5_17": "no order expected",
+  "MedAgentBench|task5_18": "no order expected",
+  "MedAgentBench|task5_19": "no order expected",
+  "MedAgentBench|task5_20": "no order expected",
+  "MedAgentBench|task5_21": "order expected",
+  "MedAgentBench|task5_22": "no order expected",
+  "MedAgentBench|task5_23": "no order expected",
+  "MedAgentBench|task5_24": "no order expected",
+  "MedAgentBench|task5_25": "order expected",
+  "MedAgentBench|task5_26": "no order expected",
+  "MedAgentBench|task5_27": "no order expected",
+  "MedAgentBench|task5_28": "no order expected",
+  "MedAgentBench|task5_29": "no order expected",
+  "MedAgentBench|task5_30": "no order expected",
+  "MedAgentBench|task6_1": "value",
+  "MedAgentBench|task6_2": "value",
+  "MedAgentBench|task6_3": "value",
+  "MedAgentBench|task6_4": "value",
+  "MedAgentBench|task6_5": "value",
+  "MedAgentBench|task6_6": "value",
+  "MedAgentBench|task6_7": "value",
+  "MedAgentBench|task6_8": "value",
+  "MedAgentBench|task6_9": "value",
+  "MedAgentBench|task6_10": "value",
+  "MedAgentBench|task6_11": "value",
+  "MedAgentBench|task6_12": "value",
+  "MedAgentBench|task6_13": "value",
+  "MedAgentBench|task6_14": "no data (-1)",
+  "MedAgentBench|task6_15": "no data (-1)",
+  "MedAgentBench|task6_16": "value",
+  "MedAgentBench|task6_17": "value",
+  "MedAgentBench|task6_18": "value",
+  "MedAgentBench|task6_19": "value",
+  "MedAgentBench|task6_20": "value",
+  "MedAgentBench|task6_21": "value",
+  "MedAgentBench|task6_22": "value",
+  "MedAgentBench|task6_23": "value",
+  "MedAgentBench|task6_24": "value",
+  "MedAgentBench|task6_25": "value",
+  "MedAgentBench|task6_26": "value",
+  "MedAgentBench|task6_27": "value",
+  "MedAgentBench|task6_28": "value",
+  "MedAgentBench|task6_29": "value",
+  "MedAgentBench|task6_30": "value",
+  "MedAgentBench|task7_1": "value",
+  "MedAgentBench|task7_2": "value",
+  "MedAgentBench|task7_3": "value",
+  "MedAgentBench|task7_4": "value",
+  "MedAgentBench|task7_5": "value",
+  "MedAgentBench|task7_6": "value",
+  "MedAgentBench|task7_7": "value",
+  "MedAgentBench|task7_8": "value",
+  "MedAgentBench|task7_9": "value",
+  "MedAgentBench|task7_10": "value",
+  "MedAgentBench|task7_11": "value",
+  "MedAgentBench|task7_12": "value",
+  "MedAgentBench|task7_13": "value",
+  "MedAgentBench|task7_14": "value",
+  "MedAgentBench|task7_15": "value",
+  "MedAgentBench|task7_16": "value",
+  "MedAgentBench|task7_17": "value",
+  "MedAgentBench|task7_18": "value",
+  "MedAgentBench|task7_19": "value",
+  "MedAgentBench|task7_20": "value",
+  "MedAgentBench|task7_21": "value",
+  "MedAgentBench|task7_22": "value",
+  "MedAgentBench|task7_23": "value",
+  "MedAgentBench|task7_24": "value",
+  "MedAgentBench|task7_25": "value",
+  "MedAgentBench|task7_26": "value",
+  "MedAgentBench|task7_27": "value",
+  "MedAgentBench|task7_28": "value",
+  "MedAgentBench|task7_29": "value",
+  "MedAgentBench|task7_30": "value",
+  "MedAgentBench|task8_1": "order expected",
+  "MedAgentBench|task8_2": "order expected",
+  "MedAgentBench|task8_3": "order expected",
+  "MedAgentBench|task8_4": "order expected",
+  "MedAgentBench|task8_5": "order expected",
+  "MedAgentBench|task8_6": "order expected",
+  "MedAgentBench|task8_7": "order expected",
+  "MedAgentBench|task8_8": "order expected",
+  "MedAgentBench|task8_9": "order expected",
+  "MedAgentBench|task8_10": "order expected",
+  "MedAgentBench|task8_11": "order expected",
+  "MedAgentBench|task8_12": "order expected",
+  "MedAgentBench|task8_13": "order expected",
+  "MedAgentBench|task8_14": "order expected",
+  "MedAgentBench|task8_15": "order expected",
+  "MedAgentBench|task8_16": "order expected",
+  "MedAgentBench|task8_17": "order expected",
+  "MedAgentBench|task8_18": "order expected",
+  "MedAgentBench|task8_19": "order expected",
+  "MedAgentBench|task8_20": "order expected",
+  "MedAgentBench|task8_21": "order expected",
+  "MedAgentBench|task8_22": "order expected",
+  "MedAgentBench|task8_23": "order expected",
+  "MedAgentBench|task8_24": "order expected",
+  "MedAgentBench|task8_25": "order expected",
+  "MedAgentBench|task8_26": "order expected",
+  "MedAgentBench|task8_27": "order expected",
+  "MedAgentBench|task8_28": "order expected",
+  "MedAgentBench|task8_29": "order expected",
+  "MedAgentBench|task8_30": "order expected",
+  "MedAgentBench|task9_1": "no order expected",
+  "MedAgentBench|task9_2": "no order expected",
+  "MedAgentBench|task9_3": "order expected",
+  "MedAgentBench|task9_4": "no order expected",
+  "MedAgentBench|task9_5": "no order expected",
+  "MedAgentBench|task9_6": "no order expected",
+  "MedAgentBench|task9_7": "no order expected",
+  "MedAgentBench|task9_8": "no order expected",
+  "MedAgentBench|task9_9": "no order expected",
+  "MedAgentBench|task9_10": "no order expected",
+  "MedAgentBench|task9_11": "no order expected",
+  "MedAgentBench|task9_12": "no order expected",
+  "MedAgentBench|task9_13": "no order expected",
+  "MedAgentBench|task9_14": "no order expected",
+  "MedAgentBench|task9_15": "no order expected",
+  "MedAgentBench|task9_16": "no order expected",
+  "MedAgentBench|task9_17": "no order expected",
+  "MedAgentBench|task9_18": "no order expected",
+  "MedAgentBench|task9_19": "no order expected",
+  "MedAgentBench|task9_20": "no order expected",
+  "MedAgentBench|task9_21": "no order expected",
+  "MedAgentBench|task9_22": "no order expected",
+  "MedAgentBench|task9_23": "no order expected",
+  "MedAgentBench|task9_24": "no order expected",
+  "MedAgentBench|task9_25": "no order expected",
+  "MedAgentBench|task9_26": "no order expected",
+  "MedAgentBench|task9_27": "no order expected",
+  "MedAgentBench|task9_28": "no order expected",
+  "MedAgentBench|task9_29": "no order expected",
+  "MedAgentBench|task9_30": "no order expected",
+  "MedAgentBench|task10_1": "order expected",
+  "MedAgentBench|task10_2": "no order expected",
+  "MedAgentBench|task10_3": "order expected",
+  "MedAgentBench|task10_4": "no order expected",
+  "MedAgentBench|task10_5": "no order expected",
+  "MedAgentBench|task10_6": "order expected",
+  "MedAgentBench|task10_7": "order expected",
+  "MedAgentBench|task10_8": "no order expected",
+  "MedAgentBench|task10_9": "no order expected",
+  "MedAgentBench|task10_10": "order expected",
+  "MedAgentBench|task10_11": "order expected",
+  "MedAgentBench|task10_12": "order expected",
+  "MedAgentBench|task10_13": "order expected",
+  "MedAgentBench|task10_14": "order expected",
+  "MedAgentBench|task10_15": "no order expected",
+  "MedAgentBench|task10_16": "order expected",
+  "MedAgentBench|task10_17": "no order expected",
+  "MedAgentBench|task10_18": "no order expected",
+  "MedAgentBench|task10_19": "no order expected",
+  "MedAgentBench|task10_20": "order expected",
+  "MedAgentBench|task10_21": "order expected",
+  "MedAgentBench|task10_22": "order expected",
+  "MedAgentBench|task10_23": "order expected",
+  "MedAgentBench|task10_24": "order expected",
+  "MedAgentBench|task10_25": "order expected",
+  "MedAgentBench|task10_26": "order expected",
+  "MedAgentBench|task10_27": "no order expected",
+  "MedAgentBench|task10_28": "no order expected",
+  "MedAgentBench|task10_29": "no order expected",
+  "MedAgentBench|task10_30": "no order expected",
+  "MedAgentBench-v2|task1_1": "order expected",
+  "MedAgentBench-v2|task1_2": "order expected",
+  "MedAgentBench-v2|task1_3": "order expected",
+  "MedAgentBench-v2|task1_4": "order expected",
+  "MedAgentBench-v2|task1_5": "order expected",
+  "MedAgentBench-v2|task1_6": "order expected",
+  "MedAgentBench-v2|task1_7": "order expected",
+  "MedAgentBench-v2|task1_8": "order expected",
+  "MedAgentBench-v2|task1_9": "order expected",
+  "MedAgentBench-v2|task1_10": "order expected",
+  "MedAgentBench-v2|task1_11": "order expected",
+  "MedAgentBench-v2|task1_12": "order expected",
+  "MedAgentBench-v2|task1_13": "order expected",
+  "MedAgentBench-v2|task1_14": "order expected",
+  "MedAgentBench-v2|task1_15": "order expected",
+  "MedAgentBench-v2|task1_16": "order expected",
+  "MedAgentBench-v2|task1_17": "order expected",
+  "MedAgentBench-v2|task1_18": "order expected",
+  "MedAgentBench-v2|task1_19": "order expected",
+  "MedAgentBench-v2|task1_20": "order expected",
+  "MedAgentBench-v2|task1_21": "order expected",
+  "MedAgentBench-v2|task1_22": "order expected",
+  "MedAgentBench-v2|task1_23": "order expected",
+  "MedAgentBench-v2|task1_24": "order expected",
+  "MedAgentBench-v2|task1_25": "order expected",
+  "MedAgentBench-v2|task1_26": "order expected",
+  "MedAgentBench-v2|task1_27": "order expected",
+  "MedAgentBench-v2|task1_28": "order expected",
+  "MedAgentBench-v2|task1_29": "order expected",
+  "MedAgentBench-v2|task1_30": "order expected",
+  "MedAgentBench-v2|task2_1": "order expected",
+  "MedAgentBench-v2|task2_2": "order expected",
+  "MedAgentBench-v2|task2_3": "order expected",
+  "MedAgentBench-v2|task2_4": "order expected",
+  "MedAgentBench-v2|task2_5": "order expected",
+  "MedAgentBench-v2|task2_6": "order expected",
+  "MedAgentBench-v2|task2_7": "order expected",
+  "MedAgentBench-v2|task2_8": "order expected",
+  "MedAgentBench-v2|task2_9": "order expected",
+  "MedAgentBench-v2|task2_10": "order expected",
+  "MedAgentBench-v2|task2_11": "order expected",
+  "MedAgentBench-v2|task2_12": "order expected",
+  "MedAgentBench-v2|task2_13": "order expected",
+  "MedAgentBench-v2|task2_14": "order expected",
+  "MedAgentBench-v2|task2_15": "order expected",
+  "MedAgentBench-v2|task2_16": "order expected",
+  "MedAgentBench-v2|task2_17": "order expected",
+  "MedAgentBench-v2|task2_18": "order expected",
+  "MedAgentBench-v2|task2_19": "no order expected",
+  "MedAgentBench-v2|task2_20": "order expected",
+  "MedAgentBench-v2|task2_21": "order expected",
+  "MedAgentBench-v2|task2_22": "order expected",
+  "MedAgentBench-v2|task2_23": "order expected",
+  "MedAgentBench-v2|task2_24": "order expected",
+  "MedAgentBench-v2|task2_25": "no order expected",
+  "MedAgentBench-v2|task2_26": "order expected",
+  "MedAgentBench-v2|task2_27": "order expected",
+  "MedAgentBench-v2|task2_28": "order expected",
+  "MedAgentBench-v2|task2_29": "order expected",
+  "MedAgentBench-v2|task2_30": "order expected",
+  "MedAgentBench-v2|task3_1": "no order expected",
+  "MedAgentBench-v2|task3_2": "no order expected",
+  "MedAgentBench-v2|task3_3": "no order expected",
+  "MedAgentBench-v2|task3_4": "no order expected",
+  "MedAgentBench-v2|task3_5": "no order expected",
+  "MedAgentBench-v2|task3_6": "no order expected",
+  "MedAgentBench-v2|task3_7": "no order expected",
+  "MedAgentBench-v2|task3_8": "no order expected",
+  "MedAgentBench-v2|task3_9": "no order expected",
+  "MedAgentBench-v2|task3_10": "no order expected",
+  "MedAgentBench-v2|task3_11": "no order expected",
+  "MedAgentBench-v2|task3_12": "no order expected",
+  "MedAgentBench-v2|task3_13": "no order expected",
+  "MedAgentBench-v2|task3_14": "no order expected",
+  "MedAgentBench-v2|task3_15": "no order expected",
+  "MedAgentBench-v2|task3_16": "no order expected",
+  "MedAgentBench-v2|task3_17": "no order expected",
+  "MedAgentBench-v2|task3_18": "no order expected",
+  "MedAgentBench-v2|task3_19": "no order expected",
+  "MedAgentBench-v2|task3_20": "no order expected",
+  "MedAgentBench-v2|task3_21": "no order expected",
+  "MedAgentBench-v2|task3_22": "no order expected",
+  "MedAgentBench-v2|task3_23": "no order expected",
+  "MedAgentBench-v2|task3_24": "no order expected",
+  "MedAgentBench-v2|task3_25": "no order expected",
+  "MedAgentBench-v2|task3_26": "no order expected",
+  "MedAgentBench-v2|task3_27": "no order expected",
+  "MedAgentBench-v2|task3_28": "no order expected",
+  "MedAgentBench-v2|task3_29": "no order expected",
+  "MedAgentBench-v2|task3_30": "no order expected",
+  "MedAgentBench-v2|task4_1": "order expected",
+  "MedAgentBench-v2|task4_2": "no order expected",
+  "MedAgentBench-v2|task4_3": "no order expected",
+  "MedAgentBench-v2|task4_4": "no order expected",
+  "MedAgentBench-v2|task4_5": "no order expected",
+  "MedAgentBench-v2|task4_6": "no order expected",
+  "MedAgentBench-v2|task4_7": "no order expected",
+  "MedAgentBench-v2|task4_8": "order expected",
+  "MedAgentBench-v2|task4_9": "no order expected",
+  "MedAgentBench-v2|task4_10": "no order expected",
+  "MedAgentBench-v2|task4_11": "order expected",
+  "MedAgentBench-v2|task4_12": "no order expected",
+  "MedAgentBench-v2|task4_13": "no order expected",
+  "MedAgentBench-v2|task4_14": "no order expected",
+  "MedAgentBench-v2|task4_15": "no order expected",
+  "MedAgentBench-v2|task4_16": "no order expected",
+  "MedAgentBench-v2|task4_17": "order expected",
+  "MedAgentBench-v2|task4_18": "order expected",
+  "MedAgentBench-v2|task4_19": "no order expected",
+  "MedAgentBench-v2|task4_20": "no order expected",
+  "MedAgentBench-v2|task4_21": "order expected",
+  "MedAgentBench-v2|task4_22": "no order expected",
+  "MedAgentBench-v2|task4_23": "order expected",
+  "MedAgentBench-v2|task4_24": "no order expected",
+  "MedAgentBench-v2|task4_25": "no order expected",
+  "MedAgentBench-v2|task4_26": "no order expected",
+  "MedAgentBench-v2|task4_27": "no order expected",
+  "MedAgentBench-v2|task4_28": "order expected",
+  "MedAgentBench-v2|task4_29": "order expected",
+  "MedAgentBench-v2|task4_30": "no order expected",
+  "MedAgentBench-v2|task5_1": "order expected",
+  "MedAgentBench-v2|task5_2": "no order expected",
+  "MedAgentBench-v2|task5_3": "no order expected",
+  "MedAgentBench-v2|task5_4": "no order expected",
+  "MedAgentBench-v2|task5_5": "no order expected",
+  "MedAgentBench-v2|task5_6": "no order expected",
+  "MedAgentBench-v2|task5_7": "no order expected",
+  "MedAgentBench-v2|task5_8": "no order expected",
+  "MedAgentBench-v2|task5_9": "no order expected",
+  "MedAgentBench-v2|task5_10": "order expected",
+  "MedAgentBench-v2|task5_11": "no order expected",
+  "MedAgentBench-v2|task5_12": "no order expected",
+  "MedAgentBench-v2|task5_13": "no order expected",
+  "MedAgentBench-v2|task5_14": "no order expected",
+  "MedAgentBench-v2|task5_15": "no order expected",
+  "MedAgentBench-v2|task5_16": "no order expected",
+  "MedAgentBench-v2|task5_17": "no order expected",
+  "MedAgentBench-v2|task5_18": "no order expected",
+  "MedAgentBench-v2|task5_19": "no order expected",
+  "MedAgentBench-v2|task5_20": "no order expected",
+  "MedAgentBench-v2|task5_21": "no order expected",
+  "MedAgentBench-v2|task5_22": "no order expected",
+  "MedAgentBench-v2|task5_23": "no order expected",
+  "MedAgentBench-v2|task5_24": "no order expected",
+  "MedAgentBench-v2|task5_25": "no order expected",
+  "MedAgentBench-v2|task5_26": "no order expected",
+  "MedAgentBench-v2|task5_27": "no order expected",
+  "MedAgentBench-v2|task5_28": "no order expected",
+  "MedAgentBench-v2|task5_29": "no order expected",
+  "MedAgentBench-v2|task5_30": "no order expected",
+  "MedAgentBench-v2|task6_1": "order expected",
+  "MedAgentBench-v2|task6_2": "no order expected",
+  "MedAgentBench-v2|task6_3": "no order expected",
+  "MedAgentBench-v2|task6_4": "no order expected",
+  "MedAgentBench-v2|task6_5": "no order expected",
+  "MedAgentBench-v2|task6_6": "no order expected",
+  "MedAgentBench-v2|task6_7": "no order expected",
+  "MedAgentBench-v2|task6_8": "no order expected",
+  "MedAgentBench-v2|task6_9": "no order expected",
+  "MedAgentBench-v2|task6_10": "no order expected",
+  "MedAgentBench-v2|task6_11": "no order expected",
+  "MedAgentBench-v2|task6_12": "no order expected",
+  "MedAgentBench-v2|task6_13": "no order expected",
+  "MedAgentBench-v2|task6_14": "no order expected",
+  "MedAgentBench-v2|task6_15": "no order expected",
+  "MedAgentBench-v2|task6_16": "no order expected",
+  "MedAgentBench-v2|task6_17": "no order expected",
+  "MedAgentBench-v2|task6_18": "no order expected",
+  "MedAgentBench-v2|task6_19": "no order expected",
+  "MedAgentBench-v2|task6_20": "no order expected",
+  "MedAgentBench-v2|task6_21": "no order expected",
+  "MedAgentBench-v2|task6_22": "no order expected",
+  "MedAgentBench-v2|task6_23": "no order expected",
+  "MedAgentBench-v2|task6_24": "no order expected",
+  "MedAgentBench-v2|task6_25": "no order expected",
+  "MedAgentBench-v2|task6_26": "order expected",
+  "MedAgentBench-v2|task6_27": "no order expected",
+  "MedAgentBench-v2|task6_28": "order expected",
+  "MedAgentBench-v2|task6_29": "no order expected",
+  "MedAgentBench-v2|task6_30": "no order expected",
+  "MedAgentBench-v2|task7_1": "no order expected",
+  "MedAgentBench-v2|task7_2": "no order expected",
+  "MedAgentBench-v2|task7_3": "no order expected",
+  "MedAgentBench-v2|task7_4": "no order expected",
+  "MedAgentBench-v2|task7_5": "no order expected",
+  "MedAgentBench-v2|task7_6": "order expected",
+  "MedAgentBench-v2|task7_7": "no order expected",
+  "MedAgentBench-v2|task7_8": "no order expected",
+  "MedAgentBench-v2|task7_9": "no order expected",
+  "MedAgentBench-v2|task7_10": "no order expected",
+  "MedAgentBench-v2|task7_11": "no order expected",
+  "MedAgentBench-v2|task7_12": "no order expected",
+  "MedAgentBench-v2|task7_13": "no order expected",
+  "MedAgentBench-v2|task7_14": "no order expected",
+  "MedAgentBench-v2|task7_15": "no order expected",
+  "MedAgentBench-v2|task7_16": "no order expected",
+  "MedAgentBench-v2|task7_17": "no order expected",
+  "MedAgentBench-v2|task7_18": "order expected",
+  "MedAgentBench-v2|task7_19": "no order expected",
+  "MedAgentBench-v2|task7_20": "no order expected",
+  "MedAgentBench-v2|task7_21": "no order expected",
+  "MedAgentBench-v2|task7_22": "no order expected",
+  "MedAgentBench-v2|task7_23": "no order expected",
+  "MedAgentBench-v2|task7_24": "no order expected",
+  "MedAgentBench-v2|task7_25": "order expected",
+  "MedAgentBench-v2|task7_26": "no order expected",
+  "MedAgentBench-v2|task7_27": "no order expected",
+  "MedAgentBench-v2|task7_28": "no order expected",
+  "MedAgentBench-v2|task7_29": "no order expected",
+  "MedAgentBench-v2|task7_30": "no order expected",
+  "MedAgentBench-v2|task8_1": "no order expected",
+  "MedAgentBench-v2|task8_2": "order expected",
+  "MedAgentBench-v2|task8_3": "no order expected",
+  "MedAgentBench-v2|task8_4": "no order expected",
+  "MedAgentBench-v2|task8_5": "order expected",
+  "MedAgentBench-v2|task8_6": "order expected",
+  "MedAgentBench-v2|task8_7": "order expected",
+  "MedAgentBench-v2|task8_8": "order expected",
+  "MedAgentBench-v2|task8_9": "no order expected",
+  "MedAgentBench-v2|task8_10": "no order expected",
+  "MedAgentBench-v2|task8_11": "order expected",
+  "MedAgentBench-v2|task8_12": "order expected",
+  "MedAgentBench-v2|task8_13": "order expected",
+  "MedAgentBench-v2|task8_14": "order expected",
+  "MedAgentBench-v2|task8_15": "no order expected",
+  "MedAgentBench-v2|task8_16": "order expected",
+  "MedAgentBench-v2|task8_17": "order expected",
+  "MedAgentBench-v2|task8_18": "order expected",
+  "MedAgentBench-v2|task8_19": "order expected",
+  "MedAgentBench-v2|task8_20": "order expected",
+  "MedAgentBench-v2|task8_21": "no order expected",
+  "MedAgentBench-v2|task8_22": "no order expected",
+  "MedAgentBench-v2|task8_23": "order expected",
+  "MedAgentBench-v2|task8_24": "order expected",
+  "MedAgentBench-v2|task8_25": "no order expected",
+  "MedAgentBench-v2|task8_26": "order expected",
+  "MedAgentBench-v2|task8_27": "no order expected",
+  "MedAgentBench-v2|task8_28": "order expected",
+  "MedAgentBench-v2|task8_29": "order expected",
+  "MedAgentBench-v2|task8_30": "order expected",
+  "MedAgentBench-v2|task9_1": "no order expected",
+  "MedAgentBench-v2|task9_2": "no order expected",
+  "MedAgentBench-v2|task9_3": "order expected",
+  "MedAgentBench-v2|task9_4": "order expected",
+  "MedAgentBench-v2|task9_5": "order expected",
+  "MedAgentBench-v2|task9_6": "order expected",
+  "MedAgentBench-v2|task9_7": "order expected",
+  "MedAgentBench-v2|task9_8": "order expected",
+  "MedAgentBench-v2|task9_9": "order expected",
+  "MedAgentBench-v2|task9_10": "order expected",
+  "MedAgentBench-v2|task9_11": "order expected",
+  "MedAgentBench-v2|task9_12": "order expected",
+  "MedAgentBench-v2|task9_13": "order expected",
+  "MedAgentBench-v2|task9_14": "order expected",
+  "MedAgentBench-v2|task9_15": "order expected",
+  "MedAgentBench-v2|task9_16": "order expected",
+  "MedAgentBench-v2|task9_17": "order expected",
+  "MedAgentBench-v2|task9_18": "order expected",
+  "MedAgentBench-v2|task9_19": "order expected",
+  "MedAgentBench-v2|task9_20": "order expected",
+  "MedAgentBench-v2|task9_21": "order expected",
+  "MedAgentBench-v2|task9_22": "order expected",
+  "MedAgentBench-v2|task9_23": "order expected",
+  "MedAgentBench-v2|task9_24": "order expected",
+  "MedAgentBench-v2|task9_25": "order expected",
+  "MedAgentBench-v2|task9_26": "order expected",
+  "MedAgentBench-v2|task9_27": "order expected",
+  "MedAgentBench-v2|task9_28": "order expected",
+  "MedAgentBench-v2|task9_29": "order expected",
+  "MedAgentBench-v2|task9_30": "order expected",
+  "MedAgentBench-v2|task10_1": "no order expected",
+  "MedAgentBench-v2|task10_2": "order expected",
+  "MedAgentBench-v2|task10_3": "order expected",
+  "MedAgentBench-v2|task10_4": "order expected",
+  "MedAgentBench-v2|task10_5": "order expected",
+  "MedAgentBench-v2|task10_6": "order expected",
+  "MedAgentBench-v2|task10_7": "order expected",
+  "MedAgentBench-v2|task10_8": "order expected",
+  "MedAgentBench-v2|task10_9": "order expected",
+  "MedAgentBench-v2|task10_10": "order expected",
+  "MedAgentBench-v2|task10_11": "order expected",
+  "MedAgentBench-v2|task10_12": "order expected",
+  "MedAgentBench-v2|task10_13": "order expected",
+  "MedAgentBench-v2|task10_14": "order expected",
+  "MedAgentBench-v2|task10_15": "order expected",
+  "MedAgentBench-v2|task10_16": "order expected",
+  "MedAgentBench-v2|task10_17": "order expected",
+  "MedAgentBench-v2|task10_18": "order expected",
+  "MedAgentBench-v2|task10_19": "order expected",
+  "MedAgentBench-v2|task10_20": "order expected",
+  "MedAgentBench-v2|task10_21": "order expected",
+  "MedAgentBench-v2|task10_22": "order expected",
+  "MedAgentBench-v2|task10_23": "order expected",
+  "MedAgentBench-v2|task10_24": "order expected",
+  "MedAgentBench-v2|task10_25": "order expected",
+  "MedAgentBench-v2|task10_26": "order expected",
+  "MedAgentBench-v2|task10_27": "order expected",
+  "MedAgentBench-v2|task10_28": "order expected",
+  "MedAgentBench-v2|task10_29": "order expected",
+  "MedAgentBench-v2|task10_30": "order expected",
+  "MedAgentBench-v3|task1_1": "order expected",
+  "MedAgentBench-v3|task1_2": "no order expected",
+  "MedAgentBench-v3|task1_3": "order expected",
+  "MedAgentBench-v3|task1_4": "no order expected",
+  "MedAgentBench-v3|task1_5": "no order expected",
+  "MedAgentBench-v3|task1_6": "order expected",
+  "MedAgentBench-v3|task1_7": "no order expected",
+  "MedAgentBench-v3|task1_8": "no order expected",
+  "MedAgentBench-v3|task1_9": "no order expected",
+  "MedAgentBench-v3|task1_10": "no order expected",
+  "MedAgentBench-v3|task1_11": "no order expected",
+  "MedAgentBench-v3|task1_12": "order expected",
+  "MedAgentBench-v3|task1_13": "order expected",
+  "MedAgentBench-v3|task1_14": "no order expected",
+  "MedAgentBench-v3|task1_15": "order expected",
+  "MedAgentBench-v3|task1_16": "no order expected",
+  "MedAgentBench-v3|task1_17": "no order expected",
+  "MedAgentBench-v3|task1_18": "order expected",
+  "MedAgentBench-v3|task1_19": "no order expected",
+  "MedAgentBench-v3|task1_20": "order expected",
+  "MedAgentBench-v3|task1_21": "order expected",
+  "MedAgentBench-v3|task1_22": "order expected",
+  "MedAgentBench-v3|task1_23": "no order expected",
+  "MedAgentBench-v3|task1_24": "order expected",
+  "MedAgentBench-v3|task1_25": "order expected",
+  "MedAgentBench-v3|task1_26": "order expected",
+  "MedAgentBench-v3|task1_27": "no order expected",
+  "MedAgentBench-v3|task1_28": "order expected",
+  "MedAgentBench-v3|task1_29": "no order expected",
+  "MedAgentBench-v3|task1_30": "order expected",
+  "MedAgentBench-v3|task2_1": "order expected",
+  "MedAgentBench-v3|task2_2": "order expected",
+  "MedAgentBench-v3|task2_3": "order expected",
+  "MedAgentBench-v3|task2_4": "order expected",
+  "MedAgentBench-v3|task2_5": "no order expected",
+  "MedAgentBench-v3|task2_6": "no order expected",
+  "MedAgentBench-v3|task2_7": "no order expected",
+  "MedAgentBench-v3|task2_8": "no order expected",
+  "MedAgentBench-v3|task2_9": "no order expected",
+  "MedAgentBench-v3|task2_10": "order expected",
+  "MedAgentBench-v3|task2_11": "order expected",
+  "MedAgentBench-v3|task2_12": "no order expected",
+  "MedAgentBench-v3|task2_13": "order expected",
+  "MedAgentBench-v3|task2_14": "no order expected",
+  "MedAgentBench-v3|task2_15": "no order expected",
+  "MedAgentBench-v3|task2_16": "no order expected",
+  "MedAgentBench-v3|task2_17": "order expected",
+  "MedAgentBench-v3|task2_18": "no order expected",
+  "MedAgentBench-v3|task2_19": "order expected",
+  "MedAgentBench-v3|task2_20": "order expected",
+  "MedAgentBench-v3|task2_21": "no order expected",
+  "MedAgentBench-v3|task2_22": "order expected",
+  "MedAgentBench-v3|task2_23": "no order expected",
+  "MedAgentBench-v3|task2_24": "order expected",
+  "MedAgentBench-v3|task2_25": "order expected",
+  "MedAgentBench-v3|task2_26": "no order expected",
+  "MedAgentBench-v3|task2_27": "order expected",
+  "MedAgentBench-v3|task2_28": "order expected",
+  "MedAgentBench-v3|task2_29": "no order expected",
+  "MedAgentBench-v3|task2_30": "no order expected",
+  "MedAgentBench-v3|task3_1": "order expected",
+  "MedAgentBench-v3|task3_2": "no order expected",
+  "MedAgentBench-v3|task3_3": "no order expected",
+  "MedAgentBench-v3|task3_4": "order expected",
+  "MedAgentBench-v3|task3_5": "order expected",
+  "MedAgentBench-v3|task3_6": "no order expected",
+  "MedAgentBench-v3|task3_7": "order expected",
+  "MedAgentBench-v3|task3_8": "no order expected",
+  "MedAgentBench-v3|task3_9": "no order expected",
+  "MedAgentBench-v3|task3_10": "order expected",
+  "MedAgentBench-v3|task3_11": "no order expected",
+  "MedAgentBench-v3|task3_12": "order expected",
+  "MedAgentBench-v3|task3_13": "no order expected",
+  "MedAgentBench-v3|task3_14": "no order expected",
+  "MedAgentBench-v3|task3_15": "order expected",
+  "MedAgentBench-v3|task3_16": "order expected",
+  "MedAgentBench-v3|task3_17": "order expected",
+  "MedAgentBench-v3|task3_18": "no order expected",
+  "MedAgentBench-v3|task3_19": "order expected",
+  "MedAgentBench-v3|task3_20": "no order expected",
+  "MedAgentBench-v3|task3_21": "no order expected",
+  "MedAgentBench-v3|task3_22": "order expected",
+  "MedAgentBench-v3|task3_23": "order expected",
+  "MedAgentBench-v3|task3_24": "no order expected",
+  "MedAgentBench-v3|task3_25": "order expected",
+  "MedAgentBench-v3|task3_26": "order expected",
+  "MedAgentBench-v3|task3_27": "no order expected",
+  "MedAgentBench-v3|task3_28": "no order expected",
+  "MedAgentBench-v3|task3_29": "no order expected",
+  "MedAgentBench-v3|task3_30": "order expected",
+  "MedAgentBench-v3|task4_1": "order expected",
+  "MedAgentBench-v3|task4_2": "order expected",
+  "MedAgentBench-v3|task4_3": "no order expected",
+  "MedAgentBench-v3|task4_4": "order expected",
+  "MedAgentBench-v3|task4_5": "order expected",
+  "MedAgentBench-v3|task4_6": "no order expected",
+  "MedAgentBench-v3|task4_7": "order expected",
+  "MedAgentBench-v3|task4_8": "no order expected",
+  "MedAgentBench-v3|task4_9": "no order expected",
+  "MedAgentBench-v3|task4_10": "order expected",
+  "MedAgentBench-v3|task4_11": "order expected",
+  "MedAgentBench-v3|task4_12": "order expected",
+  "MedAgentBench-v3|task4_13": "order expected",
+  "MedAgentBench-v3|task4_14": "order expected",
+  "MedAgentBench-v3|task4_15": "no order expected",
+  "MedAgentBench-v3|task4_16": "order expected",
+  "MedAgentBench-v3|task4_17": "no order expected",
+  "MedAgentBench-v3|task4_18": "no order expected",
+  "MedAgentBench-v3|task4_19": "no order expected",
+  "MedAgentBench-v3|task4_20": "no order expected",
+  "MedAgentBench-v3|task4_21": "order expected",
+  "MedAgentBench-v3|task4_22": "order expected",
+  "MedAgentBench-v3|task4_23": "no order expected",
+  "MedAgentBench-v3|task4_24": "no order expected",
+  "MedAgentBench-v3|task4_25": "no order expected",
+  "MedAgentBench-v3|task4_26": "order expected",
+  "MedAgentBench-v3|task4_27": "order expected",
+  "MedAgentBench-v3|task4_28": "no order expected",
+  "MedAgentBench-v3|task4_29": "no order expected",
+  "MedAgentBench-v3|task4_30": "no order expected",
+  "MedAgentBench-v3|task5_1": "no order expected",
+  "MedAgentBench-v3|task5_2": "no order expected",
+  "MedAgentBench-v3|task5_3": "no order expected",
+  "MedAgentBench-v3|task5_4": "order expected",
+  "MedAgentBench-v3|task5_5": "no order expected",
+  "MedAgentBench-v3|task5_6": "no order expected",
+  "MedAgentBench-v3|task5_7": "no order expected",
+  "MedAgentBench-v3|task5_8": "order expected",
+  "MedAgentBench-v3|task5_9": "no order expected",
+  "MedAgentBench-v3|task5_10": "order expected",
+  "MedAgentBench-v3|task5_11": "order expected",
+  "MedAgentBench-v3|task5_12": "no order expected",
+  "MedAgentBench-v3|task5_13": "no order expected",
+  "MedAgentBench-v3|task5_14": "order expected",
+  "MedAgentBench-v3|task5_15": "no order expected",
+  "MedAgentBench-v3|task5_16": "order expected",
+  "MedAgentBench-v3|task5_17": "order expected",
+  "MedAgentBench-v3|task5_18": "order expected",
+  "MedAgentBench-v3|task5_19": "no order expected",
+  "MedAgentBench-v3|task5_20": "no order expected",
+  "MedAgentBench-v3|task5_21": "no order expected",
+  "MedAgentBench-v3|task5_22": "no order expected",
+  "MedAgentBench-v3|task5_23": "order expected",
+  "MedAgentBench-v3|task5_24": "no order expected",
+  "MedAgentBench-v3|task5_25": "no order expected",
+  "MedAgentBench-v3|task5_26": "order expected",
+  "MedAgentBench-v3|task5_27": "order expected",
+  "MedAgentBench-v3|task5_28": "no order expected",
+  "MedAgentBench-v3|task5_29": "order expected",
+  "MedAgentBench-v3|task5_30": "order expected",
+  "MedAgentBench-v3|task6_1": "order expected",
+  "MedAgentBench-v3|task6_2": "order expected",
+  "MedAgentBench-v3|task6_3": "no order expected",
+  "MedAgentBench-v3|task6_4": "no order expected",
+  "MedAgentBench-v3|task6_5": "no order expected",
+  "MedAgentBench-v3|task6_6": "order expected",
+  "MedAgentBench-v3|task6_7": "no order expected",
+  "MedAgentBench-v3|task6_8": "no order expected",
+  "MedAgentBench-v3|task6_9": "no order expected",
+  "MedAgentBench-v3|task6_10": "order expected",
+  "MedAgentBench-v3|task6_11": "no order expected",
+  "MedAgentBench-v3|task6_12": "no order expected",
+  "MedAgentBench-v3|task6_13": "no order expected",
+  "MedAgentBench-v3|task6_14": "no order expected",
+  "MedAgentBench-v3|task6_15": "no order expected",
+  "MedAgentBench-v3|task6_16": "no order expected",
+  "MedAgentBench-v3|task6_17": "no order expected",
+  "MedAgentBench-v3|task6_18": "no order expected",
+  "MedAgentBench-v3|task6_19": "no order expected",
+  "MedAgentBench-v3|task6_20": "no order expected",
+  "MedAgentBench-v3|task6_21": "no order expected",
+  "MedAgentBench-v3|task6_22": "no order expected",
+  "MedAgentBench-v3|task6_23": "order expected",
+  "MedAgentBench-v3|task6_24": "no order expected",
+  "MedAgentBench-v3|task6_25": "no order expected",
+  "MedAgentBench-v3|task6_26": "no order expected",
+  "MedAgentBench-v3|task6_27": "no order expected",
+  "MedAgentBench-v3|task6_28": "no order expected",
+  "MedAgentBench-v3|task6_29": "order expected",
+  "MedAgentBench-v3|task6_30": "no order expected",
+  "MedAgentBench-v3|task7_1": "order expected",
+  "MedAgentBench-v3|task7_2": "order expected",
+  "MedAgentBench-v3|task7_3": "no order expected",
+  "MedAgentBench-v3|task7_4": "order expected",
+  "MedAgentBench-v3|task7_5": "no order expected",
+  "MedAgentBench-v3|task7_6": "no order expected",
+  "MedAgentBench-v3|task7_7": "no order expected",
+  "MedAgentBench-v3|task7_8": "order expected",
+  "MedAgentBench-v3|task7_9": "no order expected",
+  "MedAgentBench-v3|task7_10": "no order expected",
+  "MedAgentBench-v3|task7_11": "order expected",
+  "MedAgentBench-v3|task7_12": "no order expected",
+  "MedAgentBench-v3|task7_13": "no order expected",
+  "MedAgentBench-v3|task7_14": "no order expected",
+  "MedAgentBench-v3|task7_15": "no order expected",
+  "MedAgentBench-v3|task7_16": "no order expected",
+  "MedAgentBench-v3|task7_17": "order expected",
+  "MedAgentBench-v3|task7_18": "order expected",
+  "MedAgentBench-v3|task7_19": "order expected",
+  "MedAgentBench-v3|task7_20": "order expected",
+  "MedAgentBench-v3|task7_21": "order expected",
+  "MedAgentBench-v3|task7_22": "order expected",
+  "MedAgentBench-v3|task7_23": "order expected",
+  "MedAgentBench-v3|task7_24": "no order expected",
+  "MedAgentBench-v3|task7_25": "order expected",
+  "MedAgentBench-v3|task7_26": "order expected",
+  "MedAgentBench-v3|task7_27": "no order expected",
+  "MedAgentBench-v3|task7_28": "no order expected",
+  "MedAgentBench-v3|task7_29": "order expected",
+  "MedAgentBench-v3|task7_30": "no order expected",
+  "MedAgentBench-v3|task8_1": "order expected",
+  "MedAgentBench-v3|task8_2": "order expected",
+  "MedAgentBench-v3|task8_3": "no order expected",
+  "MedAgentBench-v3|task8_4": "order expected",
+  "MedAgentBench-v3|task8_5": "order expected",
+  "MedAgentBench-v3|task8_6": "no order expected",
+  "MedAgentBench-v3|task8_7": "no order expected",
+  "MedAgentBench-v3|task8_8": "no order expected",
+  "MedAgentBench-v3|task8_9": "order expected",
+  "MedAgentBench-v3|task8_10": "order expected",
+  "MedAgentBench-v3|task8_11": "no order expected",
+  "MedAgentBench-v3|task8_12": "order expected",
+  "MedAgentBench-v3|task8_13": "order expected",
+  "MedAgentBench-v3|task8_14": "no order expected",
+  "MedAgentBench-v3|task8_15": "order expected",
+  "MedAgentBench-v3|task8_16": "order expected",
+  "MedAgentBench-v3|task8_17": "no order expected",
+  "MedAgentBench-v3|task8_18": "no order expected",
+  "MedAgentBench-v3|task8_19": "order expected",
+  "MedAgentBench-v3|task8_20": "no order expected",
+  "MedAgentBench-v3|task8_21": "order expected",
+  "MedAgentBench-v3|task8_22": "order expected",
+  "MedAgentBench-v3|task8_23": "order expected",
+  "MedAgentBench-v3|task8_24": "order expected",
+  "MedAgentBench-v3|task8_25": "no order expected",
+  "MedAgentBench-v3|task8_26": "no order expected",
+  "MedAgentBench-v3|task8_27": "no order expected",
+  "MedAgentBench-v3|task8_28": "no order expected",
+  "MedAgentBench-v3|task8_29": "no order expected",
+  "MedAgentBench-v3|task8_30": "no order expected",
+  "MedAgentBench-v3|task9_1": "order expected",
+  "MedAgentBench-v3|task9_2": "no order expected",
+  "MedAgentBench-v3|task9_3": "order expected",
+  "MedAgentBench-v3|task9_4": "order expected",
+  "MedAgentBench-v3|task9_5": "order expected",
+  "MedAgentBench-v3|task9_6": "no order expected",
+  "MedAgentBench-v3|task9_7": "order expected",
+  "MedAgentBench-v3|task9_8": "no order expected",
+  "MedAgentBench-v3|task9_9": "no order expected",
+  "MedAgentBench-v3|task9_10": "order expected",
+  "MedAgentBench-v3|task9_11": "order expected",
+  "MedAgentBench-v3|task9_12": "order expected",
+  "MedAgentBench-v3|task9_13": "no order expected",
+  "MedAgentBench-v3|task9_14": "no order expected",
+  "MedAgentBench-v3|task9_15": "no order expected",
+  "MedAgentBench-v3|task9_16": "no order expected",
+  "MedAgentBench-v3|task9_17": "no order expected",
+  "MedAgentBench-v3|task9_18": "order expected",
+  "MedAgentBench-v3|task9_19": "order expected",
+  "MedAgentBench-v3|task9_20": "no order expected",
+  "MedAgentBench-v3|task9_21": "order expected",
+  "MedAgentBench-v3|task9_22": "order expected",
+  "MedAgentBench-v3|task9_23": "no order expected",
+  "MedAgentBench-v3|task9_24": "order expected",
+  "MedAgentBench-v3|task9_25": "no order expected",
+  "MedAgentBench-v3|task9_26": "order expected",
+  "MedAgentBench-v3|task9_27": "no order expected",
+  "MedAgentBench-v3|task9_28": "no order expected",
+  "MedAgentBench-v3|task9_29": "order expected",
+  "MedAgentBench-v3|task9_30": "no order expected",
+  "MedAgentBench-v3|task10_1": "order expected",
+  "MedAgentBench-v3|task10_2": "order expected",
+  "MedAgentBench-v3|task10_3": "order expected",
+  "MedAgentBench-v3|task10_4": "no order expected",
+  "MedAgentBench-v3|task10_5": "no order expected",
+  "MedAgentBench-v3|task10_6": "order expected",
+  "MedAgentBench-v3|task10_7": "no order expected",
+  "MedAgentBench-v3|task10_8": "no order expected",
+  "MedAgentBench-v3|task10_9": "no order expected",
+  "MedAgentBench-v3|task10_10": "order expected",
+  "MedAgentBench-v3|task10_11": "no order expected",
+  "MedAgentBench-v3|task10_12": "no order expected",
+  "MedAgentBench-v3|task10_13": "order expected",
+  "MedAgentBench-v3|task10_14": "no order expected",
+  "MedAgentBench-v3|task10_15": "no order expected",
+  "MedAgentBench-v3|task10_16": "order expected",
+  "MedAgentBench-v3|task10_17": "order expected",
+  "MedAgentBench-v3|task10_18": "no order expected",
+  "MedAgentBench-v3|task10_19": "no order expected",
+  "MedAgentBench-v3|task10_20": "order expected",
+  "MedAgentBench-v3|task10_21": "order expected",
+  "MedAgentBench-v3|task10_22": "no order expected",
+  "MedAgentBench-v3|task10_23": "no order expected",
+  "MedAgentBench-v3|task10_24": "order expected",
+  "MedAgentBench-v3|task10_25": "order expected",
+  "MedAgentBench-v3|task10_26": "no order expected",
+  "MedAgentBench-v3|task10_27": "order expected",
+  "MedAgentBench-v3|task10_28": "order expected",
+  "MedAgentBench-v3|task10_29": "no order expected",
+  "MedAgentBench-v3|task10_30": "order expected",
+  "MedAgentBench-v3|task11_1": "no order expected",
+  "MedAgentBench-v3|task11_2": "order expected",
+  "MedAgentBench-v3|task11_3": "order expected",
+  "MedAgentBench-v3|task11_4": "no order expected",
+  "MedAgentBench-v3|task11_5": "no order expected",
+  "MedAgentBench-v3|task11_6": "no order expected",
+  "MedAgentBench-v3|task11_7": "no order expected",
+  "MedAgentBench-v3|task11_8": "no order expected",
+  "MedAgentBench-v3|task11_9": "order expected",
+  "MedAgentBench-v3|task11_10": "no order expected",
+  "MedAgentBench-v3|task11_11": "order expected",
+  "MedAgentBench-v3|task11_12": "order expected",
+  "MedAgentBench-v3|task11_13": "no order expected",
+  "MedAgentBench-v3|task11_14": "no order expected",
+  "MedAgentBench-v3|task11_15": "order expected",
+  "MedAgentBench-v3|task11_16": "order expected",
+  "MedAgentBench-v3|task11_17": "no order expected",
+  "MedAgentBench-v3|task11_18": "no order expected",
+  "MedAgentBench-v3|task11_19": "order expected",
+  "MedAgentBench-v3|task11_20": "no order expected",
+  "MedAgentBench-v3|task11_21": "order expected",
+  "MedAgentBench-v3|task11_22": "order expected",
+  "MedAgentBench-v3|task11_23": "order expected",
+  "MedAgentBench-v3|task11_24": "no order expected",
+  "MedAgentBench-v3|task11_25": "order expected",
+  "MedAgentBench-v3|task11_26": "order expected",
+  "MedAgentBench-v3|task11_27": "order expected",
+  "MedAgentBench-v3|task11_28": "no order expected",
+  "MedAgentBench-v3|task11_29": "no order expected",
+  "MedAgentBench-v3|task11_30": "order expected",
+  "MedAgentBench-v3|task12_1": "order expected",
+  "MedAgentBench-v3|task12_2": "order expected",
+  "MedAgentBench-v3|task12_3": "no order expected",
+  "MedAgentBench-v3|task12_4": "order expected",
+  "MedAgentBench-v3|task12_5": "order expected",
+  "MedAgentBench-v3|task12_6": "no order expected",
+  "MedAgentBench-v3|task12_7": "no order expected",
+  "MedAgentBench-v3|task12_8": "order expected",
+  "MedAgentBench-v3|task12_9": "order expected",
+  "MedAgentBench-v3|task12_10": "no order expected",
+  "MedAgentBench-v3|task12_11": "no order expected",
+  "MedAgentBench-v3|task12_12": "order expected",
+  "MedAgentBench-v3|task12_13": "no order expected",
+  "MedAgentBench-v3|task12_14": "order expected",
+  "MedAgentBench-v3|task12_15": "no order expected",
+  "MedAgentBench-v3|task12_16": "order expected",
+  "MedAgentBench-v3|task12_17": "no order expected",
+  "MedAgentBench-v3|task12_18": "order expected",
+  "MedAgentBench-v3|task12_19": "order expected",
+  "MedAgentBench-v3|task12_20": "no order expected",
+  "MedAgentBench-v3|task12_21": "order expected",
+  "MedAgentBench-v3|task12_22": "order expected",
+  "MedAgentBench-v3|task12_23": "no order expected",
+  "MedAgentBench-v3|task12_24": "order expected",
+  "MedAgentBench-v3|task12_25": "no order expected",
+  "MedAgentBench-v3|task12_26": "no order expected",
+  "MedAgentBench-v3|task12_27": "no order expected",
+  "MedAgentBench-v3|task12_28": "no order expected",
+  "MedAgentBench-v3|task12_29": "order expected",
+  "MedAgentBench-v3|task12_30": "no order expected"
+ }
+}

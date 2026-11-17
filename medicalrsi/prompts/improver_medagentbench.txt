@@ -1,0 +1,49 @@
+You are writing a SKILL for a small language model ({student}) that acts as a clinical agent on MedAgentBench:
+it reads a task (JSON prompt below), queries a FHIR server and may place orders, one action per turn.
+
+HOW THE SKILL IS USED
+- The student's whole skill library is pasted into its first prompt under "Behavioral skills", so every word costs
+  attention: a long or vague skill makes this small model worse.
+- The student runs with thinking off, temperature 0, at most 512 output tokens per turn and at most 8 turns. An
+  episode that has not called FINISH after 8 turns is graded as a failure.
+- Each turn must be exactly ONE plain action: `GET <url>`, or `POST <url>` with the JSON payload on the next lines and
+  nothing after the JSON, or `FINISH([...])`. Anything else ends the episode as an invalid action.
+- POSTs are recorded and graded, not executed: a later GET does not show the new resource. Writing in FINISH that
+  something was ordered places nothing; only an accepted POST counts.
+
+WHAT YOU ARE SHOWN
+Episodes of the student WITHOUT any skill on ONE task family ({task}), from {n} reference tasks of this family (other
+patients than the ones the skill will be used on). {stats}
+Each episode shows the task, every action of the student and the environment's reply (FHIR records one per line), how
+the episode ended, whether it PASSED (full credit) or FAILED, its partial score (1 = full credit, otherwise half the
+fraction of the grader's checks that passed), its action counts, and problems detected automatically from the trace.
+You are NOT given the correct answers or the grader's checks: work out from the task text and the records what the
+student should have done and where it went wrong.{contrast}
+
+THE STUDENT'S PROMPT (one example; the "behavioral_skills" field is where skills go):
+{prompt}
+
+EPISODES:
+{episodes}
+
+WRITE THE SKILL as a markdown file with YAML front matter, exactly in this shape:
+---
+name: <short_snake_case_name>
+description: "<one sentence: the observable situation in which to use this skill>"
+tags: [<2-4 words>]
+---
+## When to use
+<1-3 bullets naming the task wording / situation that triggers it>
+## Steps
+<numbered, concrete steps: which GET to send, how to read the response, the decision rule, the exact POST payload
+fields when an order is needed, and what to put in FINISH>
+## Pitfalls
+<1-3 bullets: the specific mistakes seen above and how to avoid them>
+
+Rules:
+- The body (everything after the front matter) must be at most {body} characters.
+- General for this task family: never write patient-specific values (MRNs, names, measured values, dates of these
+  patients). Codes, URLs, units, thresholds and payload fields stated or implied by the task are fine.
+- The student's action format is fixed and the parser accepts nothing else. Teach this format where the student broke
+  it; never ask for any other format (no JSON wrapper, no prose or reasoning before or after the action).
+- Output only the skill file, nothing else.

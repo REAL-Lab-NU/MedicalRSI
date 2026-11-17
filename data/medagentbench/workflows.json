@@ -1,0 +1,38 @@
+{
+ "train_order": [
+  "MedAgentBench-v2/task8",
+  "MedAgentBench/task1",
+  "MedAgentBench-v3/task6",
+  "MedAgentBench-v3/task11",
+  "MedAgentBench/task8",
+  "MedAgentBench/task7",
+  "MedAgentBench/task9",
+  "MedAgentBench-v2/task2",
+  "MedAgentBench-v3/task5",
+  "MedAgentBench-v3/task3",
+  "MedAgentBench/task5",
+  "MedAgentBench/task3",
+  "MedAgentBench-v3/task4",
+  "MedAgentBench/task4",
+  "MedAgentBench-v3/task10",
+  "MedAgentBench-v2/task5",
+  "MedAgentBench-v3/task2",
+  "MedAgentBench-v2/task10",
+  "MedAgentBench-v3/task9",
+  "MedAgentBench-v2/task9",
+  "MedAgentBench-v3/task1",
+  "MedAgentBench-v2/task1",
+  "MedAgentBench/task2",
+  "MedAgentBench-v2/task7",
+  "MedAgentBench-v3/task7",
+  "MedAgentBench-v2/task6"
+ ],
+ "heldout": [
+  "MedAgentBench/task6",
+  "MedAgentBench/task10",
+  "MedAgentBench-v2/task3",
+  "MedAgentBench-v2/task4",
+  "MedAgentBench-v3/task8",
+  "MedAgentBench-v3/task12"
+ ]
+}

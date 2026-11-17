@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="MedicalRSI logo">
+  <g fill="none" stroke-linejoin="round">
+    <path d="M50 50 C38 31 13 31 13 50 C13 69 38 69 50 50" stroke="#2A2430" stroke-width="15"/>
+    <path d="M50 50 C62 31 87 31 87 50 C87 69 62 69 50 50" stroke="#2A2430" stroke-width="15"/>
+    <path d="M50 50 C38 31 13 31 13 50 C13 69 38 69 50 50" stroke="#E8A9C0" stroke-width="10"/>
+    <path d="M50 50 C62 31 87 31 87 50 C87 69 62 69 50 50" stroke="#A9C0DE" stroke-width="10"/>
+    <path d="M41.54 59.12 C44.68 56.84 47.6 53.8 50 50 C52.4 46.2 55.32 43.16 58.46 40.88" stroke="#2A2430" stroke-width="15"/>
+    <path d="M39.16 60.69 C43.19 58.31 47 54.75 50 50" stroke="#E8A9C0" stroke-width="10"/>
+    <path d="M50 50 C53 45.25 56.81 41.69 60.84 39.31" stroke="#A9C0DE" stroke-width="10"/>
+    <path d="M45.77 47.33 L54.23 52.67" stroke="#2A2430" stroke-width="1.6" stroke-linecap="round"/>
+  </g>
+  <path d="M28.8 45 H32.2 V48.3 H35.5 V51.7 H32.2 V55 H28.8 V51.7 H25.5 V48.3 H28.8 Z" fill="#9B2C4E"/>
+  <polyline points="61,50 64,50 66,45.6 68.8,54.6 71.2,46.8 73,50 77,50" fill="none" stroke="#9B2C4E" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

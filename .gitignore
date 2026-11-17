@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+runs/
+models/
+checkpoints/
+# credentialed data never belongs in this repository
+data/medagentgym/
+data/medagentbench/fhir_snapshot/

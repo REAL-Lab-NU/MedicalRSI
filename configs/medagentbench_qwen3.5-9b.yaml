@@ -1,0 +1,23 @@
+# MedicalRSI on MedAgentBench with Qwen3.5-9B. Unlisted values are the paper's settings (medicalrsi/config.py).
+run_dir: runs/medagentbench_qwen3.5-9b
+
+model:
+  path: Qwen/Qwen3.5-9B
+
+env:
+  name: medagentbench
+  data_dir: data/medagentbench
+  fhir_url: http://localhost:8080/fhir/
+  fhir_snapshot: data/medagentbench/fhir_snapshot
+
+runtime:
+  gpus: [0, 1, 2, 3]
+  ports: [8050, 8051, 8052, 8053]
+  env:
+    NCCL_P2P_DISABLE: "1"
+
+train:
+  init_adapter: runs/medagentbench_qwen3.5-9b/warmstart
+
+warmstart:
+  data: data/medagentbench/warmstart.jsonl

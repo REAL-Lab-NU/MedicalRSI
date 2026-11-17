@@ -1,0 +1,1220 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>MedicalRSI</title>
+<meta name="description" content="MedicalRSI: medical recursive self-improving agents via Clinical Model-Harness Co-Evolution.">
+<link rel="icon" type="image/svg+xml" href="assets/logo_badge.svg">
+<link rel="apple-touch-icon" href="assets/logo_badge_180.png">
+<script>
+/* light by default; a viewer's own choice from the toggle wins and is remembered in this browser */
+(function () {
+  var saved = null;
+  try { saved = localStorage.getItem('medicalrsi-theme'); } catch (e) { saved = null; }
+  var root = document.documentElement;
+  if (saved === 'dark' || saved === 'light') root.setAttribute('data-theme', saved);
+  else root.setAttribute('data-theme', 'light');
+})();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=JetBrains+Mono:wght@500;700&family=Nunito:wght@400;600;700;800&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,500,0..1,0&display=block">
+<style>
+/* Layout: full-width bands around one 1120px reading column. Regions are told apart by their fill, as in the paper's
+   figures; only the hero's chart card and the buttons are "sticker" objects (ink outline, offset shadow). Colours are
+   sampled from Figures 1 and 2. */
+:root {
+  --bg: #FCFAFB; --surface: #FFFFFF; --surface-2: #F6F1F5; --ink: #2A2430; --muted: #5B5364; --line: #E6DCE4;
+  --rose: #E8A9C0; --rose-soft: #F9E3EC; --rose-ink: #9B2C4E; --on-accent: #FFFFFF;
+  --sol: #0E7C7B; --sol-soft: #DCEFEA;
+  --imp: #5E3A9E; --imp-soft: #E8E4F2;
+  --learn: #3C84CC; --reward-soft: #D4EAF3;
+  --harness: #A9C0DE; --harness-soft: #E4ECF6; --model: #E3D3A8; --model-soft: #F5EEDB; --base: #BFC3CC;
+  --task-soft: #F9F1DF; --task-edge: #B48A3A; --mem-soft: #FBF0D2; --mem-edge: #B98A1E;
+  --question: #F2F0F7; --head: #C5D5ED;
+  --ok: #23845A; --ok-soft: #DDF2E7; --bad: #C9413A; --bad-soft: #FBE4E2;
+  --figure-bg: #FFFFFF; --figure-ink: #2A2430;
+  --dot: #E8DEE6;
+  --panel: #F3EEF2; --card: #FFFFFF; --dot-3: #93CEC5;
+  --lift: 0 12px 26px -16px rgba(42, 36, 48, .34), 0 2px 6px -3px rgba(42, 36, 48, .10);
+  --font-display: "Comic Neue", "Comic Sans MS", "Chalkboard SE", "Comic Sans", cursive;
+  --font-body: "Nunito", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #16131A; --surface: #201C25; --surface-2: #1B1820; --ink: #F3EEF6; --muted: #C3BACC; --line: #3A333F;
+    --rose: #E8A9C0; --rose-soft: #3A2431; --rose-ink: #F4B8CD; --on-accent: #2A1420;
+    --sol: #7FD6CB; --sol-soft: #15302D;
+    --imp: #C7B6F4; --imp-soft: #29233F;
+    --learn: #8EBDED; --reward-soft: #172B35;
+    --harness: #A9C0DE; --harness-soft: #1F2937; --model: #E3D3A8; --model-soft: #2F2A1C; --base: #8F95A1;
+    --task-soft: #2C2718; --task-edge: #D8B66E; --mem-soft: #2F2915; --mem-edge: #E2B85A;
+    --question: #241F31; --head: #26354D;
+    --ok: #6FD19D; --ok-soft: #173025; --bad: #F2867E; --bad-soft: #3A1E1D;
+    --figure-bg: #FFFFFF; --figure-ink: #2A2430;
+    --dot: #2C2631;
+    --panel: #221D28; --card: #2C2632; --lift: 0 14px 30px -16px rgba(0, 0, 0, .75);
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #16131A; --surface: #201C25; --surface-2: #1B1820; --ink: #F3EEF6; --muted: #C3BACC; --line: #3A333F;
+  --rose: #E8A9C0; --rose-soft: #3A2431; --rose-ink: #F4B8CD; --on-accent: #2A1420;
+  --sol: #7FD6CB; --sol-soft: #15302D;
+  --imp: #C7B6F4; --imp-soft: #29233F;
+  --learn: #8EBDED; --reward-soft: #172B35;
+  --harness: #A9C0DE; --harness-soft: #1F2937; --model: #E3D3A8; --model-soft: #2F2A1C; --base: #8F95A1;
+  --task-soft: #2C2718; --task-edge: #D8B66E; --mem-soft: #2F2915; --mem-edge: #E2B85A;
+  --question: #241F31; --head: #26354D;
+  --ok: #6FD19D; --ok-soft: #173025; --bad: #F2867E; --bad-soft: #3A1E1D;
+  --figure-bg: #FFFFFF; --figure-ink: #2A2430;
+  --dot: #2C2631;
+  --panel: #221D28; --card: #2C2632; --lift: 0 14px 30px -16px rgba(0, 0, 0, .75);
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+:root { padding-top: env(safe-area-inset-top, 0px); padding-bottom: env(safe-area-inset-bottom, 0px); }
+[hidden] { display: none !important; }
+html { scroll-behavior: smooth; scroll-padding-top: 84px; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+body {
+  margin: 0; background: var(--bg); color: var(--ink);
+  font-family: var(--font-body); font-size: 19px; line-height: 1.6;
+  -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility;
+}
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--bg); }
+img { display: block; max-width: 100%; height: auto; }
+a { color: inherit; }
+:focus-visible { outline: 3px solid var(--rose-ink); outline-offset: 3px; border-radius: 6px; }
+p { margin: 0; }
+h1, h2, h3 { margin: 0; text-wrap: balance; }
+
+.ms {
+  font-family: "Material Symbols Rounded"; font-weight: normal; font-style: normal; font-size: 1.3em;
+  line-height: 1; letter-spacing: normal; text-transform: none; display: inline-block; white-space: nowrap;
+  word-wrap: normal; direction: ltr; font-feature-settings: "liga"; -webkit-font-feature-settings: "liga";
+  font-variation-settings: "FILL" 0, "wght" 500, "GRAD" 0, "opsz" 24; vertical-align: middle; flex: none;
+}
+.ms.fill { font-variation-settings: "FILL" 1, "wght" 500, "GRAD" 0, "opsz" 24; }
+
+.wrap {
+  max-width: 1120px; margin-inline: auto;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+.band { padding-block: 88px; }
+.band.alt { background: var(--surface-2); border-block: 1px solid var(--line); }
+@media (max-width: 700px) { .band { padding-block: 60px; } }
+
+.eyebrow {
+  display: inline-flex; align-items: center; gap: 10px; font-weight: 800; font-size: 16px;
+  letter-spacing: .09em; text-transform: uppercase; color: var(--rose-ink);
+}
+.eyebrow .ms { font-size: 24px; }
+h2 { font-family: var(--font-display); font-weight: 700; font-size: clamp(34px, 4.6vw, 52px); line-height: 1.08; margin-top: 10px; }
+h3 { font-family: var(--font-display); font-weight: 700; font-size: clamp(26px, 3vw, 32px); line-height: 1.15; }
+.lead { font-size: 21px; color: var(--muted); max-width: 44em; margin-top: 16px; }
+.sec-head { margin-bottom: 40px; }
+
+/* ---------- nav ---------- */
+.nav {
+  position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20;
+  background: var(--bg); background: color-mix(in srgb, var(--bg) 88%, transparent);
+  -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); border-bottom: 1px solid var(--line);
+}
+.nav .wrap { display: flex; align-items: center; gap: 20px; min-height: 64px; }
+.brand { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; font-family: var(--font-display); font-weight: 700; font-size: 26px; color: var(--rose-ink); flex: none; }
+/* the logo: a Möbius-like two-tone infinity (rose and blue), with a cross and a heartbeat in its loops */
+.logo { display: block; flex: none; color: var(--ink); overflow: visible; }
+.logo .acc-f { fill: var(--rose-ink); }
+.logo .acc-s { fill: none; stroke: var(--rose-ink); }
+.brand .logo { width: 50px; height: 50px; margin-block: -8px; }
+.hero-title { display: flex; align-items: center; gap: .14em; flex-wrap: nowrap; }
+.hero-title .logo { width: 1.18em; height: 1.18em; margin-block: -.28em; }
+.foot-brand { display: inline-flex; align-items: center; gap: 10px; }
+.foot-brand .logo { width: 38px; height: 38px; }
+.nav-links { display: flex; gap: 4px; margin-left: auto; overflow-x: auto; scrollbar-width: none; min-width: 0; }
+.nav-links::-webkit-scrollbar { display: none; }
+.nav-links a { text-decoration: none; font-weight: 700; font-size: 17px; color: var(--muted); padding: 8px 12px; border-radius: 999px; white-space: nowrap; }
+.nav-links a:hover { color: var(--ink); background: var(--rose-soft); }
+.theme-btn { flex: none; width: 44px; height: 44px; border-radius: 50%; border: 2px solid var(--line); background: var(--surface); color: var(--ink); display: grid; place-items: center; cursor: pointer; padding: 0; }
+.theme-btn:hover { background: var(--rose-soft); border-color: var(--rose-ink); }
+.theme-btn .ms { font-size: 24px; }
+
+/* ---------- hero ---------- */
+.hero { padding-block: 64px 72px; background-image: radial-gradient(var(--dot) 1.3px, transparent 1.4px); background-size: 22px 22px; }
+.hero-grid { display: grid; grid-template-columns: minmax(0, 1.02fr) minmax(0, .98fr); gap: 48px; align-items: center; }
+@media (max-width: 940px) { .hero-grid { grid-template-columns: minmax(0, 1fr); gap: 40px; } }
+.hero h1 { font-family: var(--font-display); font-weight: 700; font-size: clamp(50px, 6.3vw, 78px); line-height: 1; color: var(--rose-ink); margin-top: 14px; letter-spacing: -.01em; }
+.subtitle { font-weight: 800; font-size: clamp(22px, 2.3vw, 27px); line-height: 1.3; margin-top: 16px; }
+.thesis { font-size: 21px; color: var(--muted); margin-top: 20px; max-width: 34em; }
+.thesis strong { color: var(--ink); background: linear-gradient(transparent 62%, var(--rose-soft) 62%); }
+.actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
+.btn {
+  display: inline-flex; align-items: center; gap: 10px; padding: 12px 20px; border-radius: 999px;
+  font: inherit; font-weight: 800; font-size: 18px; line-height: 1.2; text-decoration: none; cursor: pointer;
+  border: 2px solid var(--ink); background: var(--surface); color: var(--ink); box-shadow: 3px 3px 0 var(--ink);
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+.btn:hover { transform: translate(-1px, -1px); box-shadow: 4px 4px 0 var(--ink); }
+.btn.primary { background: var(--rose-ink); border-color: var(--rose-ink); color: var(--on-accent); box-shadow: 3px 3px 0 var(--ink); }
+.btn.soon { cursor: default; box-shadow: none; border-style: dashed; color: var(--muted); }
+.btn.soon:hover { transform: none; box-shadow: none; }
+.soon-chip { font-size: 16px; font-weight: 800; padding: 2px 8px; border-radius: 999px; background: var(--rose-soft); color: var(--rose-ink); }
+
+.chart-card { background: var(--surface); border: 2px solid var(--ink); border-radius: 24px; padding: 24px 24px 20px; box-shadow: 6px 6px 0 var(--rose); }
+.chart-title { font-family: var(--font-display); font-weight: 700; font-size: 26px; line-height: 1.2; }
+.chart-sub { color: var(--muted); font-size: 17px; margin-top: 2px; }
+.bars { display: grid; gap: 12px; margin-top: 18px; }
+.bar-row { display: grid; grid-template-columns: 10.5em minmax(0, 1fr); gap: 12px; align-items: center; }
+.bar-label { font-weight: 700; font-size: 17px; line-height: 1.25; text-align: right; }
+.bar-label.ours { color: var(--rose-ink); font-weight: 800; }
+.track { position: relative; height: 34px; --reserve: 3.4em; }
+.track::before { /* dashed grid at 25/50/75/100 */
+  content: ""; position: absolute; inset: -6px auto -6px 0; width: calc(100% - var(--reserve));
+  background-image: linear-gradient(to right, var(--line) 1px, transparent 1px); background-size: 25% 100%;
+  -webkit-mask-image: repeating-linear-gradient(to bottom, #000 0 4px, transparent 4px 8px); mask-image: repeating-linear-gradient(to bottom, #000 0 4px, transparent 4px 8px);
+}
+.track::after { /* Base Agent reference */
+  content: ""; position: absolute; top: -6px; bottom: -6px; left: calc((100% - var(--reserve)) * .369); border-left: 2px dashed var(--muted); opacity: .55;
+}
+.bar { position: absolute; left: 0; top: 2px; bottom: 2px; width: calc((100% - var(--reserve)) * var(--v) / 100); background: var(--c); border: 2px solid var(--figure-ink); border-radius: 0 8px 8px 0; z-index: 1; }
+.bar.ours { background-image: repeating-linear-gradient(-45deg, transparent 0 7px, rgba(42,36,48,.32) 7px 9px); }
+.bar-val { position: absolute; top: 50%; transform: translateY(-50%); left: calc((100% - var(--reserve)) * var(--v) / 100 + 8px); font-weight: 800; font-size: 18px; font-variant-numeric: tabular-nums; z-index: 1; }
+.bar-val.ours { color: var(--rose-ink); }
+.axis { display: grid; grid-template-columns: 10.5em minmax(0, 1fr); gap: 12px; margin-top: 4px; }
+.axis .ticks { position: relative; height: 24px; --reserve: 3.4em; }
+.axis .ticks span { position: absolute; transform: translateX(-50%); left: calc((100% - var(--reserve)) * var(--p) / 100); color: var(--muted); font-size: 16px; font-variant-numeric: tabular-nums; }
+.legend { display: flex; flex-wrap: wrap; gap: 8px 16px; margin-top: 14px; padding-top: 14px; border-top: 2px dashed var(--line); font-size: 16px; font-weight: 700; color: var(--muted); }
+.legend span { display: inline-flex; align-items: center; gap: 8px; }
+.legend i { width: 18px; height: 14px; border-radius: 4px; border: 2px solid var(--figure-ink); background: var(--c); }
+.gain-note { display: inline-flex; align-items: center; gap: 6px; margin-top: 12px; font-weight: 800; font-size: 18px; color: var(--rose-ink); }
+@media (max-width: 560px) {
+  .bar-row, .axis { grid-template-columns: minmax(0, 1fr); gap: 4px; }
+  .bar-label { text-align: left; }
+  .axis .label-spacer { display: none; }
+}
+
+.tldr { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 28px; margin-top: 56px; padding-top: 36px; border-top: 2px dashed var(--line); }
+@media (max-width: 860px) { .tldr { grid-template-columns: minmax(0, 1fr); gap: 22px; } }
+.tl { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 16px; align-items: start; }
+.icon-disc { width: 56px; height: 56px; border-radius: 50%; display: grid; place-items: center; border: 2px solid var(--ink); background: var(--c, var(--rose-soft)); color: var(--ink); }
+.icon-disc .ms { font-size: 30px; }
+.tl h3 { font-size: 26px; }
+.tl p { color: var(--muted); margin-top: 4px; font-size: 18px; }
+
+/* ---------- problem ---------- */
+.cards3 { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
+@media (max-width: 900px) { .cards3 { grid-template-columns: minmax(0, 1fr); } }
+.pcard { background: var(--surface); border: 2px solid var(--line); border-radius: 22px; padding: 26px; display: grid; gap: 12px; align-content: start; }
+.pcard .top { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.step-badge { font-family: var(--font-display); font-weight: 700; font-size: 22px; color: var(--muted); }
+.pcard h3 { font-size: 27px; }
+.pcard p { color: var(--muted); font-size: 18px; }
+.rsi-def { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 20px; align-items: center; margin-top: 28px; background: var(--rose-soft); border: 2px solid var(--rose-ink); border-radius: 24px; padding: 24px 28px; }
+.rsi-def .icon-disc { background: var(--surface); color: var(--rose-ink); border-color: var(--rose-ink); width: 64px; height: 64px; }
+.rsi-def .ms { font-size: 36px; }
+.rsi-def .k { font-weight: 800; font-size: 16px; letter-spacing: .09em; text-transform: uppercase; color: var(--rose-ink); }
+.rsi-def p { font-family: var(--font-display); font-weight: 700; font-size: clamp(23px, 2.6vw, 30px); line-height: 1.25; margin-top: 4px; }
+.hard-title { margin-top: 64px; }
+.hard { display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr); gap: 20px; margin-top: 22px; }
+@media (max-width: 900px) { .hard { grid-template-columns: minmax(0, 1fr); } }
+.story { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; margin-top: 6px; }
+.story-col { display: grid; gap: 6px; justify-items: start; align-content: start; font-size: 17px; font-weight: 700; }
+.story-col .when { font-weight: 800; font-size: 16px; letter-spacing: .07em; text-transform: uppercase; color: var(--muted); }
+.story-col .down { color: var(--muted); margin-left: 14px; }
+@media (max-width: 520px) { .story { grid-template-columns: minmax(0, 1fr); } }
+.pill { display: inline-flex; align-items: center; gap: 8px; padding: 8px 12px; border-radius: 14px; border: 2px solid var(--line); background: var(--surface); line-height: 1.25; }
+.pill .ms { font-size: 24px; }
+.pill.bad { border-color: var(--bad); background: var(--bad-soft); }
+.pill.bad .ms { color: var(--bad); }
+.pill.ok { border-color: var(--ok); background: var(--ok-soft); }
+.pill.ok .ms { color: var(--ok); }
+.pill.imp { border-color: var(--imp); background: var(--imp-soft); }
+.pill.imp .ms { color: var(--imp); }
+.question { margin-top: 56px; background: var(--question); border-radius: 26px; padding: 36px 32px; text-align: center; border: 2px solid var(--line); }
+.question .eyebrow { color: var(--imp); }
+.question p { font-family: var(--font-display); font-weight: 700; font-size: clamp(26px, 3.3vw, 38px); line-height: 1.2; margin: 12px auto 0; max-width: 24em; }
+
+/* ---------- demo player ---------- */
+.player { background: var(--surface); border: 2px solid var(--ink); border-radius: 26px; box-shadow: 7px 7px 0 var(--rose); overflow: hidden; }
+.player-top { display: flex; align-items: center; gap: 14px; padding: 12px 20px; background: var(--rose-soft); border-bottom: 2px solid var(--ink); flex-wrap: wrap; }
+.dots { display: inline-flex; gap: 7px; }
+.dots i { width: 13px; height: 13px; border-radius: 50%; border: 2px solid var(--figure-ink); background: var(--c); }
+.player-name { font-family: var(--font-display); font-weight: 700; font-size: 22px; }
+.tag { margin-left: auto; display: inline-flex; align-items: center; gap: 6px; font-weight: 800; font-size: 16px; padding: 4px 12px; border-radius: 999px; background: var(--surface); border: 2px solid var(--ink); }
+.tag .ms { font-size: 20px; color: var(--rose-ink); }
+.stage { display: grid; padding: 30px; min-height: 400px; background-image: radial-gradient(var(--dot) 1.2px, transparent 1.3px); background-size: 20px 20px; }
+@media (max-width: 700px) { .stage { padding: 20px 16px; } }
+.scene { grid-area: 1 / 1; display: flex; flex-direction: column; justify-content: center; gap: 18px; min-width: 0; visibility: hidden; opacity: 0; transition: opacity .35s ease, visibility 0s linear .35s; }
+.scene.is-active { visibility: visible; opacity: 1; transition: opacity .35s ease; }
+
+.caption { padding: 22px 30px 6px; border-top: 2px dashed var(--line); min-height: 150px; }
+@media (max-width: 700px) { .caption { padding: 18px 16px 4px; } }
+.cap-step { font-weight: 800; font-size: 16px; letter-spacing: .09em; text-transform: uppercase; color: var(--rose-ink); }
+.caption h3 { font-size: clamp(25px, 2.8vw, 30px); margin-top: 4px; }
+.caption p { color: var(--muted); font-size: 19px; margin-top: 6px; max-width: 52em; }
+.controls { display: flex; align-items: center; gap: 12px; padding: 14px 30px 6px; flex-wrap: wrap; }
+@media (max-width: 700px) { .controls { padding: 12px 16px 4px; } }
+.ctl { width: 50px; height: 50px; border-radius: 50%; border: 2px solid var(--ink); background: var(--surface); color: var(--ink); display: grid; place-items: center; cursor: pointer; padding: 0; }
+.ctl .ms { font-size: 28px; }
+.ctl.main { width: 62px; height: 62px; background: var(--rose-ink); border-color: var(--rose-ink); color: var(--on-accent); box-shadow: 3px 3px 0 var(--ink); }
+.ctl.main .ms { font-size: 36px; }
+.ctl:hover { background: var(--rose-soft); }
+.ctl.main:hover { background: var(--rose-ink); transform: translate(-1px, -1px); }
+.hint { margin-left: auto; color: var(--muted); font-size: 16px; font-weight: 700; display: inline-flex; align-items: center; gap: 6px; }
+@media (max-width: 700px) { .hint { display: none; } }
+.chapters { display: grid; grid-template-columns: repeat(9, minmax(0, 1fr)); gap: 8px; list-style: none; margin: 0; padding: 12px 30px 26px; }
+@media (max-width: 700px) { .chapters { padding: 10px 16px 20px; gap: 5px; } }
+.chapters button { width: 100%; background: none; border: 0; padding: 6px 0; cursor: pointer; text-align: left; font: inherit; color: var(--muted); }
+.chapters .trk { display: block; height: 9px; border-radius: 99px; background: var(--line); overflow: hidden; }
+.chapters .fill { display: block; height: 100%; background: var(--rose-ink); transform-origin: left center; transform: scaleX(0); }
+.chapters .lbl { display: block; margin-top: 7px; font-size: 16px; font-weight: 700; line-height: 1.2; }
+.chapters .is-current .lbl { color: var(--ink); }
+.chapters .is-done .fill { transform: scaleX(1); }
+@media (max-width: 860px) { .chapters .lbl { display: none; } }
+/* phones: caption and controls sit above the stage, and only the current scene takes space */
+@media (max-width: 760px) {
+  .player { display: flex; flex-direction: column; }
+  .player-top { order: 0; }
+  .caption { order: 1; border-top: 0; min-height: 0; }
+  .controls { order: 2; }
+  .chapters { order: 3; }
+  .stage { order: 4; min-height: 0; border-top: 2px dashed var(--line); }
+  .scene { display: none; }
+  .scene.is-active { display: flex; }
+}
+
+/* scene building blocks */
+.s-two { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.15fr); gap: 26px; align-items: center; }
+@media (max-width: 760px) { .s-two { grid-template-columns: minmax(0, 1fr); gap: 18px; } }
+.rcard { border-radius: 20px; border: 2px solid var(--line); padding: 18px 20px; background: var(--surface); display: grid; gap: 10px; align-content: start; }
+.rcard.solver { background: var(--sol-soft); border-color: var(--sol); }
+.rcard.improver { background: var(--imp-soft); border-color: var(--imp); }
+.rcard.task { background: var(--task-soft); border-color: var(--task-edge); }
+.rhead { display: flex; align-items: center; gap: 10px; font-family: var(--font-display); font-weight: 700; font-size: 26px; line-height: 1.15; }
+.rhead .ms { font-size: 32px; }
+.solver .rhead { color: var(--sol); }
+.improver .rhead { color: var(--imp); }
+.task .rhead { color: var(--task-edge); }
+.rcard p { font-size: 18px; }
+.task-text { font-size: 21px !important; font-weight: 700; line-height: 1.45; }
+.sub-note { display: inline-flex; align-items: center; gap: 8px; font-weight: 800; font-size: 17px; }
+.sub-note.imp { color: var(--imp); }
+.sub-note.sol { color: var(--sol); }
+
+.pts { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+@media (max-width: 420px) { .pts { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.pt { display: flex; align-items: center; gap: 8px; background: var(--surface); border: 2px solid var(--line); border-radius: 16px; padding: 10px 12px; font-weight: 800; font-size: 18px; min-width: 0; }
+.pt > .ms { font-size: 28px; color: var(--muted); }
+.pt .mk { margin-left: auto; font-size: 30px; }
+.mk.ok, .ok-c { color: var(--ok); }
+.mk.bad, .bad-c { color: var(--bad); }
+.bubble { display: flex; gap: 12px; align-items: flex-start; border-radius: 18px; padding: 14px 16px; font-size: 18px; background: var(--bad-soft); border: 2px solid var(--bad); }
+.bubble > .ms { color: var(--bad); font-size: 30px; }
+.bubble b { display: block; }
+
+.s-flow { display: grid; grid-template-columns: minmax(0, 1.25fr) auto minmax(0, 1fr); gap: 20px; align-items: center; }
+@media (max-width: 760px) { .s-flow { grid-template-columns: minmax(0, 1fr); } .s-flow .arrow { transform: rotate(90deg); justify-self: center; } }
+.arrow { color: var(--muted); }
+.arrow .ms { font-size: 40px; }
+.attempts { display: grid; gap: 12px; }
+.att { background: var(--surface); border: 2px solid var(--line); border-radius: 16px; padding: 12px 14px; }
+.att-head { display: flex; align-items: center; gap: 8px; font-weight: 800; font-size: 18px; flex-wrap: wrap; }
+.att-head .fb { margin-left: auto; font-size: 16px; font-weight: 800; padding: 2px 10px; border-radius: 999px; }
+.att.bad .att-head > .ms { color: var(--bad); }
+.att.bad .fb { background: var(--bad-soft); color: var(--bad); }
+.att.ok .att-head > .ms { color: var(--ok); }
+.att.ok .fb { background: var(--ok-soft); color: var(--ok); }
+.traj { display: flex; flex-wrap: wrap; gap: 4px 6px; margin: 8px 0 0; padding: 0; list-style: none; font-family: var(--font-mono); font-size: 16px; color: var(--muted); }
+.traj li + li::before { content: "\2192\00a0"; color: var(--muted); }
+
+.s-write { display: grid; grid-template-columns: minmax(0, 1.45fr) minmax(0, 1fr); gap: 22px; align-items: start; }
+@media (max-width: 760px) { .s-write { grid-template-columns: minmax(0, 1fr); } }
+.doc { background: var(--surface); border: 2px solid var(--imp); border-radius: 18px; padding: 16px 20px; }
+.doc-head { display: flex; align-items: center; gap: 10px; font-family: var(--font-display); font-weight: 700; font-size: 25px; color: var(--imp); padding-bottom: 8px; }
+.doc-head .ms { font-size: 30px; }
+.doc-line { display: grid; grid-template-columns: 7.2em minmax(0, 1fr); gap: 10px; font-size: 18px; padding: 10px 0; border-top: 2px dashed var(--line); }
+.doc-line .k { font-weight: 800; color: var(--imp); }
+.doc-line.warn .k { color: var(--bad); }
+@media (max-width: 480px) { .doc-line { grid-template-columns: minmax(0, 1fr); gap: 2px; } }
+.cands-title { font-weight: 800; font-size: 17px; color: var(--muted); margin-bottom: 10px; display: flex; align-items: center; gap: 8px; }
+.cands { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+.cand { border: 2px solid var(--line); border-radius: 16px; padding: 12px; background: var(--surface); display: grid; gap: 4px; }
+.cand .ms { font-size: 30px; color: var(--imp); }
+.cand .h { font-family: var(--font-mono); font-weight: 700; font-size: 18px; }
+.cand .d { font-size: 16px; color: var(--muted); font-weight: 700; line-height: 1.3; }
+.cand.this { border-color: var(--imp); background: var(--imp-soft); }
+
+.rgrid { display: grid; grid-template-columns: minmax(6.2em, auto) repeat(6, minmax(0, 1fr)) minmax(3.6em, auto); gap: 8px 6px; align-items: center; font-size: 18px; }
+.rgrid .hd { font-weight: 800; color: var(--muted); font-size: 16px; text-align: center; }
+.rgrid .hd.l { text-align: left; }
+.rgrid .rl { font-weight: 800; display: flex; flex-direction: column; line-height: 1.15; }
+.rgrid .rl small { font-weight: 700; font-size: 16px; color: var(--muted); font-family: var(--font-mono); }
+.rgrid .c { display: grid; place-items: center; height: 42px; border-radius: 12px; background: var(--surface); border: 2px solid var(--line); }
+.rgrid .c .ms { font-size: 28px; }
+.rgrid .sv { font-weight: 800; text-align: center; font-variant-numeric: tabular-nums; }
+.rgrid .row-base { color: var(--muted); }
+.rgrid .best { color: var(--imp); }
+@media (max-width: 520px) { .rgrid { grid-template-columns: minmax(3.4em, auto) repeat(6, minmax(0, 1fr)) minmax(2.6em, auto); font-size: 16px; } .rgrid .rl small { display: none; } .rgrid .c { height: 34px; } .rgrid .c .ms { font-size: 22px; } }
+
+.gains { display: grid; gap: 14px; }
+.grow-row { display: grid; grid-template-columns: 4.2em minmax(0, 1fr) 3.2em; gap: 12px; align-items: center; }
+.grow-row .nm { font-weight: 800; font-family: var(--font-mono); font-size: 18px; }
+.grow-row .val { font-weight: 800; font-size: 20px; font-variant-numeric: tabular-nums; text-align: right; }
+.gtrack { position: relative; height: 38px; }
+.gtrack::before { content: ""; position: absolute; left: 50%; top: -8px; bottom: -8px; border-left: 2px solid var(--ink); }
+.gbar { position: absolute; top: 5px; bottom: 5px; left: 50%; width: calc(var(--a) * 1%); border: 2px solid var(--figure-ink); border-radius: 0 9px 9px 0; background: var(--c); transform-origin: left center; }
+.gbar.neg { left: auto; right: 50%; border-radius: 9px 0 0 9px; transform-origin: right center; }
+.zero-lbl { text-align: center; font-weight: 800; font-size: 16px; color: var(--muted); }
+.reward-notes { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+@media (max-width: 700px) { .reward-notes { grid-template-columns: minmax(0, 1fr); } }
+
+.s-update { display: grid; grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr); gap: 20px; align-items: center; }
+@media (max-width: 760px) { .s-update { grid-template-columns: minmax(0, 1fr); } }
+.theta { text-align: center; display: grid; gap: 8px; justify-items: center; }
+.theta .w { font-family: var(--font-mono); font-weight: 700; font-size: 30px; display: inline-flex; align-items: center; gap: 8px; padding: 8px 16px; border-radius: 16px; border: 2px solid var(--learn); background: var(--reward-soft); }
+.theta .w .ms { color: var(--learn); }
+.theta .loss { font-family: var(--font-mono); font-size: 17px; color: var(--muted); font-weight: 700; }
+.memory { grid-column: 1 / -1; display: flex; flex-wrap: wrap; align-items: center; gap: 12px; background: var(--mem-soft); border: 2px solid var(--mem-edge); border-radius: 18px; padding: 14px 18px; font-size: 18px; font-weight: 700; }
+.memory > .ms { font-size: 30px; color: var(--mem-edge); }
+.chip { display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px; border-radius: 999px; border: 2px solid var(--imp); background: var(--surface); font-weight: 800; font-size: 17px; }
+.chip .ms { font-size: 22px; color: var(--imp); }
+
+.round { border: 2px solid var(--line); border-radius: 18px; padding: 16px 18px; background: var(--surface); display: grid; gap: 10px; }
+.round-tag { font-weight: 800; font-size: 16px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.revise { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; border: 2px solid var(--imp); background: var(--imp-soft); border-radius: 18px; padding: 14px 18px; font-size: 18px; font-weight: 700; }
+.revise > .ms { color: var(--imp); font-size: 30px; }
+.newline { font-family: var(--font-mono); font-size: 17px; background: var(--surface); border: 2px dashed var(--imp); border-radius: 12px; padding: 6px 12px; }
+
+.tt-flow { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 26px; }
+@media (max-width: 860px) { .tt-flow { grid-template-columns: minmax(0, 1fr); gap: 22px; } }
+.tt { position: relative; border: 2px solid var(--line); border-radius: 18px; padding: 14px 16px; background: var(--surface); display: grid; gap: 6px; align-content: start; }
+.tt > .ms { font-size: 34px; }
+.tt b { font-size: 18px; line-height: 1.25; }
+.tt span.t { font-size: 17px; color: var(--muted); line-height: 1.35; }
+.tt .big { font-family: var(--font-display); font-weight: 700; font-size: 30px; line-height: 1.1; }
+.tt.new { background: var(--task-soft); border-color: var(--task-edge); }
+.tt.new > .ms { color: var(--task-edge); }
+.tt.bad { background: var(--bad-soft); border-color: var(--bad); }
+.tt.bad > .ms, .tt.bad .big { color: var(--bad); }
+.tt.imp { background: var(--imp-soft); border-color: var(--imp); }
+.tt.imp > .ms { color: var(--imp); }
+.tt.ok { background: var(--ok-soft); border-color: var(--ok); }
+.tt.ok > .ms, .tt.ok .big { color: var(--ok); }
+.tt + .tt::before {
+  content: "arrow_forward"; font-family: "Material Symbols Rounded"; font-feature-settings: "liga"; -webkit-font-feature-settings: "liga";
+  position: absolute; left: -25px; top: 50%; transform: translateY(-50%); font-size: 24px; color: var(--muted); line-height: 1;
+}
+@media (max-width: 860px) { .tt + .tt::before { left: 22px; top: -24px; transform: rotate(90deg); } }
+.lockline { display: inline-flex; align-items: center; gap: 8px; font-weight: 800; font-size: 17px; color: var(--learn); }
+
+/* scene animation: only while the player runs, so the resting page shows every scene element */
+@keyframes rise { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: none; } }
+@keyframes pop { 0% { opacity: 0; transform: scale(.3); } 70% { opacity: 1; transform: scale(1.18); } 100% { opacity: 1; transform: scale(1); } }
+@keyframes grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+@keyframes halo { 0%, 100% { box-shadow: 0 0 0 0 transparent; } 50% { box-shadow: 0 0 0 9px var(--halo); } }
+.player.is-animating .scene.is-active .a { animation: rise .55s cubic-bezier(.2,.7,.2,1) both; animation-delay: calc(var(--i, 0) * .42s + .1s); }
+.player.is-animating .scene.is-active .p { animation: pop .42s ease-out both; animation-delay: calc(var(--i, 0) * .22s + .35s); }
+.player.is-animating .scene.is-active .g { animation: grow .75s cubic-bezier(.2,.7,.2,1) both; animation-delay: calc(var(--i, 0) * .45s + .3s); }
+.player.is-animating .scene.is-active .halo { animation: halo 1.5s ease-in-out 1.2s 2; }
+.solver.halo { --halo: rgba(14,124,123,.28); }
+.improver.halo { --halo: rgba(94,58,158,.28); }
+@media (prefers-reduced-motion: reduce) {
+  .player .a, .player .p, .player .g, .player .halo { animation: none !important; }
+  .scene, .scene.is-active { transition: none; }
+}
+
+/* ---------- method ---------- */
+.roles { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
+@media (max-width: 800px) { .roles { grid-template-columns: minmax(0, 1fr); } }
+.role { border-radius: 24px; border: 2px solid; padding: 26px; display: grid; gap: 12px; align-content: start; }
+.role.solver { background: var(--sol-soft); border-color: var(--sol); }
+.role.improver { background: var(--imp-soft); border-color: var(--imp); }
+.role .rhead { font-size: 32px; }
+.role .rhead .ms { font-size: 38px; }
+.role p { font-size: 19px; }
+.role .defn { font-weight: 800; font-size: 21px; }
+.fig { margin: 40px 0 0; }
+.fig-media { position: relative; background: var(--figure-bg); border: 2px solid var(--line); border-radius: 22px; padding: 16px; }
+.fig-media img { width: 100%; border-radius: 8px; }
+.expand { position: absolute; top: 12px; right: 12px; width: 46px; height: 46px; border-radius: 50%; border: 2px solid var(--figure-ink); background: var(--figure-bg); color: var(--figure-ink); display: grid; place-items: center; cursor: pointer; padding: 0; opacity: .9; }
+.expand:hover { opacity: 1; transform: scale(1.05); }
+.expand .ms { font-size: 26px; }
+figcaption { margin-top: 14px; color: var(--muted); font-size: 18px; max-width: 58em; }
+figcaption b { color: var(--ink); }
+.comp-title { margin-top: 64px; }
+.comps { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 30px 28px; margin-top: 26px; }
+@media (max-width: 900px) { .comps { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 600px) { .comps { grid-template-columns: minmax(0, 1fr); } }
+.comp { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 16px; align-items: start; }
+.comp h3 { font-size: 24px; }
+.comp p { color: var(--muted); font-size: 18px; margin-top: 4px; }
+
+/* ---------- results ---------- */
+.stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 18px; }
+@media (max-width: 960px) { .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 480px) { .stats { grid-template-columns: minmax(0, 1fr); } }
+.stat { background: var(--surface); border: 2px solid var(--ink); border-radius: 22px; padding: 20px 20px 18px; box-shadow: 4px 4px 0 var(--rose); display: grid; gap: 6px; align-content: start; }
+.stat .num { font-family: var(--font-display); font-weight: 700; font-size: clamp(40px, 4.2vw, 50px); line-height: 1; color: var(--rose-ink); font-variant-numeric: tabular-nums; }
+.stat .what { display: flex; align-items: center; gap: 8px; font-weight: 800; font-size: 18px; }
+.stat .what .ms { color: var(--rose-ink); }
+.stat .sub { color: var(--muted); font-size: 17px; line-height: 1.4; }
+.tbl-wrap { overflow-x: auto; margin-top: 40px; border: 2px solid var(--line); border-radius: 20px; background: var(--surface); }
+table { width: 100%; border-collapse: collapse; font-size: 18px; font-variant-numeric: tabular-nums; min-width: 620px; }
+thead th { background: var(--head); text-align: left; font-weight: 800; padding: 14px 16px; font-size: 17px; }
+thead th.n { text-align: right; }
+tbody td { padding: 12px 16px; border-top: 1px solid var(--line); }
+tbody td.n { text-align: right; font-weight: 700; }
+td .route { display: inline-flex; align-items: center; gap: 8px; color: var(--muted); font-weight: 700; font-size: 17px; }
+td .route i { width: 14px; height: 14px; border-radius: 4px; border: 2px solid var(--figure-ink); background: var(--c); }
+td .ov { display: inline-flex; align-items: center; gap: 10px; justify-content: flex-end; width: 100%; }
+td .mini { display: inline-block; height: 12px; width: calc(var(--v) * 1.1px); border-radius: 4px; background: var(--c); border: 1.5px solid var(--figure-ink); }
+tr.ours td { background: var(--rose-soft); font-weight: 800; }
+tr.ours td:first-child { color: var(--rose-ink); }
+.tbl-note { color: var(--muted); font-size: 17px; margin-top: 12px; }
+.figs2 { display: grid; gap: 8px; }
+
+/* ---------- case ---------- */
+.task-quote { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 16px; align-items: start; background: var(--task-soft); border: 2px solid var(--task-edge); border-radius: 22px; padding: 22px 24px; font-size: 20px; font-weight: 700; }
+.task-quote .ms { color: var(--task-edge); font-size: 34px; }
+.task-quote small { display: block; font-size: 16px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; color: var(--task-edge); margin-bottom: 4px; }
+.case-steps { margin-top: 24px; }
+
+/* ---------- cite ---------- */
+.bib { position: relative; margin-top: 8px; }
+.bib pre { margin: 0; overflow-x: auto; background: var(--surface); border: 2px solid var(--ink); border-radius: 20px; padding: 22px 24px; font-family: var(--font-mono); font-size: 16px; line-height: 1.65; box-shadow: 5px 5px 0 var(--rose); }
+.bib-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 12px; }
+.bib-label { display: inline-flex; align-items: center; gap: 8px; font-weight: 800; font-size: 18px; }
+.bib-label .ms { color: var(--rose-ink); }
+.copy.btn { padding: 8px 16px; font-size: 17px; box-shadow: 2px 2px 0 var(--ink); }
+.cite-note { color: var(--muted); font-size: 17px; margin-top: 18px; }
+
+footer { padding-block: 40px 56px; border-top: 1px solid var(--line); color: var(--muted); font-size: 17px; }
+footer .wrap { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; }
+footer a { font-weight: 800; text-decoration: none; display: inline-flex; align-items: center; gap: 6px; }
+
+/* ---------- lightbox ---------- */
+.lightbox { position: fixed; inset: 0; z-index: 60; background: rgba(18, 14, 22, .88); display: grid; place-items: center;
+  padding: max(16px, env(safe-area-inset-top, 0px)) max(16px, env(safe-area-inset-right, 0px)) max(16px, env(safe-area-inset-bottom, 0px)) max(16px, env(safe-area-inset-left, 0px)); }
+.lightbox .lb-inner { max-width: 100%; max-height: 100%; overflow: auto; background: var(--figure-bg); border-radius: 16px; padding: 12px; }
+.lightbox img { width: min(1800px, 100%); max-height: calc(100vh - 80px); object-fit: contain; }
+.lb-close { position: fixed; top: calc(14px + env(safe-area-inset-top, 0px)); right: calc(14px + env(safe-area-inset-right, 0px)); width: 52px; height: 52px; border-radius: 50%; border: 2px solid var(--figure-ink); background: var(--figure-bg); color: var(--figure-ink); display: grid; place-items: center; cursor: pointer; }
+.lb-close .ms { font-size: 30px; }
+
+/* Fill look: regions are told apart by their fill, as in the paper's figures, not by dark outlines. Outer panels:
+   a soft tint and a soft lift; boxes inside them: plain cards; labels: tinted pills. */
+/* no outlines and no offset shadows (borders keep their width, so nothing moves); the hero's chart card and
+   the buttons keep their outlines and offset shadows */
+.player, .player-top, .stat, .bib pre, .pcard, .question, .rsi-def, .rsi-def .icon-disc, .role, .fig-media,
+.tbl-wrap, .task-quote, .rcard, .pt, .bubble, .att, .doc, .cand, .rgrid .c, .memory, .round, .revise, .tt, .pill, .chip,
+.tag, .theta .w, .icon-disc, .ctl, .theme-btn, .expand, .lb-close, .newline, .dots i {
+  border-color: transparent !important; box-shadow: none !important; }
+.band.alt { border-block-color: transparent; }
+
+/* outer panels lift softly off the page */
+.player, .pcard, .rsi-def, .question, .role, .fig-media, .stat, .tbl-wrap, .task-quote, .bib pre,
+.case-steps .tt { box-shadow: var(--lift) !important; }
+
+/* fills: tinted panels, plain cards inside them */
+.player, .bib pre { background: var(--panel); }
+.player-top { background: var(--rose-soft); }
+.fig-media { background: var(--figure-bg); }
+.pcard, .tbl-wrap { background: var(--card); }
+.pt, .att, .doc, .cand, .rgrid .c, .round, .tt, .tag, .ctl, .expand { background: var(--card); }
+.stats .stat:nth-child(1) { background: var(--rose-soft); }
+.stats .stat:nth-child(2) { background: var(--harness-soft); }
+.stats .stat:nth-child(3) { background: var(--model-soft); }
+.stats .stat:nth-child(4) { background: var(--reward-soft); }
+.newline, .chip { background: var(--imp-soft); }
+.theme-btn, .lb-close { background: var(--panel); }
+.ctl.main { background: var(--rose-ink); }
+.dots i:nth-child(3) { background: var(--dot-3); }
+</style>
+</head>
+<body>
+<header class="nav" id="top">
+  <div class="wrap">
+    <a class="brand" href="#top"><svg class="logo" viewBox="0 0 100 100" aria-hidden="true" focusable="false"><g fill="none" stroke-linejoin="round"><path d="M50 50 C38 31 13 31 13 50 C13 69 38 69 50 50" stroke="currentColor" stroke-width="15"></path><path d="M50 50 C62 31 87 31 87 50 C87 69 62 69 50 50" stroke="currentColor" stroke-width="15"></path><path d="M50 50 C38 31 13 31 13 50 C13 69 38 69 50 50" stroke="#E8A9C0" stroke-width="10"></path><path d="M50 50 C62 31 87 31 87 50 C87 69 62 69 50 50" stroke="#A9C0DE" stroke-width="10"></path><path d="M41.54 59.12 C44.68 56.84 47.6 53.8 50 50 C52.4 46.2 55.32 43.16 58.46 40.88" stroke="currentColor" stroke-width="15"></path><path d="M39.16 60.69 C43.19 58.31 47 54.75 50 50" stroke="#E8A9C0" stroke-width="10"></path><path d="M50 50 C53 45.25 56.81 41.69 60.84 39.31" stroke="#A9C0DE" stroke-width="10"></path><path d="M45.77 47.33 L54.23 52.67" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"></path></g><path class="acc-f" d="M28.8 45 H32.2 V48.3 H35.5 V51.7 H32.2 V55 H28.8 V51.7 H25.5 V48.3 H28.8 Z"></path><polyline class="acc-s" points="61,50 64,50 66,45.6 68.8,54.6 71.2,46.8 73,50 77,50" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"></polyline></svg>MedicalRSI</a>
+    <nav class="nav-links" aria-label="Sections">
+      <a href="#problem">Problem</a>
+      <a href="#demo">Demo</a>
+      <a href="#method">Method</a>
+      <a href="#results">Results</a>
+      <a href="#case">Case</a>
+      <a href="#cite">Cite</a>
+    </nav>
+    <button class="theme-btn" id="theme-btn" type="button" aria-label="Switch to dark mode" title="Switch to dark mode"><span class="ms" aria-hidden="true" id="theme-icon">dark_mode</span></button>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+  <div class="wrap">
+    <div class="hero-grid">
+      <div>
+        <span class="eyebrow"><span class="ms" aria-hidden="true">stethoscope</span>Medical agents that keep improving</span>
+        <h1 class="hero-title"><svg class="logo" viewBox="0 0 100 100" aria-hidden="true" focusable="false"><g fill="none" stroke-linejoin="round"><path d="M50 50 C38 31 13 31 13 50 C13 69 38 69 50 50" stroke="currentColor" stroke-width="15"></path><path d="M50 50 C62 31 87 31 87 50 C87 69 62 69 50 50" stroke="currentColor" stroke-width="15"></path><path d="M50 50 C38 31 13 31 13 50 C13 69 38 69 50 50" stroke="#E8A9C0" stroke-width="10"></path><path d="M50 50 C62 31 87 31 87 50 C87 69 62 69 50 50" stroke="#A9C0DE" stroke-width="10"></path><path d="M41.54 59.12 C44.68 56.84 47.6 53.8 50 50 C52.4 46.2 55.32 43.16 58.46 40.88" stroke="currentColor" stroke-width="15"></path><path d="M39.16 60.69 C43.19 58.31 47 54.75 50 50" stroke="#E8A9C0" stroke-width="10"></path><path d="M50 50 C53 45.25 56.81 41.69 60.84 39.31" stroke="#A9C0DE" stroke-width="10"></path><path d="M45.77 47.33 L54.23 52.67" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"></path></g><path class="acc-f" d="M28.8 45 H32.2 V48.3 H35.5 V51.7 H32.2 V55 H28.8 V51.7 H25.5 V48.3 H28.8 Z"></path><polyline class="acc-s" points="61,50 64,50 66,45.6 68.8,54.6 71.2,46.8 73,50 77,50" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"></polyline></svg><span>MedicalRSI</span></h1>
+        <p class="subtitle">Medical Recursive Self-Improving Agents via Clinical Model-Harness Co-Evolution</p>
+        <p class="thesis">One model carries out clinical workflows and writes its own medical harness from its failures. <strong>The agent improves not only itself but also its improving strategy.</strong></p>
+        <div class="actions">
+          <a class="btn primary" href="#demo"><span class="ms fill" aria-hidden="true">play_circle</span>Watch a round</a>
+          <span class="btn soon" aria-disabled="true"><span class="ms" aria-hidden="true">description</span>Paper<span class="soon-chip">Soon</span></span>
+          <a class="btn" href="https://github.com/REAL-Lab-NU/MedicalRSI"><span class="ms" aria-hidden="true">code</span>Code</a>
+          <a class="btn" href="https://huggingface.co/REAL-LAB-NU/MedicalRSI-MedAgentBench-Qwen3.5-9B"><span class="ms" aria-hidden="true">deployed_code</span>Model</a>
+          <a class="btn" href="#cite"><span class="ms" aria-hidden="true">format_quote</span>BibTeX</a>
+        </div>
+      </div>
+
+      <figure class="chart-card" aria-labelledby="chart-title" style="margin:0">
+        <p class="chart-title" id="chart-title">Tasks solved on MedAgentBench (%)</p>
+        <p class="chart-sub">Qwen3.5-9B, 320 test tasks. The dashed line marks the Base Agent.</p>
+        <div class="bars" role="list">
+          <div class="bar-row" role="listitem"><span class="bar-label ours">MedicalRSI</span><span class="track"><span class="bar ours" style="--v:85.1;--c:var(--rose)"></span><span class="bar-val ours" style="--v:85.1">85.1</span></span></div>
+          <div class="bar-row" role="listitem"><span class="bar-label">GRPO Solver</span><span class="track"><span class="bar" style="--v:62.8;--c:var(--model)"></span><span class="bar-val" style="--v:62.8">62.8</span></span></div>
+          <div class="bar-row" role="listitem"><span class="bar-label">GRPO Improver</span><span class="track"><span class="bar" style="--v:61.2;--c:var(--harness)"></span><span class="bar-val" style="--v:61.2">61.2</span></span></div>
+          <div class="bar-row" role="listitem"><span class="bar-label">GPT-6.1-Sol writes the harness</span><span class="track"><span class="bar" style="--v:51.6;--c:var(--harness)"></span><span class="bar-val" style="--v:51.6">51.6</span></span></div>
+          <div class="bar-row" role="listitem"><span class="bar-label">GRASP</span><span class="track"><span class="bar" style="--v:50.3;--c:var(--harness)"></span><span class="bar-val" style="--v:50.3">50.3</span></span></div>
+          <div class="bar-row" role="listitem"><span class="bar-label">Base Agent</span><span class="track"><span class="bar" style="--v:36.9;--c:var(--base)"></span><span class="bar-val" style="--v:36.9">36.9</span></span></div>
+        </div>
+        <div class="axis" aria-hidden="true"><span class="label-spacer"></span><span class="ticks"><span style="--p:0">0</span><span style="--p:25">25</span><span style="--p:50">50</span><span style="--p:75">75</span><span style="--p:100">100</span></span></div>
+        <p class="gain-note"><span class="ms" aria-hidden="true">trending_up</span>+48.2 points over the Base Agent</p>
+        <div class="legend">
+          <span><i style="--c:var(--rose)"></i>Model and harness co-evolve</span>
+          <span><i style="--c:var(--harness)"></i>Improve the harness only</span>
+          <span><i style="--c:var(--model)"></i>Train the model only</span>
+          <span><i style="--c:var(--base)"></i>No self-improvement</span>
+        </div>
+      </figure>
+    </div>
+
+    <div class="tldr">
+      <div class="tl">
+        <span class="icon-disc" style="--c:var(--imp-soft)"><span class="ms" aria-hidden="true">group_work</span></span>
+        <div><h3>One model, two roles</h3><p>The Solver is the medical agent itself. The Improver is its learnable improving strategy, which writes the medical harness from the agent's failures.</p></div>
+      </div>
+      <div class="tl">
+        <span class="icon-disc" style="--c:var(--rose-soft)"><span class="ms" aria-hidden="true">trending_up</span></span>
+        <div><h3>Rewarded by gain</h3><p>Each harness is rewarded by how much it improves the agent over acting without it, so no reference harness is needed.</p></div>
+      </div>
+      <div class="tl">
+        <span class="icon-disc" style="--c:var(--sol-soft)"><span class="ms" aria-hidden="true">sync</span></span>
+        <div><h3>Trained together</h3><p>Both roles learn from the same attempts, so the Improver keeps adapting to the problems the Solver has not yet solved.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band alt" id="problem">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow"><span class="ms" aria-hidden="true">emergency</span>The problem</span>
+      <h2>Medical agents repeat the same mistakes</h2>
+      <p class="lead">On an electronic health record system, an agent retrieves laboratory results, records patient information and places orders. The same clinical workflow comes back for patient after patient.</p>
+    </div>
+    <div class="cards3">
+      <article class="pcard">
+        <div class="top"><span class="icon-disc" style="--c:var(--task-soft)"><span class="ms" aria-hidden="true">groups</span></span><span class="step-badge">1</span></div>
+        <h3>One workflow, many patients</h3>
+        <p>Each patient has different records and needs, but the tasks share many checks, decisions and steps. Experience from one attempt can guide the next.</p>
+      </article>
+      <article class="pcard">
+        <div class="top"><span class="icon-disc" style="--c:var(--bad-soft)"><span class="ms" aria-hidden="true">repeat</span></span><span class="step-badge">2</span></div>
+        <h3>Fixed after deployment</h3>
+        <p>Most medical agents stay fixed once deployed and do not keep using this experience. The same kind of error recurs across patients.</p>
+      </article>
+      <article class="pcard">
+        <div class="top"><span class="icon-disc" style="--c:var(--harness-soft)"><span class="ms" aria-hidden="true">lock</span></span><span class="step-badge">3</span></div>
+        <h3>A fixed improving strategy</h3>
+        <p>Self-improving agents train the model or update the medical harness, but the strategy that decides these changes stays fixed. It never learns which changes actually help.</p>
+      </article>
+    </div>
+    <div class="rsi-def">
+      <span class="icon-disc"><span class="ms" aria-hidden="true">all_inclusive</span></span>
+      <div><span class="k">Recursive self-improvement</span><p>An agent improves not only itself but also its improving strategy.</p></div>
+    </div>
+
+    <h3 class="hard-title">Why this is hard in medicine</h3>
+    <div class="hard">
+      <article class="pcard">
+        <div class="top"><span class="icon-disc" style="--c:var(--question)"><span class="ms" aria-hidden="true">rule</span></span></div>
+        <h3>No reference harness</h3>
+        <p>Clinical workflows rarely come with a reference harness that tells the agent how to organize its steps, and the details differ across hospitals. The strategy can only learn from the outcomes of the agent's own attempts.</p>
+      </article>
+      <article class="pcard">
+        <div class="top"><span class="icon-disc" style="--c:var(--rose-soft)"><span class="ms" aria-hidden="true">track_changes</span></span></div>
+        <h3>The problems keep moving</h3>
+        <p>A change that fixes early errors may not fix the problems the agent meets later.</p>
+        <div class="story">
+          <div class="story-col">
+            <span class="when">Early</span>
+            <span class="pill bad"><span class="ms" aria-hidden="true">history</span>Uses a magnesium result from 3 days ago</span>
+            <span class="ms down" aria-hidden="true">arrow_downward</span>
+            <span class="pill imp"><span class="ms" aria-hidden="true">lightbulb</span>Time-filter skill</span>
+            <span class="ms down" aria-hidden="true">arrow_downward</span>
+            <span class="pill ok"><span class="ms fill" aria-hidden="true">check_circle</span>Fixed</span>
+          </div>
+          <div class="story-col">
+            <span class="when">Later</span>
+            <span class="pill bad"><span class="ms" aria-hidden="true">medication</span>The errors move to the dose</span>
+            <span class="ms down" aria-hidden="true">arrow_downward</span>
+            <span class="pill imp"><span class="ms" aria-hidden="true">lightbulb</span>Same time-filter skill</span>
+            <span class="ms down" aria-hidden="true">arrow_downward</span>
+            <span class="pill bad"><span class="ms fill" aria-hidden="true">cancel</span>No longer helps</span>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <div class="question">
+      <span class="eyebrow"><span class="ms" aria-hidden="true">help</span>The central question</span>
+      <p>How can a medical agent continually improve its improving strategy from its own outcomes?</p>
+    </div>
+  </div>
+</section>
+
+<section class="band" id="demo">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow"><span class="ms" aria-hidden="true">smart_display</span>Process demo</span>
+      <h2>Watch one round of co-evolution</h2>
+      <p class="lead">Each round turns the agent's failures into a better harness and a better model. The first eight steps follow an illustrative magnesium workflow. The last step is a real unseen workflow from MedAgentBench.</p>
+    </div>
+
+    <div class="player" id="player">
+      <div class="player-top">
+        <span class="dots" aria-hidden="true"><i style="--c:var(--rose)"></i><i style="--c:var(--model)"></i><i style="--c:var(--sol-soft)"></i></span>
+        <span class="player-name">One round of MedicalRSI</span>
+        <span class="tag"><span class="ms" aria-hidden="true">science</span><span id="stage-tag">Illustrative example</span></span>
+      </div>
+
+      <div class="stage" id="stage">
+        <!-- 1 -->
+        <div class="scene is-active" data-title="A clinical workflow arrives" data-text="The same workflow serves many patients. Each patient has different records, but the steps are shared." data-dur="5000" data-label="Workflow">
+          <div class="s-two">
+            <div class="rcard task a" style="--i:0">
+              <div class="rhead"><span class="ms" aria-hidden="true">assignment</span>Clinical workflow</div>
+              <p class="task-text">Check the patient's latest magnesium level in the past 24 hours. If it is low, order IV magnesium replacement.</p>
+            </div>
+            <div class="pts">
+              <div class="pt a" style="--i:1"><span class="ms" aria-hidden="true">person</span>Patient 1</div>
+              <div class="pt a" style="--i:1.4"><span class="ms" aria-hidden="true">person</span>Patient 2</div>
+              <div class="pt a" style="--i:1.8"><span class="ms" aria-hidden="true">person</span>Patient 3</div>
+              <div class="pt a" style="--i:2.2"><span class="ms" aria-hidden="true">person</span>Patient 4</div>
+              <div class="pt a" style="--i:2.6"><span class="ms" aria-hidden="true">person</span>Patient 5</div>
+              <div class="pt a" style="--i:3"><span class="ms" aria-hidden="true">person</span>Patient 6</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2 -->
+        <div class="scene" data-title="The Solver tries every patient" data-text="Acting with the plain harness, the agent solves 2 of 6 patients. Its failures show what goes wrong." data-dur="6000" data-label="Solve">
+          <div class="s-two">
+            <div class="rcard solver a" style="--i:0">
+              <div class="rhead"><span class="ms" aria-hidden="true">stethoscope</span>Solver</div>
+              <p>Acts with H<sub>0</sub>, the plain harness with no skill or tool for this workflow.</p>
+            </div>
+            <div style="display:grid;gap:14px;min-width:0">
+              <div class="pts">
+                <div class="pt"><span class="ms" aria-hidden="true">person</span>Patient 1<span class="ms fill mk ok p" style="--i:0" aria-label="solved">check_circle</span></div>
+                <div class="pt"><span class="ms" aria-hidden="true">person</span>Patient 2<span class="ms fill mk bad p" style="--i:1" aria-label="failed">cancel</span></div>
+                <div class="pt"><span class="ms" aria-hidden="true">person</span>Patient 3<span class="ms fill mk bad p" style="--i:2" aria-label="failed">cancel</span></div>
+                <div class="pt"><span class="ms" aria-hidden="true">person</span>Patient 4<span class="ms fill mk ok p" style="--i:3" aria-label="solved">check_circle</span></div>
+                <div class="pt"><span class="ms" aria-hidden="true">person</span>Patient 5<span class="ms fill mk bad p" style="--i:4" aria-label="failed">cancel</span></div>
+                <div class="pt"><span class="ms" aria-hidden="true">person</span>Patient 6<span class="ms fill mk bad p" style="--i:5" aria-label="failed">cancel</span></div>
+              </div>
+              <div class="bubble a" style="--i:4.6"><span class="ms" aria-hidden="true">history</span><span><b>Patient 2 failed</b>Read 2.1 mg/dL from 3 days ago, so no order was placed. The value from the past 24 hours was 1.5 mg/dL.</span></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3 -->
+        <div class="scene" data-title="Failures become evidence" data-text="A few failed and successful attempts, with their outcome feedback, form the evidence that the Improver reads. The reference answer is never shown." data-dur="6500" data-label="Evidence">
+          <div class="s-flow">
+            <div class="attempts">
+              <div class="att bad a" style="--i:0">
+                <div class="att-head"><span class="ms fill" aria-hidden="true">cancel</span>Patient 2<span class="fb">Not solved</span></div>
+                <ol class="traj"><li>get magnesium</li><li>read 2.1 from 3 days ago</li><li>no order</li></ol>
+              </div>
+              <div class="att bad a" style="--i:1">
+                <div class="att-head"><span class="ms fill" aria-hidden="true">cancel</span>Patient 5<span class="fb">Not solved</span></div>
+                <ol class="traj"><li>get magnesium</li><li>read an old value</li><li>no order</li></ol>
+              </div>
+              <div class="att ok a" style="--i:2">
+                <div class="att-head"><span class="ms fill" aria-hidden="true">check_circle</span>Patient 1<span class="fb">Solved</span></div>
+                <ol class="traj"><li>get magnesium</li><li>1.4 from 6 hours ago</li><li>order IV magnesium</li></ol>
+              </div>
+            </div>
+            <span class="arrow a" style="--i:3"><span class="ms" aria-hidden="true">arrow_forward</span></span>
+            <div class="rcard improver a" style="--i:3.6">
+              <div class="rhead"><span class="ms" aria-hidden="true">folder_open</span>Workflow evidence</div>
+              <p>Each attempt with its trajectory and its outcome feedback.</p>
+              <span class="sub-note imp"><span class="ms" aria-hidden="true">visibility_off</span>No reference answer</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4 -->
+        <div class="scene" data-title="The Improver writes candidate harnesses" data-text="From the evidence, the Improver writes several candidate harnesses. Each one adds a skill or a tool for the workflow." data-dur="7500" data-label="Write">
+          <div class="s-write">
+            <div class="doc">
+              <div class="doc-head a" style="--i:0"><span class="ms" aria-hidden="true">lightbulb</span>Skill · time filter</div>
+              <div class="doc-line a" style="--i:1"><span class="k">When to use</span><span>A magnesium task with a 24-hour window</span></div>
+              <div class="doc-line a" style="--i:2"><span class="k">Steps</span><span>Get the magnesium results, keep only the last 24 hours, and order IV magnesium if the newest value is low</span></div>
+              <div class="doc-line warn a" style="--i:3"><span class="k">Pitfalls</span><span>A value older than 24 hours does not count</span></div>
+            </div>
+            <div>
+              <div class="cands-title a" style="--i:3.6"><span class="ms" aria-hidden="true">edit_note</span>Candidates from the Improver</div>
+              <div class="cands">
+                <div class="cand this a" style="--i:4"><span class="ms" aria-hidden="true">lightbulb</span><span class="h">H1</span><span class="d">Skill · time filter</span></div>
+                <div class="cand a" style="--i:4.4"><span class="ms" aria-hidden="true">code</span><span class="h">H2</span><span class="d">Tool · recent_labs()</span></div>
+                <div class="cand a" style="--i:4.8"><span class="ms" aria-hidden="true">lightbulb</span><span class="h">H3</span><span class="d">Skill · check units</span></div>
+                <div class="cand a" style="--i:5.2"><span class="ms" aria-hidden="true">lightbulb</span><span class="h">H4</span><span class="d">Skill · order first</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5 -->
+        <div class="scene" data-title="The Solver tries each candidate" data-text="The Solver attempts every patient again, once with each candidate harness." data-dur="6500" data-label="Retry">
+          <div class="rgrid" role="table" aria-label="Patients solved with each harness">
+            <span class="hd l" role="columnheader">Harness</span>
+            <span class="hd" role="columnheader">P1</span><span class="hd" role="columnheader">P2</span><span class="hd" role="columnheader">P3</span><span class="hd" role="columnheader">P4</span><span class="hd" role="columnheader">P5</span><span class="hd" role="columnheader">P6</span>
+            <span class="hd" role="columnheader">Solved</span>
+
+            <span class="rl row-base">H0<small>plain</small></span>
+            <span class="c"><span class="ms fill ok-c" aria-label="solved">check_circle</span></span><span class="c"><span class="ms fill bad-c" aria-label="failed">cancel</span></span><span class="c"><span class="ms fill bad-c" aria-label="failed">cancel</span></span><span class="c"><span class="ms fill ok-c" aria-label="solved">check_circle</span></span><span class="c"><span class="ms fill bad-c" aria-label="failed">cancel</span></span><span class="c"><span class="ms fill bad-c" aria-label="failed">cancel</span></span>
+            <span class="sv row-base">2/6</span>
+
+            <span class="rl best a" style="--i:0.5">H1<small>time filter</small></span>
+            <span class="c p" style="--i:1"><span class="ms fill ok-c" aria-label="solved">check_circle</span></span><span class="c p" style="--i:1.3"><span class="ms fill ok-c" aria-label="solved">check_circle</span></span><span class="c p" style="--i:1.6"><span class="ms fill ok-c" aria-label="solved">check_circle</span></span><span class="c p" style="--i:1.9"><span class="ms fill ok-c" aria-label="solved">check_circle</span></span><span class="c p" style="--i:2.2"><span class="ms fill ok-c" aria-label="solved">check_circle</span></span><span class="c p" style="--i:2.5"><span class="ms fill bad-c" aria-label="failed">cancel</span></span>
+            <span class="sv best a" style="--i:1.6">5/6</span>
+
+            <span class="rl a" style="--i:1.9">H2<small>recent_labs()</small></span>
+            <span class="c p" style="--i:4"><span class="ms fill ok-c" aria-label="solved">check_circle</span></span><span class="c p" style="--i:4.3"><span class="ms fill bad-c" aria-label="failed">cancel</span></span><span class="c p" style="--i:4.6"><span class="ms fill ok-c" aria-label="solved">check_circle</span></span><span class="c p" style="--i:4.9"><span class="ms fill ok-c" aria-label="solved">check_circle</span></span><span class="c p" style="--i:5.2"><span class="ms fill bad-c" aria-label="failed">cancel</span></span><span class="c p" style="--i:5.5"><span class="ms fill bad-c" aria-label="failed">cancel</span></span>
+            <span class="sv a" style="--i:3">3/6</span>
+
+            <span class="rl a" style="--i:3.3">H3<small>check units</small></span>
+            <span class="c p" style="--i:7"><span class="ms fill ok-c" aria-label="solved">check_circle</span></span><span class="c p" style="--i:7.3"><span class="ms fill bad-c" aria-label="failed">cancel</span></span><span class="c p" style="--i:7.6"><span class="ms fill bad-c" aria-label="failed">cancel</span></span><span class="c p" style="--i:7.9"><span class="ms fill ok-c" aria-label="solved">check_circle</span></span><span class="c p" style="--i:8.2"><span class="ms fill bad-c" aria-label="failed">cancel</span></span><span class="c p" style="--i:8.5"><span class="ms fill bad-c" aria-label="failed">cancel</span></span>
+            <span class="sv a" style="--i:4.4">2/6</span>
+
+            <span class="rl a" style="--i:4.7">H4<small>order first</small></span>
+            <span class="c p" style="--i:10"><span class="ms fill bad-c" aria-label="failed">cancel</span></span><span class="c p" style="--i:10.3"><span class="ms fill bad-c" aria-label="failed">cancel</span></span><span class="c p" style="--i:10.6"><span class="ms fill bad-c" aria-label="failed">cancel</span></span><span class="c p" style="--i:10.9"><span class="ms fill ok-c" aria-label="solved">check_circle</span></span><span class="c p" style="--i:11.2"><span class="ms fill bad-c" aria-label="failed">cancel</span></span><span class="c p" style="--i:11.5"><span class="ms fill bad-c" aria-label="failed">cancel</span></span>
+            <span class="sv a" style="--i:5.8">1/6</span>
+          </div>
+        </div>
+
+        <!-- 6 -->
+        <div class="scene" data-title="Each harness earns its gain" data-text="A harness is rewarded by how much it helps over acting without it, so a harness that hurts gets a negative reward. The Solver is rewarded for each task it solves." data-dur="7000" data-label="Reward">
+          <div class="gains" role="list" aria-label="Gain of each harness over H0, in points">
+            <div class="grow-row" role="listitem"><span class="nm">H1</span><span class="gtrack"><span class="gbar g" style="--a:50;--c:var(--rose);--i:0"></span></span><span class="val" style="color:var(--rose-ink)">+50</span></div>
+            <div class="grow-row" role="listitem"><span class="nm">H2</span><span class="gtrack"><span class="gbar g" style="--a:16.7;--c:var(--harness);--i:1"></span></span><span class="val">+17</span></div>
+            <div class="grow-row" role="listitem"><span class="nm">H3</span><span class="gtrack"></span><span class="val">0</span></div>
+            <div class="grow-row" role="listitem"><span class="nm">H4</span><span class="gtrack"><span class="gbar neg g" style="--a:16.7;--c:var(--base);--i:2"></span></span><span class="val" style="color:var(--bad)">−17</span></div>
+            <div class="grow-row" aria-hidden="true"><span></span><span class="zero-lbl">Worse ← no gain → better</span><span></span></div>
+          </div>
+          <div class="reward-notes">
+            <div class="rcard improver a" style="--i:3.4"><span class="sub-note imp"><span class="ms" aria-hidden="true">edit_note</span>Improver reward</span><p>Patients solved with the harness minus patients solved without it.</p></div>
+            <div class="rcard solver a" style="--i:3.8"><span class="sub-note sol"><span class="ms" aria-hidden="true">stethoscope</span>Solver reward</span><p>One point for each task it solves, with or without a harness.</p></div>
+          </div>
+        </div>
+
+        <!-- 7 -->
+        <div class="scene" data-title="One update trains both roles" data-text="One loss over both roles updates the shared weights, so the Improver and the Solver improve together. Memory keeps the better harness for the workflow." data-dur="6500" data-label="Update">
+          <div class="s-update">
+            <div class="rcard solver halo a" style="--i:0"><div class="rhead"><span class="ms" aria-hidden="true">stethoscope</span>Solver</div><p>Learns from task outcomes</p></div>
+            <div class="theta a" style="--i:1">
+              <span class="w">θ<sub>t</sub><span class="ms" aria-hidden="true">arrow_forward</span>θ<sub>t+1</sub></span>
+              <span class="loss">L(θ) = ½ [ L<sub>imp</sub> + L<sub>sol</sub> ]</span>
+            </div>
+            <div class="rcard improver halo a" style="--i:0"><div class="rhead"><span class="ms" aria-hidden="true">edit_note</span>Improver</div><p>Learns from harness gains</p></div>
+            <div class="memory a" style="--i:2.4"><span class="ms" aria-hidden="true">inventory_2</span>Workflow memory keeps the better harness<span class="chip"><span class="ms" aria-hidden="true">lightbulb</span>Skill · time filter, +50</span></div>
+          </div>
+        </div>
+
+        <!-- 8 -->
+        <div class="scene" data-title="The problems move, and the Improver adapts" data-text="Once the agent filters results correctly, its errors move to the dose. Trained on the latest failures, the Improver writes the change that the Solver now needs." data-dur="8000" data-label="Adapt">
+          <div class="s-two">
+            <div class="round a" style="--i:0">
+              <span class="round-tag">Earlier round</span>
+              <span class="pill bad"><span class="ms" aria-hidden="true">history</span>Read an old magnesium result</span>
+              <span class="pill ok"><span class="ms fill" aria-hidden="true">check_circle</span>Fixed by the time-filter skill</span>
+            </div>
+            <div class="round a" style="--i:1">
+              <span class="round-tag">Later round</span>
+              <span class="pill bad"><span class="ms" aria-hidden="true">medication</span>Found the low value but ordered the wrong dose</span>
+              <span class="pill bad"><span class="ms fill" aria-hidden="true">cancel</span>The time filter no longer helps</span>
+            </div>
+          </div>
+          <div class="revise a" style="--i:2.2"><span class="ms" aria-hidden="true">edit_note</span>The Improver revises the stored skill<span class="newline">+ Steps · match the dose to how low the value is</span></div>
+        </div>
+
+        <!-- 9 -->
+        <div class="scene" data-title="Test time on a new workflow" data-text="After training, the weights stay fixed. On a workflow it has never seen, the same model writes a harness from a few of its own failures." data-dur="8000" data-label="Test time" data-tag="Real case · MedAgentBench">
+          <div class="tt-flow">
+            <div class="tt new a" style="--i:0"><span class="ms" aria-hidden="true">fiber_new</span><b>New workflow</b><span class="t">Potassium above 5.5 mmol/L → ECG now and repeat potassium in 2 hours</span></div>
+            <div class="tt bad a" style="--i:1"><span class="ms fill" aria-hidden="true">cancel</span><b>Solver alone</b><span class="big">2 / 11</span><span class="t">checks pass</span></div>
+            <div class="tt imp a" style="--i:2"><span class="ms" aria-hidden="true">edit_note</span><b>Harness from these failures</b><span class="t">Fixes the window, the decision rule and both orders</span></div>
+            <div class="tt ok a" style="--i:3"><span class="ms fill" aria-hidden="true">check_circle</span><b>Solver with the harness</b><span class="big">11 / 11</span><span class="t">checks pass</span></div>
+          </div>
+          <span class="lockline a" style="--i:4"><span class="ms" aria-hidden="true">lock</span>Weights stay fixed, no retraining</span>
+        </div>
+      </div>
+
+      <div class="caption" aria-live="polite">
+        <span class="cap-step" id="cap-step">Step 1 of 9</span>
+        <h3 id="cap-title">A clinical workflow arrives</h3>
+        <p id="cap-text">The same workflow serves many patients. Each patient has different records, but the steps are shared.</p>
+      </div>
+      <div class="controls">
+        <button class="ctl" id="demo-prev" type="button" aria-label="Previous step"><span class="ms" aria-hidden="true">skip_previous</span></button>
+        <button class="ctl main" id="demo-play" type="button" aria-label="Play"><span class="ms fill" aria-hidden="true" id="demo-play-icon">play_arrow</span></button>
+        <button class="ctl" id="demo-next" type="button" aria-label="Next step"><span class="ms" aria-hidden="true">skip_next</span></button>
+        <button class="ctl" id="demo-replay" type="button" aria-label="Replay from the start"><span class="ms" aria-hidden="true">replay</span></button>
+        <span class="hint"><span class="ms" aria-hidden="true">keyboard</span>Arrow keys step through</span>
+      </div>
+      <ol class="chapters" id="chapters"></ol>
+    </div>
+  </div>
+</section>
+
+<section class="band alt" id="method">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow"><span class="ms" aria-hidden="true">hub</span>Method</span>
+      <h2>Clinical Model-Harness Co-Evolution</h2>
+      <p class="lead">One model plays two roles through two prompts. Because both roles share the same weights, every update of the agent also updates its improving strategy.</p>
+    </div>
+    <div class="roles">
+      <article class="role solver">
+        <div class="rhead"><span class="ms" aria-hidden="true">stethoscope</span>Solver</div>
+        <p class="defn">The medical agent itself.</p>
+        <p>It carries out a clinical workflow on each patient's records by following the medical harness. It learns from the outcome of every task.</p>
+      </article>
+      <article class="role improver">
+        <div class="rhead"><span class="ms" aria-hidden="true">edit_note</span>Improver</div>
+        <p class="defn">Its learnable improving strategy.</p>
+        <p>It reads the agent's latest failures and writes the medical harness. It learns from how much each harness helps the Solver.</p>
+      </article>
+    </div>
+
+    <figure class="fig">
+      <div class="fig-media">
+        <img src="assets/method.webp" width="2400" height="762" alt="Overview of MedicalRSI. The Solver attempts the tasks of a workflow with the plain harness, a few attempts form the workflow evidence, the Improver writes candidate harnesses, the Solver attempts the tasks with each, both roles are rewarded, and one update trains the shared weights. Workflow memory keeps the better harness." loading="lazy" decoding="async">
+        <button class="expand" type="button" data-src="assets/method.webp" data-alt="Overview of MedicalRSI" aria-label="Expand the overview figure"><span class="ms" aria-hidden="true">open_in_full</span></button>
+      </div>
+      <figcaption><b>Overview of MedicalRSI.</b> In each round the Solver attempts a workflow, a few attempts become evidence, the Improver writes candidate harnesses, the Solver tries each of them, and one update trains both roles on their rewards.</figcaption>
+    </figure>
+
+    <h3 class="comp-title">What makes it work</h3>
+    <div class="comps">
+      <div class="comp"><span class="icon-disc" style="--c:var(--task-soft)"><span class="ms" aria-hidden="true">folder_open</span></span><div><h3>Workflow evidence</h3><p>A few failed and successful attempts with their outcome feedback. It never shows the reference answer or the grader's checks.</p></div></div>
+      <div class="comp"><span class="icon-disc" style="--c:var(--imp-soft)"><span class="ms" aria-hidden="true">lightbulb</span></span><div><h3>Skills and tools</h3><p>Each candidate harness adds one skill, a short procedure in plain language, or one tool, reusable code for a repeated operation.</p></div></div>
+      <div class="comp"><span class="icon-disc" style="--c:var(--mem-soft)"><span class="ms" aria-hidden="true">inventory_2</span></span><div><h3>Workflow memory</h3><p>Memory keeps the best skill or tool for each workflow and replaces it only when a new candidate gains more.</p></div></div>
+      <div class="comp"><span class="icon-disc" style="--c:var(--rose-soft)"><span class="ms" aria-hidden="true">trending_up</span></span><div><h3>Counterfactual gain reward</h3><p>A harness earns what it adds over acting without it. It is credited for the failures it fixes and charged for the successes it breaks.</p></div></div>
+      <div class="comp"><span class="icon-disc" style="--c:var(--sol-soft)"><span class="ms" aria-hidden="true">sync</span></span><div><h3>Joint dual-role optimization</h3><p>One loss trains both roles on the same attempts in every round, so the Improver keeps up with the Solver.</p></div></div>
+      <div class="comp"><span class="icon-disc" style="--c:var(--harness-soft)"><span class="ms" aria-hidden="true">fiber_new</span></span><div><h3>Test-time adaptation</h3><p>On a new workflow the weights stay fixed. The same model writes a harness from a few of its own failures.</p></div></div>
+    </div>
+
+    <figure class="fig">
+      <div class="fig-media">
+        <img src="assets/harness.webp" width="2400" height="729" alt="Details of the failure-grounded medical harness: an example attempt that reads a three-day-old magnesium value, the skills and tools the Improver writes, workflow memory, and test-time adaptation to a new workflow." loading="lazy" decoding="async">
+        <button class="expand" type="button" data-src="assets/harness.webp" data-alt="Details of the failure-grounded medical harness" aria-label="Expand the harness figure"><span class="ms" aria-hidden="true">open_in_full</span></button>
+      </div>
+      <figcaption><b>Details of the Failure-Grounded Medical Harness.</b> The Improver turns failures into a skill or a tool. Memory keeps the better one for each workflow, and a new workflow gets skills or tools written from its first attempts.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="band" id="results">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow"><span class="ms" aria-hidden="true">insights</span>Results</span>
+      <h2>Better than both routes of self-improvement</h2>
+      <p class="lead">On MedAgentBench and MedAgentGym, MedicalRSI outperforms context-level and weight-level self-improvement, and what it learns carries over to unseen workflows, other models and a new database.</p>
+    </div>
+    <div class="stats">
+      <div class="stat"><span class="num">85.1%</span><span class="what"><span class="ms" aria-hidden="true">monitor_heart</span>MedAgentBench</span><span class="sub">Qwen3.5-9B, up from 36.9%. That is 22.3 points above the strongest baseline.</span></div>
+      <div class="stat"><span class="num">89.0%</span><span class="what"><span class="ms" aria-hidden="true">database</span>MedAgentGym</span><span class="sub">Qwen3.5-9B, 19.5 points above the strongest baseline.</span></div>
+      <div class="stat"><span class="num">3.3×</span><span class="what"><span class="ms" aria-hidden="true">fiber_new</span>Unseen workflows</span><span class="sub">66.1% of tasks solved, against 20.0% for the Base Agent.</span></div>
+      <div class="stat"><span class="num">8 / 8</span><span class="what"><span class="ms" aria-hidden="true">swap_horiz</span>Other solvers improve</span><span class="sub">+16.8 to +38.1 points with harnesses from our Improver, frontier models included.</span></div>
+    </div>
+
+    <figure class="fig">
+      <div class="fig-media">
+        <img src="assets/teaser.webp" width="2400" height="929" alt="Left: tasks solved on MedAgentBench with Qwen3.5-9B, grouped by what each method changes. MedicalRSI solves 85.1 percent. Right: test outcome over ten training rounds for MedicalRSI, the GRPO Improver and the GRPO Solver." loading="lazy" decoding="async">
+        <button class="expand" type="button" data-src="assets/teaser.webp" data-alt="Results on MedAgentBench" aria-label="Expand the results figure"><span class="ms" aria-hidden="true">open_in_full</span></button>
+      </div>
+      <figcaption><b>MedicalRSI Outperforms Existing Methods and Keeps Improving.</b> Methods are grouped by what they change. After two training rounds, MedicalRSI already passes the final scores of the two strongest trained baselines.</figcaption>
+    </figure>
+
+    <div class="tbl-wrap">
+      <table>
+        <thead><tr><th>Method</th><th>What it changes</th><th class="n">Training workflows</th><th class="n">Unseen workflows</th><th class="n">Overall</th></tr></thead>
+        <tbody>
+          <tr><td>Base Agent</td><td><span class="route"><i style="--c:var(--base)"></i>Nothing</span></td><td class="n">40.8</td><td class="n">20.0</td><td class="n"><span class="ov"><span class="mini" style="--v:36.9;--c:var(--base)"></span>36.9</span></td></tr>
+          <tr><td>GRASP</td><td><span class="route"><i style="--c:var(--harness)"></i>Harness</span></td><td class="n">54.6</td><td class="n">31.7</td><td class="n"><span class="ov"><span class="mini" style="--v:50.3;--c:var(--harness)"></span>50.3</span></td></tr>
+          <tr><td>GPT-6.1-Sol writes the harness</td><td><span class="route"><i style="--c:var(--harness)"></i>Harness</span></td><td class="n">53.6</td><td class="n">43.1</td><td class="n"><span class="ov"><span class="mini" style="--v:51.6;--c:var(--harness)"></span>51.6</span></td></tr>
+          <tr><td>GRPO Improver</td><td><span class="route"><i style="--c:var(--harness)"></i>Harness</span></td><td class="n">63.1</td><td class="n">52.7</td><td class="n"><span class="ov"><span class="mini" style="--v:61.2;--c:var(--harness)"></span>61.2</span></td></tr>
+          <tr><td>STaR</td><td><span class="route"><i style="--c:var(--model)"></i>Model</span></td><td class="n">61.2</td><td class="n">30.0</td><td class="n"><span class="ov"><span class="mini" style="--v:55.3;--c:var(--model)"></span>55.3</span></td></tr>
+          <tr><td>GRPO Solver</td><td><span class="route"><i style="--c:var(--model)"></i>Model</span></td><td class="n">68.5</td><td class="n">38.3</td><td class="n"><span class="ov"><span class="mini" style="--v:62.8;--c:var(--model)"></span>62.8</span></td></tr>
+          <tr class="ours"><td>MedicalRSI</td><td><span class="route"><i style="--c:var(--rose)"></i>Model and harness</span></td><td class="n">89.5</td><td class="n">66.1</td><td class="n"><span class="ov"><span class="mini" style="--v:85.1;--c:var(--rose)"></span>85.1</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="tbl-note">Tasks solved (%) on MedAgentBench with Qwen3.5-9B. Unseen workflows are held out from training. The paper reports every baseline, three backbones and bootstrap deviations.</p>
+
+    <div class="figs2">
+      <figure class="fig">
+        <div class="fig-media">
+          <img src="assets/coevo.webp" width="2400" height="607" alt="Analysis of co-evolution: test outcome over training rounds for MedicalRSI, the GRPO Improver and the GRPO Solver on two backbones, and the gain of a frozen harness against the harness of each round." loading="lazy" decoding="async">
+          <button class="expand" type="button" data-src="assets/coevo.webp" data-alt="Analysis of co-evolution" aria-label="Expand the co-evolution figure"><span class="ms" aria-hidden="true">open_in_full</span></button>
+        </div>
+        <figcaption><b>Analysis of Co-Evolution.</b> Training both roles together gains far more than training either one. A harness frozen after the first round adds less and less as the model learns, while the harness of each round keeps adding the most.</figcaption>
+      </figure>
+      <figure class="fig">
+        <div class="fig-media">
+          <img src="assets/transfer.webp" width="2400" height="643" alt="Analysis of transfer: the Improver's harnesses help eight other solvers, the Solver uses a harness from GPT-6.1-Sol, and MedicalRSI carries over from MIMIC-III to the eICU database." loading="lazy" decoding="async">
+          <button class="expand" type="button" data-src="assets/transfer.webp" data-alt="Analysis of transfer beyond training" aria-label="Expand the transfer figure"><span class="ms" aria-hidden="true">open_in_full</span></button>
+        </div>
+        <figcaption><b>Analysis of Transfer Beyond Training.</b> The Improver helps every solver, even frontier models. The Solver makes strong use of a harness from another model. On the eICU database, MedicalRSI reaches 37.2%, 11.0 points above the Base Agent.</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section class="band alt" id="case">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow"><span class="ms" aria-hidden="true">clinical_notes</span>Case study</span>
+      <h2>A few failures fix an unseen workflow</h2>
+    </div>
+    <div class="task-quote">
+      <span class="ms" aria-hidden="true">assignment</span>
+      <div><small>Task from a workflow never seen in training</small>Check the most recent potassium within the last 24 hours. If it is above 5.5 mmol/L, order a 12-lead ECG now and a repeat serum potassium 2 hours from now.</div>
+    </div>
+    <div class="tt-flow case-steps">
+      <div class="tt bad"><span class="ms fill" aria-hidden="true">cancel</span><b>Solver alone</b><span class="big">2 / 11</span><span class="t">checks pass. It misses the 24-hour window and places neither order.</span></div>
+      <div class="tt imp"><span class="ms" aria-hidden="true">edit_note</span><b>Harness written from these failures</b><span class="t">Fixes the window, the decision rule and both orders.</span></div>
+      <div class="tt ok"><span class="ms fill" aria-hidden="true">check_circle</span><b>Solver with the harness</b><span class="big">11 / 11</span><span class="t">checks pass, without any retraining.</span></div>
+    </div>
+    <figure class="fig">
+      <div class="fig-media">
+        <img src="assets/case.webp" width="2400" height="848" alt="Case study on an unseen workflow: the Solver alone gets all potassium values without a 24-hour window and passes 2 of 11 checks; the harness written by MedicalRSI sets the window and the decision rule; with it the Solver orders the ECG and the repeat potassium and passes 11 of 11 checks." loading="lazy" decoding="async">
+        <button class="expand" type="button" data-src="assets/case.webp" data-alt="Case study on an unseen workflow" aria-label="Expand the case study figure"><span class="ms" aria-hidden="true">open_in_full</span></button>
+      </div>
+      <figcaption><b>Case Study on an Unseen Workflow.</b> From the Solver's failures, the same model writes a harness that fixes the window, the decision rule and both orders. A few failures are enough to fix a workflow the model never saw in training.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="band" id="cite">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow"><span class="ms" aria-hidden="true">format_quote</span>Citation</span>
+      <h2>Cite MedicalRSI</h2>
+    </div>
+    <div class="bib">
+      <div class="bib-head"><span class="bib-label"><span class="ms" aria-hidden="true">data_object</span>BibTeX</span><button class="btn copy" id="copy-bib" type="button"><span class="ms" aria-hidden="true">content_copy</span><span id="copy-label">Copy</span></button></div>
+      <pre id="bibtex">@article{medicalrsi2026,
+  title   = {MedicalRSI: Medical Recursive Self-Improving Agents
+             via Clinical Model-Harness Co-Evolution},
+  author  = {Anonymous},
+  journal = {arXiv preprint},
+  year    = {2026}
+}</pre>
+    </div>
+    <p class="cite-note">The arXiv identifier and the author list will be added when the paper is public.</p>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span class="foot-brand"><svg class="logo" viewBox="0 0 100 100" aria-hidden="true" focusable="false"><g fill="none" stroke-linejoin="round"><path d="M50 50 C38 31 13 31 13 50 C13 69 38 69 50 50" stroke="currentColor" stroke-width="15"></path><path d="M50 50 C62 31 87 31 87 50 C87 69 62 69 50 50" stroke="currentColor" stroke-width="15"></path><path d="M50 50 C38 31 13 31 13 50 C13 69 38 69 50 50" stroke="#E8A9C0" stroke-width="10"></path><path d="M50 50 C62 31 87 31 87 50 C87 69 62 69 50 50" stroke="#A9C0DE" stroke-width="10"></path><path d="M41.54 59.12 C44.68 56.84 47.6 53.8 50 50 C52.4 46.2 55.32 43.16 58.46 40.88" stroke="currentColor" stroke-width="15"></path><path d="M39.16 60.69 C43.19 58.31 47 54.75 50 50" stroke="#E8A9C0" stroke-width="10"></path><path d="M50 50 C53 45.25 56.81 41.69 60.84 39.31" stroke="#A9C0DE" stroke-width="10"></path><path d="M45.77 47.33 L54.23 52.67" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"></path></g><path class="acc-f" d="M28.8 45 H32.2 V48.3 H35.5 V51.7 H32.2 V55 H28.8 V51.7 H25.5 V48.3 H28.8 Z"></path><polyline class="acc-s" points="61,50 64,50 66,45.6 68.8,54.6 71.2,46.8 73,50 77,50" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"></polyline></svg><span>MedicalRSI · Clinical Model-Harness Co-Evolution</span></span>
+    <a href="#top"><span class="ms" aria-hidden="true">arrow_upward</span>Back to top</a>
+  </div>
+</footer>
+
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Expanded figure" hidden>
+  <button class="lb-close" id="lb-close" type="button" aria-label="Close the figure"><span class="ms" aria-hidden="true">close</span></button>
+  <div class="lb-inner"><img id="lb-img" alt=""></div>
+</div>
+
+<script>
+(() => {
+  /* ---------- process demo ---------- */
+  const player = document.getElementById('player');
+  if (player) {
+    const scenes = Array.from(player.querySelectorAll('.scene'));
+    const list = document.getElementById('chapters');
+    const capTitle = document.getElementById('cap-title');
+    const capText = document.getElementById('cap-text');
+    const capStep = document.getElementById('cap-step');
+    const tag = document.getElementById('stage-tag');
+    const playBtn = document.getElementById('demo-play');
+    const playIcon = document.getElementById('demo-play-icon');
+    const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    const chapters = scenes.map((s, k) => {
+      const li = document.createElement('li');
+      const b = document.createElement('button');
+      b.type = 'button';
+      b.setAttribute('aria-label', 'Step ' + (k + 1) + ': ' + s.dataset.title);
+      b.innerHTML = '<span class="trk"><span class="fill"></span></span><span class="lbl">' + (k + 1) + ' ' + s.dataset.label + '</span>';
+      b.addEventListener('click', () => { go(k); });
+      li.appendChild(b);
+      list.appendChild(li);
+      return li;
+    });
+    const fills = chapters.map(li => li.querySelector('.fill'));
+
+    let idx = 0, playing = false, startAt = 0, before = 0, raf = 0, userPaused = false;
+
+    function render(animate) {
+      scenes.forEach((s, k) => {
+        const on = k === idx;
+        if (on && animate) { s.classList.remove('is-active'); void s.offsetWidth; }
+        s.classList.toggle('is-active', on);
+        s.setAttribute('aria-hidden', on ? 'false' : 'true');
+      });
+      const s = scenes[idx];
+      capTitle.textContent = s.dataset.title;
+      capText.textContent = s.dataset.text;
+      capStep.textContent = 'Step ' + (idx + 1) + ' of ' + scenes.length;
+      tag.textContent = s.dataset.tag || 'Illustrative example';
+      chapters.forEach((li, k) => {
+        li.classList.toggle('is-done', k < idx);
+        li.classList.toggle('is-current', k === idx);
+        const b = li.querySelector('button');
+        if (k === idx) b.setAttribute('aria-current', 'step'); else b.removeAttribute('aria-current');
+        fills[k].style.transform = 'scaleX(' + (k < idx ? 1 : 0) + ')';
+      });
+    }
+    function go(n) {
+      idx = (n + scenes.length) % scenes.length;
+      before = 0; startAt = performance.now();
+      if (!reduce) player.classList.add('is-animating');
+      render(true);
+    }
+    function frame(now) {
+      if (!playing) return;
+      const dur = Number(scenes[idx].dataset.dur) || 6000;
+      const t = before + (now - startAt);
+      fills[idx].style.transform = 'scaleX(' + Math.min(1, t / dur) + ')';
+      if (t >= dur) go(idx + 1);
+      raf = requestAnimationFrame(frame);
+    }
+    function setPlayUI() {
+      playIcon.textContent = playing ? 'pause' : 'play_arrow';
+      playBtn.setAttribute('aria-label', playing ? 'Pause' : 'Play');
+    }
+    function play() {
+      if (playing) return;
+      playing = true; startAt = performance.now();
+      if (!reduce) player.classList.add('is-animating');
+      setPlayUI();
+      raf = requestAnimationFrame(frame);
+    }
+    function pause() {
+      if (!playing) return;
+      playing = false; before += performance.now() - startAt;
+      cancelAnimationFrame(raf);
+      setPlayUI();
+    }
+
+    playBtn.addEventListener('click', () => {
+      if (playing) { userPaused = true; pause(); } else { userPaused = false; play(); }
+    });
+    document.getElementById('demo-next').addEventListener('click', () => go(idx + 1));
+    document.getElementById('demo-prev').addEventListener('click', () => go(idx - 1));
+    document.getElementById('demo-replay').addEventListener('click', () => { userPaused = false; go(0); play(); });
+    player.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowRight') { e.preventDefault(); go(idx + 1); }
+      else if (e.key === 'ArrowLeft') { e.preventDefault(); go(idx - 1); }
+    });
+    document.addEventListener('visibilitychange', () => { if (document.hidden) pause(); });
+
+    if (!reduce && 'IntersectionObserver' in window) {
+      const steps = Array.from({ length: 21 }, (_, k) => k / 20);
+      const io = new IntersectionObserver((entries) => {
+        entries.forEach((en) => {
+          const need = Math.min(en.boundingClientRect.height, window.innerHeight) * 0.45;
+          if (en.isIntersecting && en.intersectionRect.height >= need) { if (!userPaused) play(); }
+          else pause();
+        });
+      }, { threshold: steps });
+      io.observe(player);
+    }
+    render(false);
+    setPlayUI();
+  }
+
+  /* ---------- light / dark toggle ---------- */
+  const themeBtn = document.getElementById('theme-btn');
+  const themeIcon = document.getElementById('theme-icon');
+  const rootEl = document.documentElement;
+  function currentTheme() {
+    const t = rootEl.getAttribute('data-theme');
+    if (t === 'dark' || t === 'light') return t;
+    return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  }
+  function showThemeButton() {
+    const dark = currentTheme() === 'dark';
+    themeIcon.textContent = dark ? 'light_mode' : 'dark_mode';
+    const label = dark ? 'Switch to light mode' : 'Switch to dark mode';
+    themeBtn.setAttribute('aria-label', label);
+    themeBtn.setAttribute('title', label);
+  }
+  themeBtn.addEventListener('click', () => {
+    const next = currentTheme() === 'dark' ? 'light' : 'dark';
+    rootEl.setAttribute('data-theme', next);
+    try { localStorage.setItem('medicalrsi-theme', next); } catch (e) { /* the choice still applies to this visit */ }
+    showThemeButton();
+  });
+  showThemeButton();
+
+  /* ---------- figure lightbox ---------- */
+  const box = document.getElementById('lightbox');
+  const boxImg = document.getElementById('lb-img');
+  const closeBtn = document.getElementById('lb-close');
+  let opener = null;
+  function closeBox() { box.hidden = true; boxImg.removeAttribute('src'); if (opener) opener.focus(); }
+  document.querySelectorAll('.expand').forEach((b) => {
+    b.addEventListener('click', () => {
+      opener = b;
+      boxImg.src = b.dataset.src;
+      boxImg.alt = b.dataset.alt || '';
+      box.hidden = false;
+      closeBtn.focus();
+    });
+  });
+  closeBtn.addEventListener('click', closeBox);
+  box.addEventListener('click', (e) => { if (e.target === box) closeBox(); });
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !box.hidden) closeBox(); });
+
+  /* ---------- copy BibTeX ---------- */
+  const copyBtn = document.getElementById('copy-bib');
+  const copyLabel = document.getElementById('copy-label');
+  const bib = document.getElementById('bibtex');
+  copyBtn.addEventListener('click', () => {
+    const text = bib.textContent;
+    const done = () => { copyLabel.textContent = 'Copied'; setTimeout(() => { copyLabel.textContent = 'Copy'; }, 1800); };
+    const fallback = () => {
+      const r = document.createRange(); r.selectNodeContents(bib);
+      const sel = window.getSelection(); sel.removeAllRanges(); sel.addRange(r);
+      copyLabel.textContent = 'Selected, press Ctrl+C';
+    };
+    try {
+      if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(text).then(done, fallback);
+      else fallback();
+    } catch (err) { fallback(); }
+  });
+})();
+</script>
+</body>
+</html>

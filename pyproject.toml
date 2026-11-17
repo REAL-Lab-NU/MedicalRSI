@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "medicalrsi"
+version = "0.1.0"
+description = "MedicalRSI: Medical Recursive Self-Improving Agents via Clinical Model-Harness Co-Evolution"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+dependencies = [
+  "numpy",
+  "pyyaml>=6.0",
+  "requests>=2.28",
+  "scikit-learn>=1.2",
+]
+
+[project.optional-dependencies]
+# training and serving (tested versions)
+gpu = [
+  "torch==2.11.0",
+  "transformers==5.6.0",
+  "peft==0.18.1",
+  "safetensors>=0.7",
+  "vllm==0.25.1",
+  "flash-linear-attention==0.5.2",
+]
+
+[project.scripts]
+medicalrsi = "medicalrsi.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["medicalrsi*"]
+
+[tool.setuptools.package-data]
+"medicalrsi" = ["prompts/*.txt"]

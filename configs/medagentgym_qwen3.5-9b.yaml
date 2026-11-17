@@ -1,0 +1,23 @@
+# MedicalRSI on MedAgentGym with Qwen3.5-9B. Unlisted values are the paper's settings (medicalrsi/config.py).
+# data/medagentgym is built from your own copy of the credentialed data (README).
+run_dir: runs/medagentgym_qwen3.5-9b
+
+model:
+  path: Qwen/Qwen3.5-9B
+
+env:
+  name: medagentgym
+  data_dir: data/medagentgym
+  database: data/medagentgym/mimic_iii.sqlite
+
+runtime:
+  gpus: [0, 1, 2, 3]
+  ports: [8050, 8051, 8052, 8053]
+  env:
+    NCCL_P2P_DISABLE: "1"
+
+train:
+  init_adapter: runs/medagentgym_qwen3.5-9b/warmstart
+
+warmstart:
+  data: data/medagentgym/warmstart.jsonl
