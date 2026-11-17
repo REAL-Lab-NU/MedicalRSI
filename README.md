@@ -18,7 +18,7 @@
 </p>
 
 <p align="center">
-  <a href="https://real-lab-nu.github.io/MedicalRSI/#demo"><img src="docs/assets/readme/demo.webp" width="100%" alt="One round of MedicalRSI in nine steps: a clinical workflow arrives, the Solver tries every patient, failures become evidence, the Improver writes candidate harnesses, the Solver tries each candidate, each harness earns its gain, one update trains both roles, the Improver adapts as the problems move, and at test time a new workflow is fixed from a few failures."></a>
+  <a href="https://real-lab-nu.github.io/MedicalRSI/#demo"><img src="docs/assets/readme/demo.webp" width="100%" alt="One round of MedicalRSI in nine steps: a clinical workflow arrives, the Solver tries every patient, failures become evidence, the Improver writes candidate harnesses, the Solver tries each candidate, each harness earns its gain, one update trains both roles, the Improver adapts as the agent learns, and at test time a new workflow is fixed from a few failures."></a>
 </p>
 
 <p align="center">
@@ -40,7 +40,7 @@
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="docs/assets/readme/hard_dark.webp">
-    <img src="docs/assets/readme/hard_light.webp" width="100%" alt="Why this is hard in medicine: no reference harness, and the problems keep moving. The central question: how can a medical agent continually improve its improving strategy from its own outcomes?">
+    <img src="docs/assets/readme/hard_light.webp" width="100%" alt="Why this is hard in medicine: no reference harness, and errors change as the agent learns. The central question: how can a medical agent continually improve its improving strategy from its own outcomes?">
   </picture>
 </p>
 

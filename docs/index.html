@@ -643,11 +643,11 @@ footer a { font-weight: 800; text-decoration: none; display: inline-flex; align-
       <article class="pcard">
         <div class="top"><span class="icon-disc" style="--c:var(--question)"><span class="ms" aria-hidden="true">rule</span></span></div>
         <h3>No reference harness</h3>
-        <p>Clinical workflows rarely come with a reference harness that tells the agent how to organize its steps, and the details differ across hospitals. The strategy can only learn from the outcomes of the agent's own attempts.</p>
+        <p>Clinical workflows rarely come with a reference harness that tells the agent how to organize its steps, and the details differ across hospitals. The improving strategy can only learn from the outcomes of the agent's own attempts.</p>
       </article>
       <article class="pcard">
         <div class="top"><span class="icon-disc" style="--c:var(--rose-soft)"><span class="ms" aria-hidden="true">track_changes</span></span></div>
-        <h3>The problems keep moving</h3>
+        <h3>Errors change as the agent learns</h3>
         <p>A change that fixes early errors may not fix the problems the agent meets later.</p>
         <div class="story">
           <div class="story-col">
@@ -660,7 +660,7 @@ footer a { font-weight: 800; text-decoration: none; display: inline-flex; align-
           </div>
           <div class="story-col">
             <span class="when">Later</span>
-            <span class="pill bad"><span class="ms" aria-hidden="true">medication</span>The errors move to the dose</span>
+            <span class="pill bad"><span class="ms" aria-hidden="true">medication</span>Right result, wrong dose</span>
             <span class="ms down" aria-hidden="true">arrow_downward</span>
             <span class="pill imp"><span class="ms" aria-hidden="true">lightbulb</span>Same time-filter skill</span>
             <span class="ms down" aria-hidden="true">arrow_downward</span>
@@ -837,7 +837,7 @@ footer a { font-weight: 800; text-decoration: none; display: inline-flex; align-
         </div>
 
         <!-- 8 -->
-        <div class="scene" data-title="The problems move, and the Improver adapts" data-text="Once the agent filters results correctly, its errors move to the dose. Trained on the latest failures, the Improver writes the change that the Solver now needs." data-dur="8000" data-label="Adapt">
+        <div class="scene" data-title="The agent learns, and the Improver adapts" data-text="Once the agent filters results correctly, it retrieves the correct result but selects the wrong dose. Trained on the latest failures, the Improver writes the change that the Solver now needs." data-dur="8000" data-label="Adapt">
           <div class="s-two">
             <div class="round a" style="--i:0">
               <span class="round-tag">Earlier round</span>
@@ -850,7 +850,7 @@ footer a { font-weight: 800; text-decoration: none; display: inline-flex; align-
               <span class="pill bad"><span class="ms fill" aria-hidden="true">cancel</span>The time filter no longer helps</span>
             </div>
           </div>
-          <div class="revise a" style="--i:2.2"><span class="ms" aria-hidden="true">edit_note</span>The Improver revises the stored skill<span class="newline">+ Steps · match the dose to how low the value is</span></div>
+          <div class="revise a" style="--i:2.2"><span class="ms" aria-hidden="true">edit_note</span>The Improver revises the stored skill<span class="newline">+ Steps · base the dose on the magnesium level</span></div>
         </div>
 
         <!-- 9 -->
