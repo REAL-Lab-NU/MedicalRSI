@@ -77,7 +77,7 @@
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="docs/assets/readme/stats_dark.webp">
-    <img src="docs/assets/readme/stats_light.webp" width="100%" alt="85.1% on MedAgentBench, 89.0% on MedAgentGym, 3.3 times the Base Agent on unseen workflows, and 8 of 8 other solvers improve with harnesses from our Improver.">
+    <img src="docs/assets/readme/stats_light.webp" width="100%" alt="85.1% on MedAgentBench, 89.0% on MedAgentGym, 3.3 times the Base Agent on unseen workflows, and 7 of 7 other solvers improve with harnesses from our Improver.">
   </picture>
 </p>
 
@@ -97,7 +97,7 @@
 ### Analysis of Co-Evolution
 
 <p align="center">
-  <a href="docs/assets/coevo.webp"><img src="docs/assets/coevo.webp" width="100%" alt="Analysis of co-evolution over training rounds."></a>
+  <a href="docs/assets/coevo.webp"><img src="docs/assets/coevo.webp" width="100%" alt="Analysis of co-evolution: one solver with two improvers, and the gain of each role over training rounds."></a>
 </p>
 
 ### Analysis of Transfer Beyond Training

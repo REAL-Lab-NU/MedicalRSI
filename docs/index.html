@@ -941,7 +941,7 @@ footer a { font-weight: 800; text-decoration: none; display: inline-flex; align-
       <div class="stat"><span class="num">85.1%</span><span class="what"><span class="ms" aria-hidden="true">monitor_heart</span>MedAgentBench</span><span class="sub">Qwen3.5-9B, up from 36.9%. That is 22.3 points above the strongest baseline.</span></div>
       <div class="stat"><span class="num">89.0%</span><span class="what"><span class="ms" aria-hidden="true">database</span>MedAgentGym</span><span class="sub">Qwen3.5-9B, 19.5 points above the strongest baseline.</span></div>
       <div class="stat"><span class="num">3.3×</span><span class="what"><span class="ms" aria-hidden="true">fiber_new</span>Unseen workflows</span><span class="sub">66.1% of tasks solved, against 20.0% for the Base Agent.</span></div>
-      <div class="stat"><span class="num">8 / 8</span><span class="what"><span class="ms" aria-hidden="true">swap_horiz</span>Other solvers improve</span><span class="sub">+16.8 to +38.1 points with harnesses from our Improver, frontier models included.</span></div>
+      <div class="stat"><span class="num">7 / 7</span><span class="what"><span class="ms" aria-hidden="true">swap_horiz</span>Other solvers improve</span><span class="sub">+16.8 to +32.3 points with harnesses from our Improver, frontier models included.</span></div>
     </div>
 
     <figure class="fig">
@@ -971,17 +971,17 @@ footer a { font-weight: 800; text-decoration: none; display: inline-flex; align-
     <div class="figs2">
       <figure class="fig">
         <div class="fig-media">
-          <img src="assets/coevo.webp" width="2400" height="607" alt="Analysis of co-evolution: test outcome over training rounds for MedicalRSI, the GRPO Improver and the GRPO Solver on two backbones, and the gain of a frozen harness against the harness of each round." loading="lazy" decoding="async">
+          <img src="assets/coevo.webp" width="2400" height="609" alt="Analysis of co-evolution: four fixed solvers with the harness of the GRPO Improver and with that of MedicalRSI, and the gain of a new harness, a new solver and both over training rounds on Qwen3.5-9B and Gemma-4-E4B." loading="lazy" decoding="async">
           <button class="expand" type="button" data-src="assets/coevo.webp" data-alt="Analysis of co-evolution" aria-label="Expand the co-evolution figure"><span class="ms" aria-hidden="true">open_in_full</span></button>
         </div>
-        <figcaption><b>Analysis of Co-Evolution.</b> Training both roles together gains far more than training either one. A harness frozen after the first round adds less and less as the model learns, while the harness of each round keeps adding the most.</figcaption>
+        <figcaption><b>Analysis of Co-Evolution.</b> With the same solver, MedicalRSI writes a better harness than the GRPO Improver. Both roles improve, and together they improve the most.</figcaption>
       </figure>
       <figure class="fig">
         <div class="fig-media">
-          <img src="assets/transfer.webp" width="2400" height="643" alt="Analysis of transfer: the Improver's harnesses help eight other solvers, the Solver uses a harness from GPT-6.1-Sol, and MedicalRSI carries over from MIMIC-III to the eICU database." loading="lazy" decoding="async">
+          <img src="assets/transfer.webp" width="2400" height="643" alt="Analysis of transfer: the Improver's harnesses help seven other solvers, before and after RL training, the Solver uses a harness from GPT-6.1-Sol, and MedicalRSI carries over from MIMIC-III to the eICU database." loading="lazy" decoding="async">
           <button class="expand" type="button" data-src="assets/transfer.webp" data-alt="Analysis of transfer beyond training" aria-label="Expand the transfer figure"><span class="ms" aria-hidden="true">open_in_full</span></button>
         </div>
-        <figcaption><b>Analysis of Transfer Beyond Training.</b> The Improver helps every solver, even frontier models. The Solver makes strong use of a harness from another model. On the eICU database, MedicalRSI reaches 37.2%, 11.0 points above the Base Agent.</figcaption>
+        <figcaption><b>Analysis of Transfer Beyond Training.</b> The Improver helps every solver, even frontier models, and RL training adds much of this gain. The Solver makes strong use of a harness from another model. On the eICU database, MedicalRSI reaches 37.2%, 11.0 points above the Base Agent.</figcaption>
       </figure>
     </div>
   </div>
