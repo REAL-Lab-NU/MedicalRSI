@@ -37,8 +37,14 @@ def main() -> None:
     else:
         from medicalrsi import evaluate
         from medicalrsi.envs import make_env
-        f = Path(a.memory) / "memory.json" if a.memory else cfg.run / f"it{cfg.train.rounds - 1}" / "memory.json"
-        in_memory = {tuple(k.split("/")) for k in json.loads(f.read_text())}
+        mark = evaluate.read_mark(cfg.run / "eval")          # the memory of the evaluation that is in <run>/eval
+        if a.memory or not mark:
+            f = Path(a.memory) / "memory.json" if a.memory else cfg.run / f"it{cfg.train.rounds - 1}" / "memory.json"
+            in_memory = {tuple(k.split("/")) for k in json.loads(f.read_text())}
+        else:
+            in_memory = {tuple(k.split("/")) for k in mark["workflows_in_memory"]}
+        if mark and {"/".join(k) for k in in_memory} != set(mark["workflows_in_memory"]):
+            raise SystemExit(f"{cfg.run / 'eval'} holds an evaluation with another memory ({mark['memory']})")
         res = evaluate.scores(make_env(cfg), cfg.run / "eval", in_memory, cfg.test.candidates)
         print(evaluate.report(res, f"{cfg.env.name} ({cfg.run})"))
 
