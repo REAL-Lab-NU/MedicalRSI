@@ -1,9 +1,31 @@
-v1/refsol.py, v1/utils.py, v2/refsol.py, v2/utils.py, v3/utils.py, and the task prompt and action parsing in
-../protocol.py are distributed under the following license.
+Where the files of this directory come from
+
+v1/refsol.py, v1/utils.py
+    The reference graders of MedAgentBench (https://github.com/stanfordmlgroup/MedAgentBench), copied from the GRASP
+    repository (https://github.com/jomoll/GRASP, commit 9d7d125), which vendors them. MIT License, Copyright (c) 2025
+    Stanford Machine Learning Group; the licence text is below.
+
+v2/refsol.py, v2/utils.py
+    The reference graders of MedAgentBench v2 (https://github.com/ericoericochen/medagentbenchv2), copied from the GRASP
+    repository, which vendors them. They remain the work of their authors; see that repository for its terms.
+    One change: task1 in v2/refsol.py takes the current time from the task context instead of the system clock
+    (marked in the file).
+
+v3/utils.py
+    Adapted from the helpers of MedAgentBench v2 above.
+
+../protocol.py
+    The task prompt and the action parsing follow the MedAgentBench task server (MIT License, as above), which builds
+    on AgentBench (https://github.com/THUDM/AgentBench, Apache License 2.0).
+
+v1/refsol_partial.py, v2/refsol_partial.py, v3/refsol.py, v3/refsol_partial.py, every __init__.py
+    Written for MedicalRSI, under the licence of this repository (../../../../LICENSE).
+
+----------------------------------------------------------------------------
 
 MIT License
 
-Copyright (c) 2026 Johannes Moll and the GRASP authors
+Copyright (c) 2025 Stanford Machine Learning Group
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -22,14 +44,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-----------------------------------------------------------------------------
-
-This repository vendors third-party benchmark code under benchmarks/, each of
-which retains its own license:
-
-  - benchmarks/AgentBench/LICENSE        (upstream AgentBench)
-  - benchmarks/FHIR-AgentBench/LICENSE   (upstream FHIR-AgentBench)
-
-Those licenses govern the corresponding subdirectories. The MIT license above
-applies to the GRASP core (grasp/), examples, and documentation authored here.

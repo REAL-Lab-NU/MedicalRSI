@@ -148,7 +148,7 @@ ln -s <EHRSQL>/mimic_iii.sqlite data/medagentgym/mimic_iii.sqlite
 ### Evaluate the released model
 
 ```bash
-huggingface-cli download REAL-LAB-NU/MedicalRSI-MedAgentBench-Qwen3.5-9B --local-dir checkpoints/medagentbench
+hf download REAL-LAB-NU/MedicalRSI-MedAgentBench-Qwen3.5-9B --local-dir checkpoints/medagentbench
 python -m medicalrsi evaluate --config configs/medagentbench_qwen3.5-9b.yaml \
     --adapter checkpoints/medagentbench/adapter --memory checkpoints/medagentbench/memory
 ```
@@ -201,4 +201,4 @@ A new clinical environment is a subclass of `medicalrsi.envs.base.Env` with its 
 
 ## License
 
-MIT (see [LICENSE](LICENSE)). MedAgentBench, MedAgentGym, EHRSQL and MIMIC-III keep their own terms.
+MIT (see [LICENSE](LICENSE)). The MedAgentBench tasks and graders shipped here keep their upstream terms, listed in [data/medagentbench/LICENSE](data/medagentbench/LICENSE) and [medicalrsi/envs/medagentbench/graders/LICENSE](medicalrsi/envs/medagentbench/graders/LICENSE). MedAgentGym, EHRSQL and MIMIC-III are not included and keep their own terms.

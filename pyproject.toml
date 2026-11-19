@@ -34,4 +34,4 @@ medicalrsi = "medicalrsi.cli:main"
 include = ["medicalrsi*"]
 
 [tool.setuptools.package-data]
-"medicalrsi" = ["prompts/*.txt"]
+"medicalrsi" = ["prompts/*.txt", "envs/medagentbench/graders/LICENSE"]

@@ -1,8 +1,24 @@
-v1/tasks.json, v2/tasks.json and funcs.json are distributed under the following license.
+Where the files of this directory come from
+
+v1/tasks.json, funcs.json
+    MedAgentBench (https://github.com/stanfordmlgroup/MedAgentBench), copied from the GRASP repository
+    (https://github.com/jomoll/GRASP, commit 9d7d125), which vendors it. MIT License, Copyright (c) 2025 Stanford
+    Machine Learning Group; the licence text is below.
+
+v2/tasks.json
+    MedAgentBench v2 (https://github.com/ericoericochen/medagentbenchv2), copied from the GRASP repository, which
+    vendors it. It remains the work of its authors; see that repository for its terms.
+
+v3/tasks.json, split.json, workflows.json, warmstart.jsonl
+    Written for MedicalRSI, under the licence of this repository (../../LICENSE). The first six task types of v3 are
+    built from draft task templates in the MedAgentBench v2 repository (new_data_v1.json). The prompts in
+    warmstart.jsonl quote records served by the MedAgentBench FHIR server.
+
+----------------------------------------------------------------------------
 
 MIT License
 
-Copyright (c) 2026 Johannes Moll and the GRASP authors
+Copyright (c) 2025 Stanford Machine Learning Group
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -21,14 +37,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-----------------------------------------------------------------------------
-
-This repository vendors third-party benchmark code under benchmarks/, each of
-which retains its own license:
-
-  - benchmarks/AgentBench/LICENSE        (upstream AgentBench)
-  - benchmarks/FHIR-AgentBench/LICENSE   (upstream FHIR-AgentBench)
-
-Those licenses govern the corresponding subdirectories. The MIT license above
-applies to the GRASP core (grasp/), examples, and documentation authored here.

@@ -196,6 +196,9 @@ def run_round(cfg, env, policy, t: int, model: str):
     scores = scores_by_harness(res)
     for r in samples:
         b, w = r["key"]
+        if r.get("failed"):                    # no text was generated: no reward, not in its group or in the update
+            r["reward"] = None
+            continue
         if not r["parsed"]:
             r["reward"] = -0.5
             continue
@@ -292,6 +295,8 @@ def run_round(cfg, env, policy, t: int, model: str):
     metrics = {"round": t, "workflows": sorted(f"{b}/{w}" for b, w in workflows),
                "solver_alone": round(st.mean(v[0] for v in alone.values()), 4) if alone else None,
                "improver_gain": round(st.mean(gains), 4) if gains else None,
-               "unparsed": sum(not r["parsed"] for r in samples), "memory_updates": sum(x["replace"] for x in log),
+               "unparsed": sum(not r["parsed"] and not r.get("failed") for r in samples),
+               "failed_generations": sum(bool(r.get("failed")) for r in samples),
+               "memory_updates": sum(x["replace"] for x in log),
                "improver_samples": len(improver_batch), "solver_samples": len(solver_batch), "solver_tasks": mixed}
     return metrics, len(improver_batch) + len(solver_batch)

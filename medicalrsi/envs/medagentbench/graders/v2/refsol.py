@@ -136,7 +136,7 @@ def task1(case_data, results, fhir_api_base):
                 last_dt = ts
 
     # ---------- 2 · decide if a new study is required ----------
-    # the task's current time, as the docstring states
+    # Changed for MedicalRSI: the task's current time, as the docstring states (the original used the system clock)
     twelve_months_ago = extract_now_from_context(case_data) - timedelta(days=365)
     required = (last_dt is None) or (last_dt < twelve_months_ago)
 

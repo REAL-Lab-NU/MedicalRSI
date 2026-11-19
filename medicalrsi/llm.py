@@ -100,7 +100,8 @@ class Servers:
 
     def generate(self, prompts: dict, model: str, temperature: float, top_p: float, n: int, max_tokens: int,
                  log_path) -> list[tuple]:
-        """[(key, k, text)] for n completions of every prompt, appended to log_path; a rerun reuses the logged ones."""
+        """[(key, k, text)] for n completions of every prompt, appended to log_path; a rerun reuses the logged ones.
+        A request that fails three times returns text None; it is not logged, so a rerun asks again."""
         slots = [(key, k) for key in sorted(prompts) for k in range(n)]
         done = {}
         log_path = Path(log_path)
@@ -108,7 +109,8 @@ class Servers:
         if log_path.exists():
             for line in open(log_path):
                 d = json.loads(line)
-                done[(tuple(d["key"]), d["k"])] = d["text"]
+                if d["text"] is not None:
+                    done[(tuple(d["key"]), d["k"])] = d["text"]
         todo = [(i, s) for i, s in enumerate(slots) if s not in done]
 
         def one(item):
@@ -124,11 +126,18 @@ class Servers:
                     time.sleep(5)
             return key, k, None
 
+        failed = 0
         with ThreadPoolExecutor(64) as pool, open(log_path, "a") as f:
             for key, k, text in pool.map(one, todo):
+                if text is None:
+                    failed += 1
+                    continue
                 done[(key, k)] = text
                 f.write(json.dumps({"key": list(key), "k": k, "text": text}) + "\n")
-        return [(key, k, done[(key, k)]) for key, k in slots]
+        if failed:
+            print(f"{failed} of {len(slots)} generation requests failed after three tries; they are left out, and a rerun "
+                  f"asks again")
+        return [(key, k, done.get((key, k))) for key, k in slots]
 
 
 def _signal(pid: int, sig) -> None:

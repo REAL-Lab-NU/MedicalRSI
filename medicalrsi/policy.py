@@ -100,6 +100,7 @@ class Policy:
             p = self.env.parse_harness(text or "")
             names_patient = bool(p and drop_patient_ids and self.env.patient_id.search(p[0]))
             samples.append({"key": [b, t], "k": k, "stem": stem, "text": text, "parsed": p is not None,
+                            "failed": text is None,                    # the request failed: nothing was written
                             "names_patient": names_patient, "length": self.env.candidate_length(p) if p else 0})
             if p and not names_patient:
                 f = d / "harness" / b / t / f"{stem}{k}.md"
