@@ -162,9 +162,6 @@ h3 { font-family: var(--font-display); font-weight: 700; font-size: clamp(26px, 
 }
 .btn:hover { transform: translate(-1px, -1px); box-shadow: 4px 4px 0 var(--ink); }
 .btn.primary { background: var(--rose-ink); border-color: var(--rose-ink); color: var(--on-accent); box-shadow: 3px 3px 0 var(--ink); }
-.btn.soon { cursor: default; box-shadow: none; border-style: dashed; color: var(--muted); }
-.btn.soon:hover { transform: none; box-shadow: none; }
-.soon-chip { font-size: 16px; font-weight: 800; padding: 2px 8px; border-radius: 999px; background: var(--rose-soft); color: var(--rose-ink); }
 
 .chart-card { background: var(--surface); border: 2px solid var(--ink); border-radius: 24px; padding: 24px 24px 20px; box-shadow: 6px 6px 0 var(--rose); }
 .chart-title { font-family: var(--font-display); font-weight: 700; font-size: 26px; line-height: 1.2; }
@@ -562,7 +559,7 @@ footer a { font-weight: 800; text-decoration: none; display: inline-flex; align-
         <p class="thesis">One model carries out clinical workflows and writes its own medical harness from its failures. <strong>The agent improves not only itself but also its improving strategy.</strong></p>
         <div class="actions">
           <a class="btn primary" href="#demo"><span class="ms fill" aria-hidden="true">play_circle</span>Watch a round</a>
-          <span class="btn soon" aria-disabled="true"><span class="ms" aria-hidden="true">description</span>Paper<span class="soon-chip">Soon</span></span>
+          <a class="btn" href="MedicalRSI.pdf"><span class="ms" aria-hidden="true">description</span>Paper</a>
           <a class="btn" href="https://github.com/REAL-Lab-NU/MedicalRSI"><span class="ms" aria-hidden="true">code</span>Code</a>
           <a class="btn" href="https://huggingface.co/REAL-LAB-NU/MedicalRSI-MedAgentBench-Qwen3.5-9B"><span class="ms" aria-hidden="true">deployed_code</span>Model</a>
           <a class="btn" href="#cite"><span class="ms" aria-hidden="true">format_quote</span>BibTeX</a>

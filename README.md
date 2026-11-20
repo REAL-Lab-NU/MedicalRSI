@@ -7,7 +7,7 @@
 </h3>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Paper-Coming%20Soon-9B2C4E?logo=arxiv&logoColor=white" alt="Paper coming soon">
+  <a href="https://real-lab-nu.github.io/MedicalRSI/MedicalRSI.pdf"><img src="https://img.shields.io/badge/Paper-PDF-9B2C4E?logo=readme&logoColor=white" alt="Paper (PDF)"></a>
   <a href="https://real-lab-nu.github.io/MedicalRSI/"><img src="https://img.shields.io/badge/Website-Project%20Page-6F8FC0?logo=googlechrome&logoColor=white" alt="Project page"></a>
   <a href="https://huggingface.co/REAL-LAB-NU/MedicalRSI-MedAgentBench-Qwen3.5-9B"><img src="https://img.shields.io/badge/Model-Hugging%20Face-C9A227?logo=huggingface&logoColor=white" alt="Model on Hugging Face"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-5FA8B8" alt="MIT license"></a>
